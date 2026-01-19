@@ -1,4 +1,5 @@
 const buttons = Array.from(document.querySelectorAll("[data-lang-switch]"));
+const themeToggle = document.querySelector("[data-theme-toggle]");
 const html = document.documentElement;
 const body = document.body;
 
@@ -25,6 +26,28 @@ const getSavedLang = () => {
   }
 };
 
+const setTheme = (theme) => {
+  body.dataset.theme = theme;
+  const isDark = theme === "dark";
+  if (themeToggle) {
+    themeToggle.setAttribute("aria-pressed", isDark ? "true" : "false");
+    themeToggle.textContent = isDark ? "Light mode" : "Dark mode";
+  }
+  try {
+    localStorage.setItem("site-theme", theme);
+  } catch (error) {
+    console.warn("Theme preference not saved.", error);
+  }
+};
+
+const getSavedTheme = () => {
+  try {
+    return localStorage.getItem("site-theme");
+  } catch (error) {
+    return null;
+  }
+};
+
 const maybeLoadAnalytics = () => {
   const url = body.dataset.analyticsUrl;
   const websiteId = body.dataset.analyticsId;
@@ -44,8 +67,18 @@ const initialLang = getSavedLang() || body.dataset.lang || "en";
 setLang(initialLang);
 maybeLoadAnalytics();
 
+const initialTheme = getSavedTheme() || body.dataset.theme || "light";
+setTheme(initialTheme);
+
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
     setLang(button.dataset.langSwitch);
   });
 });
+
+if (themeToggle) {
+  themeToggle.addEventListener("click", () => {
+    const nextTheme = body.dataset.theme === "dark" ? "light" : "dark";
+    setTheme(nextTheme);
+  });
+}
