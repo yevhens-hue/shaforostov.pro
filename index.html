@@ -20,23 +20,40 @@
     <meta name="theme-color" content="#1f4d7a" />
     <link rel="canonical" href="https://shaforostov.pro/" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
-  <body data-lang="en" data-theme="light" data-analytics-url="" data-analytics-id="">
+  <body data-lang="en" data-theme="dark" data-analytics-url="" data-analytics-id="">
     <main class="page">
-      <div class="toolbar">
-        <div class="lang-switch" role="group" aria-label="Language">
-          <button class="lang-btn active" type="button" data-lang-switch="en" aria-pressed="true">EN</button>
-          <button class="lang-btn" type="button" data-lang-switch="uk" aria-pressed="false">UA</button>
+      <header class="site-header">
+        <div class="toolbar">
+          <div class="lang-switch" role="group" aria-label="Language">
+            <button class="lang-btn active" type="button" data-lang-switch="en" aria-pressed="true">EN</button>
+            <button class="lang-btn" type="button" data-lang-switch="uk" aria-pressed="false">UA</button>
+          </div>
+          <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
+            Dark mode
+          </button>
         </div>
-        <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
-          Dark mode
-        </button>
-      </div>
+        <nav class="top-nav" aria-label="Sections">
+          <a class="nav-link" href="#summary" data-scroll="summary">Summary</a>
+          <a class="nav-link" href="#services" data-scroll="services">What I do</a>
+          <a class="nav-link" href="#achievements" data-scroll="achievements">Achievements</a>
+          <a class="nav-link" href="#cases" data-scroll="cases">Case studies</a>
+          <a class="nav-link" href="#work" data-scroll="work">Experience</a>
+          <a class="nav-link" href="#skills" data-scroll="skills">Skills</a>
+          <a class="nav-link" href="#contact" data-scroll="contact">Contact</a>
+        </nav>
+      </header>
 
       <div class="lang-content lang-en">
-        <header class="hero">
+        <header class="hero reveal">
           <div class="hero-main">
             <p class="eyebrow">Senior Product Manager / Head of Product</p>
             <h1>Yevhen Shaforostov</h1>
@@ -85,21 +102,21 @@
         </header>
 
         <section class="highlights">
-          <div class="highlight-card">
+          <div class="highlight-card reveal">
             <span class="highlight-value">10+</span>
             <span class="highlight-label">Years of product leadership</span>
           </div>
-          <div class="highlight-card">
+          <div class="highlight-card reveal">
             <span class="highlight-value">10+</span>
             <span class="highlight-label">Remote team members led</span>
           </div>
-          <div class="highlight-card">
+          <div class="highlight-card reveal">
             <span class="highlight-value">30+</span>
             <span class="highlight-label">Products analyzed &amp; tested</span>
           </div>
         </section>
 
-        <section class="section">
+        <section class="section reveal" data-anchor="summary">
           <h2>Summary</h2>
           <p class="section-intro">
             10+ years of experience building products, R&amp;D teams, and data-driven systems — from early discovery to
@@ -107,10 +124,10 @@
           </p>
         </section>
 
-        <section class="section">
+        <section class="section reveal" data-anchor="services">
           <h2>What I Do &amp; Who I Help</h2>
           <div class="card-grid">
-            <article class="card">
+            <article class="card reveal">
               <h3>Startups</h3>
               <ul class="list-compact">
                 <li>Product discovery from zero</li>
@@ -118,7 +135,7 @@
                 <li>Metrics, funnels, monetization</li>
               </ul>
             </article>
-            <article class="card">
+            <article class="card reveal">
               <h3>Scale-ups</h3>
               <ul class="list-compact">
                 <li>Growth &amp; revenue optimization</li>
@@ -126,7 +143,7 @@
                 <li>Risk vs conversion balance</li>
               </ul>
             </article>
-            <article class="card">
+            <article class="card reveal">
               <h3>Enterprises</h3>
               <ul class="list-compact">
                 <li>R&amp;D departments from scratch</li>
@@ -137,7 +154,7 @@
           </div>
         </section>
 
-        <section class="section">
+        <section class="section reveal" data-anchor="achievements">
           <h2>Key Achievements</h2>
           <ul>
             <li>Built an R&amp;D department from scratch (0 → full-cycle unit).</li>
@@ -149,9 +166,9 @@
           </ul>
         </section>
 
-        <section class="section">
+        <section class="section reveal" data-anchor="cases">
           <h2>Case Studies</h2>
-          <article class="case">
+          <article class="case reveal">
             <h3>R&amp;D Department from Scratch</h3>
             <div class="case-block">
               <h4>Problem</h4>
@@ -176,7 +193,7 @@
             </div>
           </article>
 
-          <article class="case">
+          <article class="case reveal">
             <h3>AI Parsing &amp; Market Intelligence Platform</h3>
             <div class="case-block">
               <h4>Problem</h4>
@@ -200,7 +217,7 @@
             </div>
           </article>
 
-          <article class="case">
+          <article class="case reveal">
             <h3>Payment Routing &amp; Conversion Optimization</h3>
             <div class="case-block">
               <h4>Problem</h4>
@@ -224,7 +241,7 @@
             </div>
           </article>
 
-          <article class="case">
+          <article class="case reveal">
             <h3>High-Risk Payment Research &amp; Scaling</h3>
             <div class="case-block">
               <h4>Problem</h4>
@@ -249,9 +266,9 @@
           </article>
         </section>
 
-        <section class="section">
+        <section class="section reveal" data-anchor="work">
           <h2>Work History</h2>
-          <article class="job">
+          <article class="job reveal">
             <div class="job-header">
               <div>
                 <h3>Paycord (Growe Group / Parimatch) — R&amp;D Product Manager</h3>
@@ -271,7 +288,7 @@
             </ul>
           </article>
 
-          <article class="job">
+          <article class="job reveal">
             <div class="job-header">
               <div>
                 <h3>NDA (Betting) — Senior Product Manager</h3>
@@ -290,7 +307,7 @@
             </ul>
           </article>
 
-          <article class="job">
+          <article class="job reveal">
             <div class="job-header">
               <div>
                 <h3>LeadsMarket LLC — Product Manager (FinTech)</h3>
@@ -308,7 +325,7 @@
             </ul>
           </article>
 
-          <article class="job">
+          <article class="job reveal">
             <div class="job-header">
               <div>
                 <h3>RemoteHub Inc — Product Manager (SaaS / Marketplace)</h3>
@@ -327,7 +344,7 @@
             </ul>
           </article>
 
-          <article class="job">
+          <article class="job reveal">
             <div class="job-header">
               <div>
                 <h3>PFSOFT / ProTrader — Marketing &amp; Product Manager, Business Analyst</h3>
@@ -345,7 +362,7 @@
             </ul>
           </article>
 
-          <article class="job">
+          <article class="job reveal">
             <div class="job-header">
               <div>
                 <h3>Design Bureau “Yuzhnoye” — Engineer-Analyst (SpaceTech)</h3>
@@ -364,32 +381,32 @@
           </article>
         </section>
 
-        <section class="section">
+        <section class="section reveal" data-anchor="skills">
           <h2>Skills &amp; Stack</h2>
           <div class="stack-grid">
-            <div class="stack-card">
+            <div class="stack-card reveal">
               <h3>Product</h3>
               <p>Product Discovery, Roadmaps, OKRs, Metrics, Funnels, Stakeholder Management</p>
             </div>
-            <div class="stack-card">
+            <div class="stack-card reveal">
               <h3>Technology</h3>
               <p>AI Automation, Parsing Systems, APIs, Integrations</p>
             </div>
-            <div class="stack-card">
+            <div class="stack-card reveal">
               <h3>Payments</h3>
               <p>UTR, QR, High-Risk Processing, Traffic Quality, Fraud Signals</p>
             </div>
           </div>
         </section>
 
-        <section class="section">
+        <section class="section reveal" data-anchor="markets">
           <h2>Markets &amp; Domains</h2>
           <p class="tagline">FinTech, Payments, High-Risk · Global: EU, Asia, LATAM</p>
         </section>
 
-        <section class="section contact">
+        <section class="section contact reveal" data-anchor="contact">
           <h2>Contact</h2>
-          <div class="contact-card">
+          <div class="contact-card reveal">
             <p>Let’s build or scale something valuable.</p>
             <ul class="contact-list">
               <li>Email: <a href="mailto:shaforostov.e@gmail.com">shaforostov.e@gmail.com</a></li>
@@ -401,7 +418,7 @@
       </div>
 
       <div class="lang-content lang-uk">
-        <header class="hero">
+        <header class="hero reveal">
           <div class="hero-main">
             <p class="eyebrow">Senior Product Manager / Head of Product</p>
             <h1>Yevhen Shaforostov</h1>
@@ -450,21 +467,21 @@
         </header>
 
         <section class="highlights">
-          <div class="highlight-card">
+          <div class="highlight-card reveal">
             <span class="highlight-value">10+</span>
             <span class="highlight-label">Років у продукті та стратегії</span>
           </div>
-          <div class="highlight-card">
+          <div class="highlight-card reveal">
             <span class="highlight-value">10+</span>
             <span class="highlight-label">Учасників команд керування</span>
           </div>
-          <div class="highlight-card">
+          <div class="highlight-card reveal">
             <span class="highlight-value">30+</span>
             <span class="highlight-label">Продуктів проаналізовано</span>
           </div>
         </section>
 
-        <section class="section">
+        <section class="section reveal" data-anchor="summary">
           <h2>Про мене</h2>
           <p class="section-intro">
             10+ років досвіду побудови продуктів, R&amp;D команд і data-driven систем — від discovery до стабільного
@@ -472,10 +489,10 @@
           </p>
         </section>
 
-        <section class="section">
+        <section class="section reveal" data-anchor="services">
           <h2>Що роблю і кому допомагаю</h2>
           <div class="card-grid">
-            <article class="card">
+            <article class="card reveal">
               <h3>Стартапи</h3>
               <ul class="list-compact">
                 <li>Product discovery з нуля</li>
@@ -483,7 +500,7 @@
                 <li>Метрики, воронки, монетизація</li>
               </ul>
             </article>
-            <article class="card">
+            <article class="card reveal">
               <h3>Scale-ups</h3>
               <ul class="list-compact">
                 <li>Оптимізація зростання і доходів</li>
@@ -491,7 +508,7 @@
                 <li>Баланс ризику і конверсії</li>
               </ul>
             </article>
-            <article class="card">
+            <article class="card reveal">
               <h3>Ентерпрайз</h3>
               <ul class="list-compact">
                 <li>R&amp;D департаменти з нуля</li>
@@ -502,7 +519,7 @@
           </div>
         </section>
 
-        <section class="section">
+        <section class="section reveal" data-anchor="achievements">
           <h2>Ключові досягнення</h2>
           <ul>
             <li>Побудував R&amp;D департамент з нуля (0 → full-cycle unit).</li>
@@ -514,9 +531,9 @@
           </ul>
         </section>
 
-        <section class="section">
+        <section class="section reveal" data-anchor="cases">
           <h2>Кейси</h2>
-          <article class="case">
+          <article class="case reveal">
             <h3>R&amp;D Department from Scratch</h3>
             <div class="case-block">
               <h4>Проблема</h4>
@@ -541,7 +558,7 @@
             </div>
           </article>
 
-          <article class="case">
+          <article class="case reveal">
             <h3>AI Parsing &amp; Market Intelligence Platform</h3>
             <div class="case-block">
               <h4>Проблема</h4>
@@ -565,7 +582,7 @@
             </div>
           </article>
 
-          <article class="case">
+          <article class="case reveal">
             <h3>Payment Routing &amp; Conversion Optimization</h3>
             <div class="case-block">
               <h4>Проблема</h4>
@@ -589,7 +606,7 @@
             </div>
           </article>
 
-          <article class="case">
+          <article class="case reveal">
             <h3>High-Risk Payment Research &amp; Scaling</h3>
             <div class="case-block">
               <h4>Проблема</h4>
@@ -614,9 +631,9 @@
           </article>
         </section>
 
-        <section class="section">
+        <section class="section reveal" data-anchor="work">
           <h2>Досвід роботи</h2>
-          <article class="job">
+          <article class="job reveal">
             <div class="job-header">
               <div>
                 <h3>Paycord (Growe Group / Parimatch) — R&amp;D Product Manager</h3>
@@ -636,7 +653,7 @@
             </ul>
           </article>
 
-          <article class="job">
+          <article class="job reveal">
             <div class="job-header">
               <div>
                 <h3>NDA (Betting) — Senior Product Manager</h3>
@@ -655,7 +672,7 @@
             </ul>
           </article>
 
-          <article class="job">
+          <article class="job reveal">
             <div class="job-header">
               <div>
                 <h3>LeadsMarket LLC — Product Manager (FinTech)</h3>
@@ -673,7 +690,7 @@
             </ul>
           </article>
 
-          <article class="job">
+          <article class="job reveal">
             <div class="job-header">
               <div>
                 <h3>RemoteHub Inc — Product Manager (SaaS / Marketplace)</h3>
@@ -692,7 +709,7 @@
             </ul>
           </article>
 
-          <article class="job">
+          <article class="job reveal">
             <div class="job-header">
               <div>
                 <h3>PFSOFT / ProTrader — Marketing &amp; Product Manager, Business Analyst</h3>
@@ -710,7 +727,7 @@
             </ul>
           </article>
 
-          <article class="job">
+          <article class="job reveal">
             <div class="job-header">
               <div>
                 <h3>Design Bureau “Yuzhnoye” — Engineer-Analyst (SpaceTech)</h3>
@@ -729,32 +746,32 @@
           </article>
         </section>
 
-        <section class="section">
+        <section class="section reveal" data-anchor="skills">
           <h2>Навички та стек</h2>
           <div class="stack-grid">
-            <div class="stack-card">
+            <div class="stack-card reveal">
               <h3>Product</h3>
               <p>Product Discovery, Roadmaps, OKRs, Metrics, Funnels, Stakeholder Management</p>
             </div>
-            <div class="stack-card">
+            <div class="stack-card reveal">
               <h3>Technology</h3>
               <p>AI Automation, Parsing Systems, APIs, Integrations</p>
             </div>
-            <div class="stack-card">
+            <div class="stack-card reveal">
               <h3>Payments</h3>
               <p>UTR, QR, High-Risk Processing, Traffic Quality, Fraud Signals</p>
             </div>
           </div>
         </section>
 
-        <section class="section">
+        <section class="section reveal" data-anchor="markets">
           <h2>Ринки та домени</h2>
           <p class="tagline">FinTech, Payments, High-Risk · Global: EU, Asia, LATAM</p>
         </section>
 
-        <section class="section contact">
+        <section class="section contact reveal" data-anchor="contact">
           <h2>Контакт</h2>
-          <div class="contact-card">
+          <div class="contact-card reveal">
             <p>Створюймо або масштабуймо щось справді цінне.</p>
             <ul class="contact-list">
               <li>Email: <a href="mailto:shaforostov.e@gmail.com">shaforostov.e@gmail.com</a></li>
