@@ -26,16 +26,16 @@ body {
 body[data-theme="dark"] {
   color-scheme: dark;
   --text: #e7ebf2;
-  --muted: #a7b1c6;
-  --line: #2b3346;
-  --accent: #7fb2ff;
-  --accent-strong: #b6d0ff;
-  --highlight: #f5b48b;
-  --bg: #0d1117;
-  --card: #121826;
-  --card-elev: rgba(12, 16, 24, 0.6);
-  --card-elev-strong: rgba(12, 16, 24, 0.8);
-  background: radial-gradient(circle at top, #162033 0%, #0d1117 45%, #0b0f16 100%);
+  --muted: #a9b4c9;
+  --line: #2a3244;
+  --accent: #89b4ff;
+  --accent-strong: #c2d7ff;
+  --highlight: #f6b68f;
+  --bg: #0b0f16;
+  --card: #121a2a;
+  --card-elev: rgba(6, 9, 14, 0.65);
+  --card-elev-strong: rgba(6, 9, 14, 0.85);
+  background: radial-gradient(circle at top, #1a2540 0%, #0f141f 45%, #0b0f16 100%);
 }
 
 a {
@@ -94,6 +94,43 @@ body[data-theme="dark"] .lang-switch {
 
 body[data-theme="dark"] .lang-btn {
   color: var(--muted);
+}
+
+body[data-theme="dark"] .page {
+  border: 1px solid #1c2436;
+}
+
+body[data-theme="dark"] .hero {
+  background: linear-gradient(135deg, rgba(19, 28, 44, 0.95) 0%, rgba(12, 17, 27, 0.9) 70%);
+  border-color: #1d2638;
+}
+
+body[data-theme="dark"] .btn.ghost {
+  border-color: #2a3347;
+  background: transparent;
+  color: var(--accent-strong);
+}
+
+body[data-theme="dark"] .btn.primary {
+  box-shadow: 0 10px 20px rgba(8, 12, 20, 0.75);
+}
+
+body[data-theme="dark"] .highlight-card,
+body[data-theme="dark"] .card,
+body[data-theme="dark"] .contact-card {
+  background: #121a2a;
+  border-color: #212a3d;
+  box-shadow: 0 16px 32px rgba(4, 7, 12, 0.7);
+}
+
+body[data-theme="dark"] .card-tag,
+body[data-theme="dark"] .chip {
+  background: #1a2436;
+  color: var(--accent-strong);
+}
+
+body[data-theme="dark"] .section h2 {
+  color: var(--accent-strong);
 }
 
 .eyebrow {
