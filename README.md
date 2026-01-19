@@ -17,6 +17,16 @@
    - для корневого домена обычно **A/ANAME** — используйте значения, которые покажет Render.
 3. Примените записи в DNS‑панели домена и дождитесь обновления (обычно до 24 часов).
 
+## Аналитика
+
+Для включения аналитики задайте в `index.html` атрибуты `data-analytics-url` и `data-analytics-id` у тега `<body>`.
+Пример для Umami:
+
+```
+data-analytics-url="https://analytics.example.com/script.js"
+data-analytics-id="YOUR-WEBSITE-ID"
+```
+
 ## Локальный запуск
 
 Откройте `index.html` в браузере или запустите простой статический сервер:

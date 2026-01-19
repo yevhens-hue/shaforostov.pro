@@ -25,8 +25,24 @@ const getSavedLang = () => {
   }
 };
 
+const maybeLoadAnalytics = () => {
+  const url = body.dataset.analyticsUrl;
+  const websiteId = body.dataset.analyticsId;
+  if (!url || !websiteId) {
+    return;
+  }
+
+  const script = document.createElement("script");
+  script.src = url;
+  script.defer = true;
+  script.dataset.websiteId = websiteId;
+  script.dataset.autoTrack = "true";
+  document.head.appendChild(script);
+};
+
 const initialLang = getSavedLang() || body.dataset.lang || "en";
 setLang(initialLang);
+maybeLoadAnalytics();
 
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
