@@ -117,7 +117,8 @@ body[data-theme="dark"] .btn.primary {
 
 body[data-theme="dark"] .highlight-card,
 body[data-theme="dark"] .card,
-body[data-theme="dark"] .contact-card {
+body[data-theme="dark"] .contact-card,
+body[data-theme="dark"] .stack-card {
   background: #121a2a;
   border-color: #212a3d;
   box-shadow: 0 16px 32px rgba(4, 7, 12, 0.7);
@@ -365,6 +366,82 @@ body[data-theme="dark"] .theme-toggle {
   font-weight: 600;
 }
 
+.list-compact {
+  margin: 0;
+  padding-left: 18px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.list-compact li + li {
+  margin-top: 6px;
+}
+
+.section-intro {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.case {
+  padding: 18px 0 20px;
+  border-bottom: 1px dashed var(--line);
+}
+
+.case:last-of-type {
+  border-bottom: none;
+}
+
+.case h3 {
+  margin: 0 0 10px;
+  font-size: 17px;
+}
+
+.case-block {
+  margin: 10px 0 14px;
+  padding-left: 14px;
+  border-left: 3px solid var(--accent);
+}
+
+.case-block h4 {
+  margin: 0 0 6px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--accent-strong);
+}
+
+.case-block p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.stack-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.stack-card {
+  background: #ffffff;
+  border: 1px solid #e6ecf5;
+  border-radius: 14px;
+  padding: 16px 18px;
+  box-shadow: 0 10px 22px var(--card-elev);
+}
+
+.stack-card h3 {
+  margin: 0 0 8px;
+  font-size: 15px;
+}
+
+.stack-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
 .chip-grid {
   display: flex;
   flex-wrap: wrap;
@@ -443,6 +520,17 @@ body[data-theme="dark"] .theme-toggle {
   box-shadow: 0 12px 24px var(--card-elev);
   display: grid;
   gap: 14px;
+}
+
+.contact-list {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.contact-list li + li {
+  margin-top: 4px;
 }
 
 .contact-card p {
