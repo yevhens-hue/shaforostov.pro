@@ -1,24 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
   <rect width="1200" height="800" fill="none" />
-  <g fill="none" stroke="#4F46E5" stroke-width="2" opacity="0.35">
-    <path d="M120 560 C 220 520, 300 540, 380 500 S 560 420, 660 460 820 520, 980 430" />
-    <path d="M150 610 C 260 580, 330 600, 420 560 S 590 480, 700 520 860 580, 1030 500" />
+  <g fill="none" stroke="#CBD5F5" stroke-width="1" opacity="0.5">
+    <path d="M140 240 H 1060" />
+    <path d="M140 320 H 1060" />
+    <path d="M140 400 H 1060" />
+    <path d="M140 480 H 1060" />
+    <path d="M140 560 H 1060" />
+    <path d="M140 640 H 1060" />
   </g>
-  <g fill="#4F46E5" opacity="0.35">
-    <circle cx="380" cy="500" r="6" />
-    <circle cx="660" cy="460" r="6" />
-    <circle cx="980" cy="430" r="6" />
+  <g fill="#E2E8F0" opacity="0.7">
+    <rect x="190" y="420" width="70" height="140" rx="12" />
+    <rect x="280" y="360" width="70" height="200" rx="12" />
+    <rect x="370" y="300" width="70" height="260" rx="12" />
+    <rect x="460" y="260" width="70" height="300" rx="12" />
   </g>
-  <g fill="none" stroke="#94A3B8" stroke-width="1" opacity="0.4">
-    <path d="M100 300 H 1100" />
-    <path d="M100 380 H 1100" />
-    <path d="M100 460 H 1100" />
-    <path d="M100 540 H 1100" />
-    <path d="M100 620 H 1100" />
+  <path
+    d="M180 560 L 260 520 L 340 500 L 420 450 L 500 420 L 580 380 L 660 360 L 740 320 L 820 300 L 900 260"
+    fill="none"
+    stroke="#4F46E5"
+    stroke-width="3"
+    opacity="0.45"
+  />
+  <g fill="#4F46E5" opacity="0.45">
+    <circle cx="260" cy="520" r="6" />
+    <circle cx="420" cy="450" r="6" />
+    <circle cx="580" cy="380" r="6" />
+    <circle cx="740" cy="320" r="6" />
+    <circle cx="900" cy="260" r="6" />
   </g>
-  <g fill="#E2E8F0" opacity="0.5">
-    <rect x="160" y="220" width="80" height="120" rx="10" />
-    <rect x="270" y="180" width="80" height="160" rx="10" />
-    <rect x="380" y="200" width="80" height="140" rx="10" />
+  <g fill="none" stroke="#94A3B8" stroke-width="1.5" opacity="0.45">
+    <rect x="700" y="520" width="280" height="120" rx="16" />
+    <path d="M720 580 H 960" />
+    <path d="M720 610 H 910" />
   </g>
 </svg>
