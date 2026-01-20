@@ -109,16 +109,36 @@ a:hover {
   background: #f8fafc url("/hero-analytics.svg") no-repeat right 10% center / 75%;
   border-radius: 28px;
   opacity: 0.6;
+  transform: scale(0.97);
+  animation: heroGrow 900ms ease-out forwards;
   pointer-events: none;
   z-index: -1;
 }
 
 @media (max-width: 900px) {
   .hero-surface::before {
-    background-position: center bottom;
-    background-size: 110%;
-    opacity: 0.5;
+    background-position: center top;
+    background-size: 140%;
+    opacity: 0.18;
   }
+}
+
+@keyframes heroGrow {
+  to {
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-surface::before {
+    animation: none;
+    transform: scale(1);
+  }
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
 }
 
 .header-shadow {

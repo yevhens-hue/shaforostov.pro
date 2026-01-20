@@ -43,7 +43,7 @@ export default function Page() {
 
       <section id="hero" className="section-spacing hero-surface">
         <div className="container-page grid gap-10 md:grid-cols-[1.2fr_0.8fr]">
-          <div className="reveal">
+          <div className="reveal hero-content">
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">Senior Product</p>
             <h1 className="mt-3 font-heading text-4xl font-semibold text-ink md:text-5xl">
               {content.heroTitle}
