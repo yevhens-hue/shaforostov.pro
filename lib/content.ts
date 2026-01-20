@@ -33,7 +33,8 @@ export type PageContent = {
   contactItems: string[];
 };
 
-const CONTENT_PATH = path.join(process.cwd(), "content", "index.md");
+const getContentPath = (locale: "en" | "uk") =>
+  path.join(process.cwd(), "content", locale === "uk" ? "uk.md" : "index.md");
 
 export const renderMarkdown = (markdown: string) =>
   remark().use(html).processSync(markdown).toString();
@@ -241,8 +242,8 @@ const parseContact = (lines: string[]) => {
   return { intro, items };
 };
 
-export const getSiteMetadata = (): Metadata => {
-  const raw = fs.readFileSync(CONTENT_PATH, "utf8");
+export const getSiteMetadata = (locale: "en" | "uk" = "en"): Metadata => {
+  const raw = fs.readFileSync(getContentPath(locale), "utf8");
   const { data } = matter(raw);
 
   const title = data.title ?? "Yevhen Shaforostov";
@@ -270,8 +271,8 @@ export const getSiteMetadata = (): Metadata => {
   };
 };
 
-export const getPageContent = (): PageContent => {
-  const raw = fs.readFileSync(CONTENT_PATH, "utf8");
+export const getPageContent = (locale: "en" | "uk" = "en"): PageContent => {
+  const raw = fs.readFileSync(getContentPath(locale), "utf8");
   const { content } = matter(raw);
   const sections = sectionMap(content);
 
