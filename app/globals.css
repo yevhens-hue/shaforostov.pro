@@ -15,6 +15,51 @@ body {
   box-shadow: 0 0 0 2px #4f46e5, 0 0 0 4px #ffffff;
 }
 
+a {
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.font-sans {
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+.font-heading {
+  font-family: var(--font-space), var(--font-inter), system-ui, sans-serif;
+}
+
+.text-ink {
+  color: #0f172a;
+}
+
+.text-muted {
+  color: #475569;
+}
+
+.text-accent {
+  color: #4f46e5;
+}
+
+.bg-accent {
+  background-color: #4f46e5;
+}
+
+.border-accent {
+  border-color: #4f46e5;
+}
+
+.shadow-card {
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+}
+
+.shadow-cardHover {
+  box-shadow: 0 20px 48px rgba(15, 23, 42, 0.12);
+}
+
 .container-page {
   margin: 0 auto;
   width: 100%;
