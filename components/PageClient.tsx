@@ -101,6 +101,12 @@ export function PageClient({ contentEn, contentUk }: PageClientProps) {
               stroke="currentColor"
               strokeWidth="3"
             />
+            <g className="hero-chart-dots">
+              <circle cx="260" cy="560" r="6" />
+              <circle cx="480" cy="500" r="6" />
+              <circle cx="760" cy="410" r="6" />
+              <circle cx="1040" cy="300" r="6" />
+            </g>
           </svg>
         </div>
         <div className="container-page grid gap-10 md:grid-cols-[1.2fr_0.8fr]">

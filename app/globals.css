@@ -135,7 +135,7 @@ a:hover {
   content: "";
   position: absolute;
   inset: 0;
-  background: #f8fafc url("/hero-analytics.svg") no-repeat right 10% center / 75%;
+  background: #f8fafc;
   border-radius: 28px;
   opacity: 0.6;
   transform: scale(0.97);
@@ -177,6 +177,11 @@ body[data-theme="dark"] .hero-surface::before {
   animation: lineGrow 1.2s ease-out forwards;
 }
 
+.hero-chart-dots {
+  opacity: 0;
+  animation: dotsIn 0.6s ease-out 0.9s forwards;
+}
+
 @media (max-width: 900px) {
   .hero-surface::before {
     background-position: center top;
@@ -206,6 +211,12 @@ body[data-theme="dark"] .hero-surface::before {
   }
 }
 
+@keyframes dotsIn {
+  to {
+    opacity: 1;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .hero-surface::before {
     animation: none;
@@ -215,6 +226,11 @@ body[data-theme="dark"] .hero-surface::before {
   .hero-chart-line {
     animation: none;
     stroke-dashoffset: 0;
+  }
+
+  .hero-chart-dots {
+    opacity: 1;
+    animation: none;
   }
 }
 
