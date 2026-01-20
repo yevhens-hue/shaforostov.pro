@@ -40,7 +40,7 @@ export default function Page() {
     <main>
       <Navbar items={navItems} />
 
-      <section id="hero" className="section-spacing">
+      <section id="hero" className="section-spacing hero-surface">
         <div className="container-page grid gap-10 md:grid-cols-[1.2fr_0.8fr]">
           <div className="reveal">
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">Senior Product</p>
@@ -52,23 +52,23 @@ export default function Page() {
               dangerouslySetInnerHTML={{ __html: content.heroBodyHtml }}
             />
             {primaryContact ? (
-              <div className="mt-6 flex flex-wrap gap-3">
+              <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                 <a
                   href={buildContactLink(primaryContact)}
-                  className="inline-flex items-center justify-center rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-card transition hover:brightness-110 hover:shadow-cardHover"
+                  className="inline-flex w-full items-center justify-center rounded-full bg-accent px-7 py-3.5 text-base font-semibold text-white shadow-card transition hover:brightness-110 hover:shadow-cardHover sm:w-auto sm:text-sm"
                 >
                   Invite to Interview
                 </a>
                 <a
                   href="#contact"
-                  className="inline-flex items-center justify-center rounded-full border border-slate-200 px-6 py-3 text-sm font-semibold text-ink transition hover:border-slate-300"
+                  className="underline-hover inline-flex w-full items-center justify-center rounded-full border border-slate-200 px-7 py-3.5 text-base font-semibold text-ink transition hover:border-slate-300 sm:w-auto sm:text-sm"
                 >
                   Contact
                 </a>
               </div>
             ) : null}
           </div>
-          <div className="reveal self-start rounded-3xl border border-slate-200 bg-white p-5 shadow-card">
+          <div className="reveal self-start rounded-3xl border border-slate-200 bg-white p-6 shadow-card">
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-muted">Contact</p>
             <ul className="mt-4 space-y-3 text-sm text-muted">
               {content.contactInline.map((item) => (
