@@ -42,6 +42,17 @@ export default function Page() {
       <Navbar items={navItems} />
 
       <section id="hero" className="section-spacing hero-surface">
+        <div className="hero-chart" aria-hidden="true">
+          <svg viewBox="0 0 1200 800" role="presentation">
+            <path
+              className="hero-chart-line"
+              d="M120 610 L 260 560 L 360 540 L 480 500 L 620 460 L 760 410 L 900 360 L 1040 300"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="3"
+            />
+          </svg>
+        </div>
         <div className="container-page grid gap-10 md:grid-cols-[1.2fr_0.8fr]">
           <div className="reveal hero-content">
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">Senior Product</p>
