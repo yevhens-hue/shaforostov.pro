@@ -1,5 +1,6 @@
 import { CTA } from "@/components/CTA";
 import { Card } from "@/components/Card";
+import { ActiveSection } from "@/components/ActiveSection";
 import { Navbar } from "@/components/Navbar";
 import { RevealObserver } from "@/components/RevealObserver";
 import { Section } from "@/components/Section";
@@ -179,6 +180,7 @@ export default function Page() {
         />
       </Section>
 
+      <ActiveSection />
       <RevealObserver />
     </main>
   );

@@ -16,7 +16,7 @@ export function Navbar({ items }: NavbarProps) {
             <a
               key={item.href}
               href={item.href}
-              className="underline-hover transition-colors hover:text-ink focus-visible:text-ink"
+              className="nav-link underline-hover transition-colors hover:text-ink focus-visible:text-ink"
             >
               {item.label}
             </a>
