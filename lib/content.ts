@@ -25,6 +25,7 @@ export type PageContent = {
   contactInline: string[];
   services: ServiceGroup[];
   achievements: string[];
+  achievementsHtml: string[];
   caseStudies: CaseStudy[];
   workHistory: WorkItem[];
   skillGroups: SkillGroup[];
@@ -279,6 +280,7 @@ export const getPageContent = (locale: "en" | "uk" = "en"): PageContent => {
   const hero = parseHero(sections.hero ?? []);
   const services = parseServices(sections["What I Do & Who I Help"] ?? []);
   const achievements = parseAchievements(sections["Key Achievements"] ?? []);
+  const achievementsHtml = achievements.map((item) => renderMarkdown(item));
   const caseStudies = parseCaseStudies(sections["Case Studies"] ?? []);
   const workHistory = parseWorkHistory(sections["Work History"] ?? []);
   const skillGroups = parseSkills(sections["Skills & Stack"] ?? []);
@@ -291,6 +293,7 @@ export const getPageContent = (locale: "en" | "uk" = "en"): PageContent => {
     contactInline: hero.contactInline,
     services,
     achievements,
+    achievementsHtml,
     caseStudies,
     workHistory,
     skillGroups,

@@ -10,7 +10,6 @@ import { Section } from "@/components/Section";
 import { Timeline } from "@/components/Timeline";
 import { ActiveSection } from "@/components/ActiveSection";
 import { LocaleThemeToggle } from "@/components/LocaleThemeToggle";
-import { renderMarkdown } from "@/lib/content";
 
 type PageClientProps = {
   contentEn: PageContent;
@@ -174,12 +173,9 @@ export function PageClient({ contentEn, contentUk }: PageClientProps) {
 
       <Section id="achievements" eyebrow={locale === "uk" ? "Досягнення" : "Highlights"} title={locale === "uk" ? "Ключові досягнення" : "Key Achievements"}>
         <div className="grid gap-6 md:grid-cols-2">
-          {content.achievements.map((achievement) => (
-            <Card key={achievement}>
-              <div
-                className="text-sm text-muted"
-                dangerouslySetInnerHTML={{ __html: renderMarkdown(achievement) }}
-              />
+          {content.achievementsHtml.map((achievementHtml, index) => (
+            <Card key={`${content.achievements[index]}-${index}`}>
+              <div className="text-sm text-muted" dangerouslySetInnerHTML={{ __html: achievementHtml }} />
             </Card>
           ))}
         </div>
