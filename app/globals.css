@@ -44,6 +44,10 @@ a:hover {
   color: #4f46e5;
 }
 
+.text-white {
+  color: #ffffff;
+}
+
 .bg-accent {
   background-color: #4f46e5;
 }
