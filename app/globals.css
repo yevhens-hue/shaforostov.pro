@@ -101,6 +101,11 @@ a:hover {
   .section-spacing {
     padding: 4rem 0;
   }
+
+.section-pad {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 }
 
 .reveal {
