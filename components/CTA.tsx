@@ -40,7 +40,7 @@ export function CTA({ title, items, primaryHref, secondaryHref }: CTAProps) {
       <div className="mt-6 flex flex-wrap gap-3">
         <a
           href={primaryHref}
-          className="inline-flex items-center justify-center rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white transition hover:brightness-110"
+          className="inline-flex items-center justify-center rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-card transition hover:brightness-110 hover:shadow-cardHover"
         >
           Invite to Interview
         </a>

@@ -55,7 +55,7 @@ export default function Page() {
               <div className="mt-6 flex flex-wrap gap-3">
                 <a
                   href={buildContactLink(primaryContact)}
-                  className="inline-flex items-center justify-center rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white transition hover:brightness-110"
+                  className="inline-flex items-center justify-center rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-card transition hover:brightness-110 hover:shadow-cardHover"
                 >
                   Invite to Interview
                 </a>
@@ -68,7 +68,7 @@ export default function Page() {
               </div>
             ) : null}
           </div>
-          <div className="reveal rounded-3xl border border-slate-200 bg-white p-6 shadow-card">
+          <div className="reveal self-start rounded-3xl border border-slate-200 bg-white p-5 shadow-card">
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-muted">Contact</p>
             <ul className="mt-4 space-y-3 text-sm text-muted">
               {content.contactInline.map((item) => (
