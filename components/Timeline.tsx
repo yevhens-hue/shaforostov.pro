@@ -10,10 +10,10 @@ type TimelineProps = {
 
 export function Timeline({ items }: TimelineProps) {
   return (
-    <div className="relative pl-12 timeline">
+    <div className="relative pl-16 timeline">
       {items.map((item) => (
         <article key={item.title} className="reveal relative pb-10 timeline-item">
-          <span className="absolute -left-[22px] top-2 timeline-dot" />
+          <span className="absolute -left-[30px] top-2 timeline-dot" />
           <h3 className="font-heading text-lg font-semibold text-ink">{item.title}</h3>
           <p className="mt-1 text-sm text-muted">{item.meta}</p>
           <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-relaxed text-muted">
