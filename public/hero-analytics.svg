@@ -1,36 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
   <rect width="1200" height="800" fill="none" />
-  <g fill="none" stroke="#CBD5F5" stroke-width="1" opacity="0.5">
-    <path d="M140 240 H 1060" />
-    <path d="M140 320 H 1060" />
-    <path d="M140 400 H 1060" />
-    <path d="M140 480 H 1060" />
-    <path d="M140 560 H 1060" />
-    <path d="M140 640 H 1060" />
+  <g fill="none" stroke="#CBD5F5" stroke-width="1" opacity="0.45">
+    <path d="M80 200 H 1120" />
+    <path d="M80 280 H 1120" />
+    <path d="M80 360 H 1120" />
+    <path d="M80 440 H 1120" />
+    <path d="M80 520 H 1120" />
+    <path d="M80 600 H 1120" />
+    <path d="M80 680 H 1120" />
   </g>
   <g fill="#E2E8F0" opacity="0.7">
-    <rect x="190" y="420" width="70" height="140" rx="12" />
-    <rect x="280" y="360" width="70" height="200" rx="12" />
-    <rect x="370" y="300" width="70" height="260" rx="12" />
-    <rect x="460" y="260" width="70" height="300" rx="12" />
+    <rect x="140" y="430" width="80" height="150" rx="14" />
+    <rect x="240" y="370" width="80" height="210" rx="14" />
+    <rect x="340" y="310" width="80" height="270" rx="14" />
+    <rect x="440" y="270" width="80" height="310" rx="14" />
+    <rect x="540" y="240" width="80" height="340" rx="14" />
   </g>
   <path
-    d="M180 560 L 260 520 L 340 500 L 420 450 L 500 420 L 580 380 L 660 360 L 740 320 L 820 300 L 900 260"
+    d="M120 580 L 220 540 L 320 520 L 420 470 L 520 440 L 620 400 L 720 370 L 820 330 L 920 300 L 1040 260"
     fill="none"
     stroke="#4F46E5"
     stroke-width="3"
     opacity="0.45"
   />
   <g fill="#4F46E5" opacity="0.45">
-    <circle cx="260" cy="520" r="6" />
-    <circle cx="420" cy="450" r="6" />
-    <circle cx="580" cy="380" r="6" />
-    <circle cx="740" cy="320" r="6" />
-    <circle cx="900" cy="260" r="6" />
+    <circle cx="220" cy="540" r="6" />
+    <circle cx="420" cy="470" r="6" />
+    <circle cx="620" cy="400" r="6" />
+    <circle cx="820" cy="330" r="6" />
+    <circle cx="1040" cy="260" r="6" />
   </g>
   <g fill="none" stroke="#94A3B8" stroke-width="1.5" opacity="0.45">
-    <rect x="700" y="520" width="280" height="120" rx="16" />
-    <path d="M720 580 H 960" />
-    <path d="M720 610 H 910" />
+    <rect x="760" y="500" width="320" height="140" rx="18" />
+    <path d="M780 560 H 1040" />
+    <path d="M780 600 H 980" />
   </g>
 </svg>

@@ -106,7 +106,7 @@ a:hover {
   content: "";
   position: absolute;
   inset: 0;
-  background: #f8fafc url("/hero-analytics.svg") no-repeat right 20% center / 60%;
+  background: #f8fafc url("/hero-analytics.svg") no-repeat right 10% center / 75%;
   border-radius: 28px;
   opacity: 0.6;
   pointer-events: none;
@@ -115,9 +115,9 @@ a:hover {
 
 @media (max-width: 900px) {
   .hero-surface::before {
-    background-position: right 10% bottom 20%;
-    background-size: 80%;
-    opacity: 0.45;
+    background-position: center bottom;
+    background-size: 110%;
+    opacity: 0.5;
   }
 }
 
