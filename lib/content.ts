@@ -150,11 +150,18 @@ const parseCaseStudies = (lines: string[]) => {
       return;
     }
 
-    const labelMatch = line.match(/^\*\*(Problem|Action|Result):\*\*/i);
+    const labelMatch = line.match(/^\*\*(Problem|Action|Result|Проблема|Дії|Дія|Результат):\*\*/i);
     if (labelMatch) {
       const label = labelMatch[1].toLowerCase();
-      activeKey = label === "problem" ? "problem" : label === "action" ? "action" : "result";
-      const remainder = line.replace(/^\*\*(Problem|Action|Result):\*\*/i, "").trim();
+      activeKey =
+        label === "problem" || label === "проблема"
+          ? "problem"
+          : label === "action" || label === "дії" || label === "дія"
+            ? "action"
+            : "result";
+      const remainder = line
+        .replace(/^\*\*(Problem|Action|Result|Проблема|Дії|Дія|Результат):\*\*/i, "")
+        .trim();
       if (remainder && activeKey === "problem") {
         current.problem = remainder;
       }
