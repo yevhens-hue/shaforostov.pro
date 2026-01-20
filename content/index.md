@@ -10,7 +10,7 @@ description: Senior Product Manager / Head of Product building scalable FinTech 
 from early discovery to stable, scalable business impact in global markets.
 
 **Contact:**  
-- Email: shaforostov.e  
+- Email: shaforostov.e@gmail.com  
 - LinkedIn: https://www.linkedin.com/in/shaforostov/  
 - Telegram: @erostov  
 
@@ -195,6 +195,6 @@ Global: EU, Asia, LATAM
 ## Contact
 **Let’s build or scale something valuable.**
 
-- Email: shaforostov.e  
+- Email: shaforostov.e@gmail.com  
 - LinkedIn: https://www.linkedin.com/in/shaforostov/  
 - Telegram: @erostov
