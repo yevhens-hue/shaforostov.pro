@@ -58,10 +58,21 @@ const sectionMap = (body: string) => {
   let current = "hero";
   sections[current] = [];
 
+  const headingAliases: Record<string, string> = {
+    "Що роблю і кому допомагаю": "What I Do & Who I Help",
+    "Ключові досягнення": "Key Achievements",
+    "Кейси": "Case Studies",
+    "Досвід роботи": "Work History",
+    "Навички та стек": "Skills & Stack",
+    "Ринки та домени": "Markets & Domains",
+    "Контакт": "Contact"
+  };
+
   lines.forEach((line) => {
     const match = line.match(/^##\s+(.+)/);
     if (match) {
-      current = match[1].trim();
+      const heading = match[1].trim();
+      current = headingAliases[heading] ?? heading;
       sections[current] = [];
       return;
     }
@@ -75,7 +86,9 @@ const parseHero = (heroLines: string[]) => {
   const titleLineIndex = heroLines.findIndex((line) => line.startsWith("# "));
   const title = titleLineIndex >= 0 ? heroLines[titleLineIndex].replace(/^#\s+/, "") : "";
   const bodyLines = heroLines.slice(titleLineIndex + 1);
-  const contactLineIndex = bodyLines.findIndex((line) => line.startsWith("**Contact:**"));
+  const contactLineIndex = bodyLines.findIndex(
+    (line) => line.startsWith("**Contact:**") || line.startsWith("**Контакт:**")
+  );
   const heroBodyLines = contactLineIndex >= 0 ? bodyLines.slice(0, contactLineIndex) : bodyLines;
   const heroBodyHtml = renderMarkdown(heroBodyLines.join("\n").trim());
   const contactItems =
