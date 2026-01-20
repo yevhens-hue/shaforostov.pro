@@ -1,6 +1,5 @@
-import type { Config } from "tailwindcss";
-
-const config: Config = {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./lib/**/*.{ts,tsx}"],
   theme: {
     extend: {
@@ -18,8 +17,5 @@ const config: Config = {
         cardHover: "0 20px 48px rgba(15, 23, 42, 0.12)"
       }
     }
-  },
-  plugins: []
+  }
 };
-
-export default config;
