@@ -5,9 +5,26 @@ html {
 }
 
 body {
-  background: #ffffff;
-  color: #0f172a;
+  --ink: #0f172a;
+  --muted: #475569;
+  --accent: #4f46e5;
+  --card: #ffffff;
+  --line: #e2e8f0;
+  --bg: #ffffff;
+  background: var(--bg);
+  color: var(--ink);
   -webkit-font-smoothing: antialiased;
+}
+
+body[data-theme="dark"] {
+  --ink: #e2e8f0;
+  --muted: #94a3b8;
+  --accent: #7c6cff;
+  --card: #0f172a;
+  --line: #1f2937;
+  --bg: #0b0f16;
+  background: var(--bg);
+  color: var(--ink);
 }
 
 :focus-visible {
@@ -16,7 +33,7 @@ body {
 }
 
 a {
-  color: #4f46e5;
+  color: var(--accent);
   text-decoration: none;
 }
 
@@ -67,15 +84,15 @@ a:hover {
 }
 
 .text-ink {
-  color: #0f172a;
+  color: var(--ink);
 }
 
 .text-muted {
-  color: #475569;
+  color: var(--muted);
 }
 
 .text-accent {
-  color: #4f46e5;
+  color: var(--accent);
 }
 
 .text-white {
@@ -83,11 +100,23 @@ a:hover {
 }
 
 .bg-accent {
-  background-color: #4f46e5;
+  background-color: var(--accent);
 }
 
 .border-accent {
-  border-color: #4f46e5;
+  border-color: var(--accent);
+}
+
+.bg-white {
+  background: var(--card);
+}
+
+.border-slate-200 {
+  border-color: var(--line);
+}
+
+.text-slate-400 {
+  color: var(--muted);
 }
 
 .shadow-card {
@@ -113,6 +142,11 @@ a:hover {
   animation: heroGrow 900ms ease-out forwards;
   pointer-events: none;
   z-index: -1;
+}
+
+body[data-theme="dark"] .hero-surface::before {
+  background-color: #111827;
+  opacity: 0.35;
 }
 
 .hero-content {
