@@ -49,7 +49,7 @@ export function LocaleThemeToggle({
         className="rounded-full border border-slate-200 bg-white px-3 py-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-muted transition hover:text-ink"
         aria-pressed={theme === "dark"}
       >
-        {theme === "dark" ? "Light" : "Dark"}
+        {theme === "dark" ? (locale === "uk" ? "Світла" : "Light") : locale === "uk" ? "Темна" : "Dark"}
       </button>
     </div>
   );

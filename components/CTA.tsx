@@ -3,6 +3,8 @@ type CTAProps = {
   items: string[];
   primaryHref?: string;
   secondaryHref?: string;
+  primaryLabel?: string;
+  secondaryLabel?: string;
 };
 
 const getItemValue = (item: string) => item.split(":").slice(1).join(":").trim();
@@ -23,7 +25,14 @@ const getHref = (item: string) => {
   return value;
 };
 
-export function CTA({ title, items, primaryHref, secondaryHref }: CTAProps) {
+export function CTA({
+  title,
+  items,
+  primaryHref,
+  secondaryHref,
+  primaryLabel = "Invite to Interview",
+  secondaryLabel = "Contact"
+}: CTAProps) {
   return (
     <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-card">
       <h3 className="font-heading text-2xl font-semibold text-ink">{title}</h3>
@@ -42,13 +51,13 @@ export function CTA({ title, items, primaryHref, secondaryHref }: CTAProps) {
           href={primaryHref}
           className="inline-flex items-center justify-center rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-card transition hover:brightness-110 hover:shadow-cardHover"
         >
-          Invite to Interview
+          {primaryLabel}
         </a>
         <a
           href={secondaryHref}
           className="inline-flex items-center justify-center rounded-full border border-slate-200 px-6 py-3 text-sm font-semibold text-ink transition hover:border-slate-300"
         >
-          Contact
+          {secondaryLabel}
         </a>
       </div>
     </div>
