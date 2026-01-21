@@ -7,13 +7,15 @@ type LocaleThemeToggleProps = {
   theme: "light" | "dark";
   onLocaleChange: (locale: "en" | "uk") => void;
   onThemeChange: (theme: "light" | "dark") => void;
+  showLocale?: boolean;
 };
 
 export function LocaleThemeToggle({
   locale,
   theme,
   onLocaleChange,
-  onThemeChange
+  onThemeChange,
+  showLocale = true
 }: LocaleThemeToggleProps) {
   const [mounted, setMounted] = useState(false);
 
@@ -27,22 +29,24 @@ export function LocaleThemeToggle({
 
   return (
     <div className="flex items-center gap-2">
-      <div className="flex items-center gap-1 rounded-full border border-slate-200 bg-white px-2 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-muted">
-        <button
-          type="button"
-          onClick={() => onLocaleChange("en")}
-          className={`rounded-full px-2 py-1 ${locale === "en" ? "text-ink" : "text-muted"}`}
-        >
-          EN
-        </button>
-        <button
-          type="button"
-          onClick={() => onLocaleChange("uk")}
-          className={`rounded-full px-2 py-1 ${locale === "uk" ? "text-ink" : "text-muted"}`}
-        >
-          UA
-        </button>
-      </div>
+      {showLocale ? (
+        <div className="flex items-center gap-1 rounded-full border border-slate-200 bg-white px-2 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-muted">
+          <button
+            type="button"
+            onClick={() => onLocaleChange("en")}
+            className={`rounded-full px-2 py-1 ${locale === "en" ? "text-ink" : "text-muted"}`}
+          >
+            EN
+          </button>
+          <button
+            type="button"
+            onClick={() => onLocaleChange("uk")}
+            className={`rounded-full px-2 py-1 ${locale === "uk" ? "text-ink" : "text-muted"}`}
+          >
+            UA
+          </button>
+        </div>
+      ) : null}
       <button
         type="button"
         onClick={() => onThemeChange(theme === "dark" ? "light" : "dark")}

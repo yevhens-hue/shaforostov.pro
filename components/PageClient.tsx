@@ -45,17 +45,13 @@ const buildContactLink = (item: string) => {
 };
 
 export function PageClient({ contentEn, contentUk }: PageClientProps) {
-  const [locale, setLocale] = useState<"en" | "uk">("en");
+  const locale: "en" = "en";
   const [theme, setTheme] = useState<"light" | "dark">("light");
 
-  const content = useMemo(() => (locale === "uk" ? contentUk : contentEn), [locale, contentEn, contentUk]);
+  const content = useMemo(() => contentEn, [contentEn]);
 
   useEffect(() => {
-    const storedLocale = window.localStorage.getItem("site-locale") as "en" | "uk" | null;
     const storedTheme = window.localStorage.getItem("site-theme") as "light" | "dark" | null;
-    if (storedLocale) {
-      setLocale(storedLocale);
-    }
     if (storedTheme) {
       setTheme(storedTheme);
     }
@@ -85,8 +81,9 @@ export function PageClient({ contentEn, contentUk }: PageClientProps) {
           <LocaleThemeToggle
             locale={locale}
             theme={theme}
-            onLocaleChange={setLocale}
+            onLocaleChange={() => {}}
             onThemeChange={setTheme}
+            showLocale={false}
           />
         }
       />
