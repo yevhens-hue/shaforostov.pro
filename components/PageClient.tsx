@@ -249,7 +249,7 @@ export function PageClient({ contentEn, contentUk }: PageClientProps) {
           title={content.contactIntro}
           items={content.contactItems}
           primaryHref={primaryContact ? buildContactLink(primaryContact) : undefined}
-          secondaryHref={primaryContact ? buildContactLink(primaryContact) : undefined}
+          secondaryHref="#contact"
           primaryLabel={locale === "uk" ? "Запросити на інтерв'ю" : "Invite to Interview"}
           secondaryLabel={locale === "uk" ? "Контакт" : "Contact"}
         />
