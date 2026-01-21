@@ -464,11 +464,6 @@ body[data-theme="dark"] .hero-surface::before {
   }
 }
 
-.perf-section {
-  content-visibility: auto;
-  contain-intrinsic-size: 1px 800px;
-}
-
 .section-pad {
   padding-left: 10px;
   padding-right: 10px;

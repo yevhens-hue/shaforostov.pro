@@ -9,7 +9,7 @@ type SectionProps = {
 
 export function Section({ id, eyebrow, title, children }: SectionProps) {
   return (
-    <section id={id} className="section-spacing scroll-mt-28 perf-section">
+    <section id={id} className="section-spacing scroll-mt-28">
       {eyebrow ? (
         <p className="section-pad text-xs font-semibold uppercase tracking-[0.3em] text-accent">{eyebrow}</p>
       ) : null}
