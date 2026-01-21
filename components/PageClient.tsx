@@ -10,6 +10,7 @@ import { Section } from "@/components/Section";
 import { Timeline } from "@/components/Timeline";
 import { ActiveSection } from "@/components/ActiveSection";
 import { LocaleThemeToggle } from "@/components/LocaleThemeToggle";
+import { AnalyticsTracker } from "@/components/AnalyticsTracker";
 
 type PageClientProps = {
   contentEn: PageContent;
@@ -23,8 +24,8 @@ const navLabels: Record<"en" | "uk", string[]> = {
 
 const navItems = (locale: "en" | "uk") => [
   { label: navLabels[locale][0], href: "#hero" },
-  { label: navLabels[locale][1], href: "#cases" },
   { label: navLabels[locale][2], href: "#experience" },
+  { label: locale === "uk" ? "Навички" : "Skills", href: "#skills" },
   { label: navLabels[locale][3], href: "#contact" }
 ];
 
@@ -90,7 +91,7 @@ export function PageClient({ contentEn, contentUk }: PageClientProps) {
         }
       />
 
-      <section id="hero" className="section-spacing hero-surface">
+      <section id="hero" className="section-spacing hero-surface hero-spacing hero-divider">
         <div className="hero-chart" aria-hidden="true">
           <svg viewBox="0 0 1200 800" role="presentation">
             <path
@@ -111,26 +112,30 @@ export function PageClient({ contentEn, contentUk }: PageClientProps) {
         <div className="container-page grid gap-10 md:grid-cols-[1.2fr_0.8fr]">
           <div className="reveal hero-content">
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">
-              {locale === "uk" ? "Senior Product" : "Senior Product"}
+              {locale === "uk" ? "Старший продукт" : "Senior Product"}
             </p>
             <h1 className="mt-3 font-heading text-4xl font-semibold text-ink md:text-5xl">
               {content.heroTitle}
             </h1>
-            <div
-              className="rich-text mt-5 text-sm text-muted"
-              dangerouslySetInnerHTML={{ __html: content.heroBodyHtml }}
-            />
+            <div className="hero-copy">
+              <div
+                className="rich-text mt-5 text-sm text-muted"
+                dangerouslySetInnerHTML={{ __html: content.heroBodyHtml }}
+              />
+            </div>
             {primaryContact ? (
               <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                 <a
                   href={buildContactLink(primaryContact)}
-                  className="inline-flex w-full items-center justify-center rounded-full bg-accent px-7 py-3.5 text-base font-semibold text-white shadow-card transition hover:brightness-110 hover:shadow-cardHover sm:w-auto sm:text-sm"
+                  className="cta-button cta-primary inline-flex w-full items-center justify-center rounded-full px-7 py-3.5 text-base font-semibold text-white shadow-card transition sm:w-auto sm:text-sm"
+                  data-analytics="cta-primary"
                 >
                   {locale === "uk" ? "Запросити на інтерв'ю" : "Invite to Interview"}
                 </a>
                 <a
                   href="#contact"
-                  className="underline-hover inline-flex w-full items-center justify-center rounded-full border border-slate-200 px-7 py-3.5 text-base font-semibold text-ink transition hover:border-slate-300 sm:w-auto sm:text-sm"
+                  className="cta-button cta-secondary underline-hover inline-flex w-full items-center justify-center rounded-full px-7 py-3.5 text-base font-semibold text-ink transition sm:w-auto sm:text-sm"
+                  data-analytics="cta-secondary"
                 >
                   {locale === "uk" ? "Контакт" : "Contact"}
                 </a>
@@ -231,10 +236,16 @@ export function PageClient({ contentEn, contentUk }: PageClientProps) {
       </Section>
 
       <Section id="skills" eyebrow={locale === "uk" ? "Навички" : "Capabilities"} title={locale === "uk" ? "Навички та стек" : "Skills & Stack"}>
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="skills-grid">
           {content.skillGroups.map((group) => (
-            <Card key={group.title} title={group.title}>
-              <p>{group.details}</p>
+            <Card key={group.title}>
+              <div className="skills-card">
+                <span className="skills-icon" aria-hidden="true" />
+                <div>
+                  <h3 className="font-heading text-lg font-semibold text-ink">{group.title}</h3>
+                  <p className="skills-detail">{group.details}</p>
+                </div>
+              </div>
             </Card>
           ))}
         </div>
@@ -256,6 +267,7 @@ export function PageClient({ contentEn, contentUk }: PageClientProps) {
       </Section>
 
       <ActiveSection />
+      <AnalyticsTracker />
       <RevealObserver />
     </main>
   );

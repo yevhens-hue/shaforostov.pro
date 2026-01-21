@@ -50,12 +50,14 @@ export function CTA({
         <a
           href={primaryHref}
           className="inline-flex items-center justify-center rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-card transition hover:brightness-110 hover:shadow-cardHover"
+          data-analytics="cta-primary-footer"
         >
           {primaryLabel}
         </a>
         <a
           href={secondaryHref}
           className="inline-flex items-center justify-center rounded-full border border-slate-200 px-6 py-3 text-sm font-semibold text-ink transition hover:border-slate-300"
+          data-analytics="cta-secondary-footer"
         >
           {secondaryLabel}
         </a>
