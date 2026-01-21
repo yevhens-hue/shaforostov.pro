@@ -16,9 +16,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {children}
         <Script
           strategy="afterInteractive"
-          data-domain="shaforostov.pro"
-          src="https://plausible.io/js/script.js"
+          src="https://www.googletagmanager.com/gtag/js?id=G-E3CB7CW35L"
         />
+        <Script id="ga-gtag" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-E3CB7CW35L', { anonymize_ip: true });`}
+        </Script>
       </body>
     </html>
   );

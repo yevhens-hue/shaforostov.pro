@@ -4,12 +4,12 @@ import { useEffect } from "react";
 
 declare global {
   interface Window {
-    plausible?: (event: string, options?: { props?: Record<string, string> }) => void;
+    gtag?: (...args: any[]) => void;
   }
 }
 
 const track = (event: string, props?: Record<string, string>) => {
-  window.plausible?.(event, props ? { props } : undefined);
+  window.gtag?.("event", event, props ?? {});
 };
 
 export function AnalyticsTracker() {
@@ -21,7 +21,7 @@ export function AnalyticsTracker() {
         return;
       }
       const label = button.dataset.analytics ?? "cta";
-      track("CTA Click", { label });
+      track("cta_click", { label });
     };
 
     document.addEventListener("click", clickHandler);
@@ -37,7 +37,7 @@ export function AnalyticsTracker() {
       [25, 50, 75, 100].forEach((threshold) => {
         if (pct >= threshold && !fired.has(threshold)) {
           fired.add(threshold);
-          track("Scroll Depth", { percent: String(threshold) });
+          track("scroll_depth", { percent: String(threshold) });
         }
       });
     };
