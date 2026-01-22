@@ -276,6 +276,10 @@ export const getSiteMetadata = (locale: "en" | "uk" = "en"): Metadata => {
     title,
     description,
     metadataBase: new URL("https://shaforostov.pro"),
+    icons: {
+      icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+      shortcut: ["/favicon.svg"]
+    },
     openGraph: {
       title,
       description,
