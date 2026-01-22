@@ -75,8 +75,20 @@ a:hover {
   transform: scaleX(1);
 }
 
+.nav-link {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus-visible {
+  color: var(--ink);
+  text-decoration: none;
+}
+
 .nav-link.is-active {
-  color: #0f172a;
+  color: var(--ink);
+  text-decoration: none;
 }
 
 .nav-link.is-active::after {
