@@ -44,8 +44,8 @@ const buildContactLink = (item: string) => {
   return value;
 };
 
-export function PageClient({ contentEn, contentUk }: PageClientProps) {
-  const locale: "en" = "en";
+export function PageClient({ contentEn }: PageClientProps) {
+  const locale = "en";
   const [theme, setTheme] = useState<"light" | "dark">("light");
 
   const content = useMemo(() => contentEn, [contentEn]);
@@ -108,9 +108,7 @@ export function PageClient({ contentEn, contentUk }: PageClientProps) {
         </div>
         <div className="container-page grid gap-10 md:grid-cols-[1.2fr_0.8fr]">
           <div className="reveal hero-content">
-            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">
-              Senior Product
-            </p>
+            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">Senior Product</p>
             <h1 className="mt-3 font-heading text-4xl font-semibold text-ink md:text-5xl">
               {content.heroTitle}
             </h1>
@@ -127,22 +125,20 @@ export function PageClient({ contentEn, contentUk }: PageClientProps) {
                   className="cta-button cta-primary inline-flex w-full items-center justify-center rounded-full px-7 py-3.5 text-base font-semibold text-white shadow-card transition sm:w-auto sm:text-sm"
                   data-analytics="cta-primary"
                 >
-                  {locale === "uk" ? "Запросити на інтерв'ю" : "Invite to Interview"}
+                  Invite to Interview
                 </a>
                 <a
                   href="#contact"
                   className="cta-button cta-secondary underline-hover inline-flex w-full items-center justify-center rounded-full px-7 py-3.5 text-base font-semibold text-ink transition sm:w-auto sm:text-sm"
                   data-analytics="cta-secondary"
                 >
-                  {locale === "uk" ? "Контакт" : "Contact"}
+                  Contact
                 </a>
               </div>
             ) : null}
           </div>
           <div className="reveal self-start rounded-3xl border border-slate-200 bg-white p-6 shadow-card">
-            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-muted">
-              {locale === "uk" ? "Контакт" : "Contact"}
-            </p>
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-muted">Contact</p>
             <ul className="mt-4 space-y-3 text-sm text-muted">
               {content.contactInline.map((item) => (
                 <li key={item} className="flex flex-col gap-1">
@@ -159,7 +155,7 @@ export function PageClient({ contentEn, contentUk }: PageClientProps) {
         </div>
       </section>
 
-      <Section id="services" eyebrow={locale === "uk" ? "Фокус" : "Focus"} title={locale === "uk" ? "Що роблю і кому допомагаю" : "What I Do & Who I Help"}>
+      <Section id="services" eyebrow="Focus" title="What I Do & Who I Help">
         <div className="grid gap-6 md:grid-cols-3">
           {content.services.map((service) => (
             <Card key={service.title} title={service.title}>
@@ -173,7 +169,7 @@ export function PageClient({ contentEn, contentUk }: PageClientProps) {
         </div>
       </Section>
 
-      <Section id="achievements" eyebrow={locale === "uk" ? "Досягнення" : "Highlights"} title={locale === "uk" ? "Ключові досягнення" : "Key Achievements"}>
+      <Section id="achievements" eyebrow="Highlights" title="Key Achievements">
         <div className="grid gap-6 md:grid-cols-2">
           {content.achievementsHtml.map((achievementHtml, index) => (
             <Card key={`${content.achievements[index]}-${index}`}>
@@ -183,19 +179,19 @@ export function PageClient({ contentEn, contentUk }: PageClientProps) {
         </div>
       </Section>
 
-      <Section id="cases" eyebrow={locale === "uk" ? "Кейси" : "Proof"} title={locale === "uk" ? "Кейси" : "Case Studies"}>
+      <Section id="cases" eyebrow="Proof" title="Case Studies">
         <div className="grid gap-6">
           {content.caseStudies.map((study) => (
             <Card key={study.title} title={study.title}>
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent">
-                  {locale === "uk" ? "Проблема" : "Problem"}
+                  Problem
                 </p>
                 <p className="mt-2">{study.problem}</p>
               </div>
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent">
-                  {locale === "uk" ? "Дії" : "Action"}
+                  Action
                 </p>
                 <ul className="mt-2 list-disc space-y-2 pl-4">
                   {study.action.map((item) => (
@@ -205,7 +201,7 @@ export function PageClient({ contentEn, contentUk }: PageClientProps) {
               </div>
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent">
-                  {locale === "uk" ? "Результат" : "Result"}
+                  Result
                 </p>
                 <ul className="mt-2 list-disc space-y-2 pl-4">
                   {study.result.map((item) => (
@@ -218,12 +214,12 @@ export function PageClient({ contentEn, contentUk }: PageClientProps) {
         </div>
       </Section>
 
-      <Section id="experience" eyebrow={locale === "uk" ? "Досвід" : "Experience"} title={locale === "uk" ? "Досвід роботи" : "Work History"}>
+      <Section id="experience" eyebrow="Experience" title="Work History">
         <Timeline items={mainItems} />
         {earlyItems.length ? (
           <details className="mt-6 rounded-2xl border border-slate-200 p-6">
             <summary className="cursor-pointer text-sm font-semibold text-ink">
-              {locale === "uk" ? "Ранніший досвід" : "Earlier background"}
+              Earlier background
             </summary>
             <div className="mt-6">
               <Timeline items={earlyItems} />
@@ -232,7 +228,7 @@ export function PageClient({ contentEn, contentUk }: PageClientProps) {
         ) : null}
       </Section>
 
-      <Section id="skills" eyebrow={locale === "uk" ? "Навички" : "Capabilities"} title={locale === "uk" ? "Навички та стек" : "Skills & Stack"}>
+      <Section id="skills" eyebrow="Capabilities" title="Skills & Stack">
         <div className="skills-grid">
           {content.skillGroups.map((group) => (
             <Card key={group.title}>
@@ -248,18 +244,18 @@ export function PageClient({ contentEn, contentUk }: PageClientProps) {
         </div>
       </Section>
 
-      <Section id="markets" eyebrow={locale === "uk" ? "Ринки" : "Markets"} title={locale === "uk" ? "Ринки та домени" : "Markets & Domains"}>
+      <Section id="markets" eyebrow="Markets" title="Markets & Domains">
         <p className="max-w-2xl text-sm text-muted">{content.markets}</p>
       </Section>
 
-      <Section id="contact" eyebrow={locale === "uk" ? "Контакт" : "Contact"} title={locale === "uk" ? "Контакт / CTA" : "Contact / CTA"}>
+      <Section id="contact" eyebrow="Contact" title="Contact / CTA">
         <CTA
           title={content.contactIntro}
           items={content.contactItems}
           primaryHref={primaryContact ? buildContactLink(primaryContact) : undefined}
           secondaryHref="#contact"
-          primaryLabel={locale === "uk" ? "Запросити на інтерв'ю" : "Invite to Interview"}
-          secondaryLabel={locale === "uk" ? "Контакт" : "Contact"}
+          primaryLabel="Invite to Interview"
+          secondaryLabel="Contact"
         />
       </Section>
 
