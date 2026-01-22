@@ -7,9 +7,12 @@ type NavbarProps = {
 
 export function Navbar({ items, actions }: NavbarProps) {
   return (
-    <div className="sticky top-0 z-30 border-b border-slate-200 bg-white/90 backdrop-blur header-shadow">
+    <div className="site-header sticky top-0 z-30 border-b border-slate-200 backdrop-blur header-shadow">
       <div className="container-page flex flex-col gap-1 py-2 md:flex-row md:items-center md:justify-between md:py-4">
-        <a href="#hero" className="text-xs font-semibold tracking-[0.14em] text-ink md:text-sm md:tracking-[0.16em]">
+        <a
+          href="#hero"
+          className="brand-link text-xs font-semibold tracking-[0.14em] text-ink md:text-sm md:tracking-[0.16em]"
+        >
           Yevhen Shaforostov
         </a>
         <div className="flex items-center gap-3 md:gap-5">

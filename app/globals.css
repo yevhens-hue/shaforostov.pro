@@ -92,7 +92,7 @@ a:hover {
 }
 
 .nav-link.is-active::after {
-  opacity: 0.8;
+  opacity: 0.6;
   transform: scaleX(1);
 }
 
@@ -353,6 +353,20 @@ body[data-theme="dark"] .hero-surface::before {
 
 .header-shadow {
   box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+}
+
+.site-header {
+  background: rgba(255, 255, 255, 0.9);
+  border-color: var(--line);
+}
+
+body[data-theme="dark"] .site-header {
+  background: rgba(11, 15, 22, 0.92);
+  border-color: var(--line);
+}
+
+.site-header .brand-link {
+  color: var(--ink);
 }
 
 .nav-scroll {
