@@ -17,7 +17,7 @@ const getHref = (item: string) => {
     return `mailto:${value}`;
   }
   if (lowerLabel.includes("linkedin")) {
-    return value;
+    return value.startsWith("http") ? value : `https://${value}`;
   }
   if (lowerLabel.includes("telegram")) {
     return value.startsWith("@") ? `https://t.me/${value.replace("@", "")}` : value;

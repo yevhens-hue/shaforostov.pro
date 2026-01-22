@@ -11,7 +11,7 @@ from early discovery to stable, scalable business impact in global markets.
 
 **Contact:**  
 - Email: shaforostov.e@gmail.com  
-- LinkedIn: https://www.linkedin.com/in/shaforostov/  
+- LinkedIn: linkedin.com/in/shaforostov  
 - Telegram: @erostov  
 
 ---
@@ -196,5 +196,5 @@ Global: EU, Asia, LATAM
 **Let’s build or scale something valuable.**
 
 - Email: shaforostov.e@gmail.com  
-- LinkedIn: https://www.linkedin.com/in/shaforostov/  
+- LinkedIn: linkedin.com/in/shaforostov  
 - Telegram: @erostov

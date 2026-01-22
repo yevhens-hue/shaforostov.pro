@@ -36,7 +36,7 @@ const buildContactLink = (item: string) => {
     return `mailto:${value}`;
   }
   if (label.toLowerCase().includes("linkedin")) {
-    return value;
+    return value.startsWith("http") ? value : `https://${value}`;
   }
   if (label.toLowerCase().includes("telegram")) {
     return value.startsWith("@") ? `https://t.me/${value.replace("@", "")}` : value;
@@ -71,7 +71,9 @@ export function PageClient({ contentEn }: PageClientProps) {
     (item) => item.title.includes("PFSOFT") || item.title.includes("Design Bureau")
   );
   const mainItems = content.workHistory.filter((item) => !earlyItems.includes(item));
-  const primaryContact = content.contactItems.find((item) => item.toLowerCase().includes("email"));
+  const primaryContact =
+    content.contactItems.find((item) => item.toLowerCase().includes("email")) ??
+    content.contactInline.find((item) => item.toLowerCase().includes("email"));
 
   return (
     <main>

@@ -11,7 +11,7 @@ description: Senior Product Manager / Head of Product, який будує ма�
 
 **Контакт:**  
 - Email: shaforostov.e@gmail.com  
-- LinkedIn: https://www.linkedin.com/in/shaforostov/  
+- LinkedIn: linkedin.com/in/shaforostov  
 - Telegram: @erostov  
 
 ---
@@ -196,5 +196,5 @@ Global: EU, Asia, LATAM
 **Давайте побудуємо або масштабуємо щось цінне.**
 
 - Email: shaforostov.e@gmail.com  
-- LinkedIn: https://www.linkedin.com/in/shaforostov/  
+- LinkedIn: linkedin.com/in/shaforostov  
 - Telegram: @erostov
