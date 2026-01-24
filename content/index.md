@@ -194,6 +194,16 @@ UTR, QR, High-Risk Processing, Traffic Quality, Fraud Signals
 
 ---
 
+## Certificates
+
+- AI FOR BUSINESS — [robotdreams.cc](https://robotdreams.cc)  
+- Acceleration program — Product University  
+- Product management based on analytics — [gopractice.ru](https://gopractice.ru)  
+- Startup School — [Y Combinator](https://www.startupschool.org)  
+- Project management — [skillsetter.io](https://skillsetter.io)  
+
+---
+
 ## Markets & Domains
 FinTech, Payments, High-Risk  
 Global: EU, Asia, LATAM  

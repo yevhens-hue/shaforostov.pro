@@ -29,6 +29,7 @@ export type PageContent = {
   caseStudies: CaseStudy[];
   workHistory: WorkItem[];
   skillGroups: SkillGroup[];
+  certificatesHtml: string;
   markets: string;
   contactIntro: string;
   contactItems: string[];
@@ -64,6 +65,7 @@ const sectionMap = (body: string) => {
     "Кейси": "Case Studies",
     "Досвід роботи": "Work History",
     "Навички та стек": "Skills & Stack",
+    "Сертифікати": "Certificates",
     "Ринки та домени": "Markets & Domains",
     "Контакт": "Contact"
   };
@@ -256,6 +258,8 @@ const parseMarkets = (lines: string[]) =>
     .map((line) => line.trim())
     .join(" ");
 
+const parseCertificates = (lines: string[]) => renderMarkdown(lines.filter((line) => line.trim()).join("\n"));
+
 const parseContact = (lines: string[]) => {
   const introLine = lines.find((line) => line.startsWith("**"));
   const intro = introLine ? stripMarkdown(introLine) : "";
@@ -308,6 +312,7 @@ export const getPageContent = (locale: "en" | "uk" = "en"): PageContent => {
   const caseStudies = parseCaseStudies(sections["Case Studies"] ?? []);
   const workHistory = parseWorkHistory(sections["Work History"] ?? []);
   const skillGroups = parseSkills(sections["Skills & Stack"] ?? []);
+  const certificatesHtml = parseCertificates(sections.Certificates ?? []);
   const markets = parseMarkets(sections["Markets & Domains"] ?? []);
   const contact = parseContact(sections.Contact ?? []);
 
@@ -321,6 +326,7 @@ export const getPageContent = (locale: "en" | "uk" = "en"): PageContent => {
     caseStudies,
     workHistory,
     skillGroups,
+    certificatesHtml,
     markets,
     contactIntro: contact.intro,
     contactItems: contact.items

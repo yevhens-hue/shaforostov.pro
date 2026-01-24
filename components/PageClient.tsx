@@ -285,6 +285,10 @@ export function PageClient({ contentEn }: PageClientProps) {
         </div>
       </Section>
 
+      <Section id="certificates" eyebrow="Credentials" title="Certificates">
+        <div className="rich-text text-sm text-muted" dangerouslySetInnerHTML={{ __html: content.certificatesHtml }} />
+      </Section>
+
       <Section id="markets" eyebrow="Markets" title="Markets & Domains">
         <p className="max-w-2xl text-sm text-muted">{content.markets}</p>
       </Section>

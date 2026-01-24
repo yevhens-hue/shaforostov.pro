@@ -194,6 +194,16 @@ UTR, QR, High‑Risk Processing, Traffic Quality, Fraud Signals
 
 ---
 
+## Сертифікати
+
+- AI FOR BUSINESS — [robotdreams.cc](https://robotdreams.cc)  
+- Acceleration program — Product University  
+- Product management based on analytics — [gopractice.ru](https://gopractice.ru)  
+- Startup School — [Y Combinator](https://www.startupschool.org)  
+- Управління проєктами — [skillsetter.io](https://skillsetter.io)  
+
+---
+
 ## Ринки та домени
 FinTech, Payments, High‑Risk  
 Global: EU, Asia, LATAM  
