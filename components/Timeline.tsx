@@ -2,6 +2,7 @@ type TimelineItem = {
   title: string;
   meta: string;
   bullets: string[];
+  bulletsHtml: string[];
 };
 
 type TimelineProps = {
@@ -18,8 +19,8 @@ export function Timeline({ items }: TimelineProps) {
             <h3 className="timeline-title">{item.title}</h3>
             <p className="timeline-meta">{item.meta}</p>
             <ul className="timeline-list">
-              {item.bullets.map((bullet) => (
-                <li key={bullet}>{bullet}</li>
+              {item.bulletsHtml.map((bulletHtml, index) => (
+                <li key={`${item.title}-${index}`} dangerouslySetInnerHTML={{ __html: bulletHtml }} />
               ))}
             </ul>
           </div>

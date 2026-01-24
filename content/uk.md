@@ -197,7 +197,7 @@ UTR, QR, High‑Risk Processing, Traffic Quality, Fraud Signals
 ## Сертифікати
 
 - AI FOR BUSINESS — [robotdreams.cc](https://robotdreams.cc)  
-- Acceleration program — Product University  
+- Acceleration program — [Product University](https://drive.google.com/file/d/1kn-pvIJz1LyXYB_RG9Kl1cOYDsErFZ1d/view)  
 - Product management based on analytics — [gopractice.ru](https://gopractice.ru)  
 - Startup School — [Y Combinator](https://www.startupschool.org)  
 - Управління проєктами — [skillsetter.io](https://skillsetter.io)  

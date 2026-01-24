@@ -16,6 +16,7 @@ type WorkItem = {
   title: string;
   meta: string;
   bullets: string[];
+  bulletsHtml: string[];
 };
 type SkillGroup = { title: string; details: string };
 
@@ -201,7 +202,7 @@ const parseWorkHistory = (lines: string[]) => {
       if (current) {
         items.push(current);
       }
-      current = { title: headingMatch[1].trim(), meta: "", bullets: [] };
+      current = { title: headingMatch[1].trim(), meta: "", bullets: [], bulletsHtml: [] };
       return;
     }
 
@@ -215,7 +216,9 @@ const parseWorkHistory = (lines: string[]) => {
     }
 
     if (line.startsWith("- ")) {
-      current.bullets.push(line.replace(/^- /, "").trim());
+      const bullet = line.replace(/^- /, "").trim();
+      current.bullets.push(bullet);
+      current.bulletsHtml.push(renderMarkdown(bullet));
     }
   });
 
