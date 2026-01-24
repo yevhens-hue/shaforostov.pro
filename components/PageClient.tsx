@@ -44,6 +44,11 @@ const buildContactLink = (item: string) => {
   return value;
 };
 
+const getContactValue = (item: string) => item.split(":").slice(1).join(":").trim();
+
+const buildEmailCtaLink = (email: string) =>
+  `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}`;
+
 export function PageClient({ contentEn }: PageClientProps) {
   const locale = "en";
   const [theme, setTheme] = useState<"light" | "dark">("light");
@@ -74,6 +79,8 @@ export function PageClient({ contentEn }: PageClientProps) {
   const primaryContact =
     content.contactItems.find((item) => item.toLowerCase().includes("email")) ??
     content.contactInline.find((item) => item.toLowerCase().includes("email"));
+  const primaryEmail = primaryContact ? getContactValue(primaryContact) : null;
+  const primaryCtaHref = primaryEmail ? buildEmailCtaLink(primaryEmail) : undefined;
 
   return (
     <main>
@@ -153,7 +160,9 @@ export function PageClient({ contentEn }: PageClientProps) {
             {primaryContact ? (
               <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                 <a
-                  href={buildContactLink(primaryContact)}
+                  href={primaryCtaHref ?? buildContactLink(primaryContact)}
+                  target={primaryCtaHref ? "_blank" : undefined}
+                  rel={primaryCtaHref ? "noreferrer" : undefined}
                   className="cta-button cta-primary inline-flex w-full items-center justify-center rounded-full px-7 py-3.5 text-base font-semibold text-white shadow-card transition sm:w-auto sm:text-sm"
                   data-analytics="cta-primary"
                 >
@@ -284,7 +293,7 @@ export function PageClient({ contentEn }: PageClientProps) {
         <CTA
           title={content.contactIntro}
           items={content.contactItems}
-          primaryHref={primaryContact ? buildContactLink(primaryContact) : undefined}
+          primaryHref={primaryCtaHref ?? (primaryContact ? buildContactLink(primaryContact) : undefined)}
           secondaryHref="#contact"
           primaryLabel="Invite to Interview"
           secondaryLabel="Contact"

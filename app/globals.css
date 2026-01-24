@@ -267,22 +267,22 @@ body[data-theme="dark"] .hero-surface::before {
 .hero-chart-grid {
   stroke: currentColor;
   stroke-width: 1;
-  opacity: 0.28;
+  opacity: 0.38;
 }
 
 .hero-chart-labels {
   fill: currentColor;
   font-size: 14px;
-  opacity: 0.6;
+  opacity: 0.75;
   font-weight: 500;
 }
 
 body[data-theme="dark"] .hero-chart-grid {
-  opacity: 0.35;
+  opacity: 0.5;
 }
 
 body[data-theme="dark"] .hero-chart-labels {
-  opacity: 0.75;
+  opacity: 0.9;
 }
 
 .hero-chart-line {
