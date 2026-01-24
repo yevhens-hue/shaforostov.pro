@@ -270,6 +270,13 @@ body[data-theme="dark"] .hero-surface::before {
   opacity: 0.18;
 }
 
+.hero-chart-labels {
+  fill: currentColor;
+  font-size: 14px;
+  opacity: 0.35;
+  font-weight: 500;
+}
+
 .hero-chart-line {
   stroke-dasharray: 1200;
   stroke-dashoffset: 1200;

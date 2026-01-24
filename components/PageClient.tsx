@@ -101,6 +101,29 @@ export function PageClient({ contentEn }: PageClientProps) {
               <line x1="120" y1="400" x2="1080" y2="400" />
               <line x1="120" y1="340" x2="1080" y2="340" />
               <line x1="120" y1="280" x2="1080" y2="280" />
+              <line x1="120" y1="260" x2="120" y2="660" />
+              <line x1="240" y1="260" x2="240" y2="660" />
+              <line x1="360" y1="260" x2="360" y2="660" />
+              <line x1="480" y1="260" x2="480" y2="660" />
+              <line x1="600" y1="260" x2="600" y2="660" />
+              <line x1="720" y1="260" x2="720" y2="660" />
+              <line x1="840" y1="260" x2="840" y2="660" />
+              <line x1="960" y1="260" x2="960" y2="660" />
+              <line x1="1080" y1="260" x2="1080" y2="660" />
+            </g>
+            <g className="hero-chart-labels">
+              <text x="92" y="644">0</text>
+              <text x="84" y="584">20</text>
+              <text x="84" y="524">40</text>
+              <text x="84" y="464">60</text>
+              <text x="84" y="404">80</text>
+              <text x="76" y="344">100</text>
+              <text x="76" y="284">120</text>
+              <text x="120" y="690">Q1</text>
+              <text x="360" y="690">Q2</text>
+              <text x="600" y="690">Q3</text>
+              <text x="840" y="690">Q4</text>
+              <text x="1068" y="690">Q1</text>
             </g>
             <path
               className="hero-chart-line"
