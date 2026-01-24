@@ -142,7 +142,8 @@ description: Senior Product Manager / Head of Product, який будує ма�
 - Курував розробку продуктів для страхової індустрії  
 - Оновив lender portal та внутрішні інструменти  
 - Працював крос‑функціонально з engineering та marketing командами  
-- Проєкти: [leadsmarket.com](https://leadsmarket.com), [mystorefrontleads.com](https://mystorefrontleads.com)  
+- Проєкт: [leadsmarket.com](https://leadsmarket.com)  
+- Проєкт: [mystorefrontleads.com](https://mystorefrontleads.com)  
 
 ---
 
@@ -153,7 +154,7 @@ description: Senior Product Manager / Head of Product, який будує ма�
 - Впроваджував go‑to‑market стратегії для кількох продуктів  
 - Вів аналітику, ROI‑звітність, P&L та cash flow  
 - Керував customer development та growth ініціативами  
-- Проєкти: [remotehub.com](https://remotehub.com), [iworld.com](https://iworld.com)  
+- Проєкт: [remotehub.com](https://remotehub.com)  
 
 ---
 
@@ -163,7 +164,11 @@ description: Senior Product Manager / Head of Product, який будує ма�
 - Проаналізував і протестував 30+ продуктів у FinTech та AdTech  
 - Провів регіональні і глобальні market дослідження  
 - Запустив цифрові продукти (AdSpoiler, Uagro, Zodiac)  
-- Проєкти: [protrader.com](https://protrader.com), [protrader.org](https://protrader.org), [adspoiler.com](https://adspoiler.com), [uagro.ua](https://uagro.ua), Zodiac (Android)  
+- Проєкт: [protrader.com](https://protrader.com)  
+- Проєкт: [protrader.org](https://protrader.org)  
+- Проєкт: [adspoiler.com](https://adspoiler.com)  
+- Проєкт: [uagro.ua](https://uagro.ua)  
+- Проєкт: Zodiac (Android)  
 
 ---
 

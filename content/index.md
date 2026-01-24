@@ -142,7 +142,8 @@ Entering new high-risk markets with limited visibility and high operational risk
 - Supervised development of insurance industry products  
 - Modernized lender portal and internal tools  
 - Worked cross-functionally with engineering and marketing teams  
-- Projects: [leadsmarket.com](https://leadsmarket.com), [mystorefrontleads.com](https://mystorefrontleads.com)  
+- Project: [leadsmarket.com](https://leadsmarket.com)  
+- Project: [mystorefrontleads.com](https://mystorefrontleads.com)  
 
 ---
 
@@ -153,7 +154,7 @@ Entering new high-risk markets with limited visibility and high operational risk
 - Implemented go-to-market strategies for multiple products  
 - Owned product analytics, ROI reporting, P&L and cash flow  
 - Led customer development and growth initiatives  
-- Projects: [remotehub.com](https://remotehub.com), [iworld.com](https://iworld.com)  
+- Project: [remotehub.com](https://remotehub.com)  
 
 ---
 
@@ -163,7 +164,11 @@ Entering new high-risk markets with limited visibility and high operational risk
 - Analyzed and tested 30+ products across FinTech and AdTech  
 - Conducted regional and global market research  
 - Delivered multiple digital products (AdSpoiler, Uagro, Zodiac)  
-- Projects: [protrader.com](https://protrader.com), [protrader.org](https://protrader.org), [adspoiler.com](https://adspoiler.com), [uagro.ua](https://uagro.ua), Zodiac (Android)  
+- Project: [protrader.com](https://protrader.com)  
+- Project: [protrader.org](https://protrader.org)  
+- Project: [adspoiler.com](https://adspoiler.com)  
+- Project: [uagro.ua](https://uagro.ua)  
+- Project: Zodiac (Android)  
 
 ---
 
