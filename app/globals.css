@@ -264,6 +264,12 @@ body[data-theme="dark"] .hero-surface::before {
   height: auto;
 }
 
+.hero-chart-grid {
+  stroke: currentColor;
+  stroke-width: 1;
+  opacity: 0.18;
+}
+
 .hero-chart-line {
   stroke-dasharray: 1200;
   stroke-dashoffset: 1200;

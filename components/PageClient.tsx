@@ -93,6 +93,15 @@ export function PageClient({ contentEn }: PageClientProps) {
       <section id="hero" className="section-spacing hero-surface hero-spacing hero-divider">
         <div className="hero-chart" aria-hidden="true">
           <svg viewBox="0 0 1200 800" role="presentation">
+            <g className="hero-chart-grid">
+              <line x1="120" y1="640" x2="1080" y2="640" />
+              <line x1="120" y1="580" x2="1080" y2="580" />
+              <line x1="120" y1="520" x2="1080" y2="520" />
+              <line x1="120" y1="460" x2="1080" y2="460" />
+              <line x1="120" y1="400" x2="1080" y2="400" />
+              <line x1="120" y1="340" x2="1080" y2="340" />
+              <line x1="120" y1="280" x2="1080" y2="280" />
+            </g>
             <path
               className="hero-chart-line"
               d="M120 610 L 260 560 L 360 540 L 480 500 L 620 460 L 760 410 L 900 360 L 1040 300"
