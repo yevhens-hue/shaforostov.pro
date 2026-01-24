@@ -112,18 +112,16 @@ export function PageClient({ contentEn }: PageClientProps) {
               <line x1="1080" y1="260" x2="1080" y2="660" />
             </g>
             <g className="hero-chart-labels">
-              <text x="92" y="644">0</text>
-              <text x="84" y="584">20</text>
-              <text x="84" y="524">40</text>
-              <text x="84" y="464">60</text>
-              <text x="84" y="404">80</text>
-              <text x="76" y="344">100</text>
-              <text x="76" y="284">120</text>
+              <text x="84" y="644">$1M</text>
+              <text x="76" y="584">$3M</text>
+              <text x="76" y="524">$5M</text>
+              <text x="76" y="464">$7M</text>
+              <text x="76" y="404">$9M</text>
+              <text x="68" y="344">$10M</text>
               <text x="120" y="690">Q1</text>
               <text x="360" y="690">Q2</text>
               <text x="600" y="690">Q3</text>
               <text x="840" y="690">Q4</text>
-              <text x="1068" y="690">Q1</text>
             </g>
             <path
               className="hero-chart-line"
