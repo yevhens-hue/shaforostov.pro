@@ -14,6 +14,8 @@ const track = (event: string, props?: Record<string, string>) => {
 
 export function AnalyticsTracker() {
   useEffect(() => {
+    track("page_view", { page_path: window.location.pathname });
+
     const clickHandler = (event: MouseEvent) => {
       const target = event.target as HTMLElement | null;
       const button = target?.closest<HTMLElement>("[data-analytics]");
@@ -22,6 +24,9 @@ export function AnalyticsTracker() {
       }
       const label = button.dataset.analytics ?? "cta";
       track("cta_click", { label });
+      if (label === "cta-primary" || label === "cta-primary-footer") {
+        track("invite_to_interview_click");
+      }
     };
 
     document.addEventListener("click", clickHandler);
