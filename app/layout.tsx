@@ -16,13 +16,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {children}
         <Script
           strategy="afterInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=G-E3CB7CW35L"
+          src="https://www.googletagmanager.com/gtag/js?id=G-H8NNRN97NK"
         />
         <Script id="ga-gtag" strategy="afterInteractive">
           {`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'G-E3CB7CW35L', { anonymize_ip: true });`}
+gtag('config', 'G-H8NNRN97NK', { anonymize_ip: true });`}
         </Script>
       </body>
     </html>
