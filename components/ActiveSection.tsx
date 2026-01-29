@@ -22,16 +22,15 @@ export function ActiveSection() {
       });
     };
 
+    const offset = 140;
     const getCurrentSection = () => {
-      const viewportCenter = window.innerHeight / 2;
+      if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4) {
+        return sections[sections.length - 1];
+      }
+      const scrollPos = window.scrollY + offset;
       let current = sections[0];
-      let bestDistance = Number.POSITIVE_INFINITY;
       sections.forEach((section) => {
-        const rect = section.getBoundingClientRect();
-        const center = rect.top + rect.height / 2;
-        const distance = Math.abs(center - viewportCenter);
-        if (distance < bestDistance) {
-          bestDistance = distance;
+        if (section.offsetTop <= scrollPos) {
           current = section;
         }
       });
@@ -52,11 +51,13 @@ export function ActiveSection() {
 
     window.addEventListener("scroll", onScroll, { passive: true });
     window.addEventListener("resize", onScroll);
+    window.addEventListener("hashchange", onScroll);
     onScroll();
 
     return () => {
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", onScroll);
+      window.removeEventListener("hashchange", onScroll);
       if (rafId !== null) {
         window.cancelAnimationFrame(rafId);
       }
