@@ -32,6 +32,9 @@ export function AnalyticsTracker() {
     document.addEventListener("click", clickHandler);
 
     const fired = new Set<number>();
+    const thresholds = [25, 50, 75, 100];
+    let ticking = false;
+    let rafId: number | null = null;
     const onScroll = () => {
       const scrollTop = window.scrollY;
       const docHeight = document.documentElement.scrollHeight - window.innerHeight;
@@ -39,7 +42,7 @@ export function AnalyticsTracker() {
         return;
       }
       const pct = Math.round((scrollTop / docHeight) * 100);
-      [25, 50, 75, 100].forEach((threshold) => {
+      thresholds.forEach((threshold) => {
         if (pct >= threshold && !fired.has(threshold)) {
           fired.add(threshold);
           track("scroll_depth", { percent: String(threshold) });
@@ -48,7 +51,15 @@ export function AnalyticsTracker() {
     };
 
     const scrollHandler = () => {
-      requestAnimationFrame(onScroll);
+      if (ticking) {
+        return;
+      }
+      ticking = true;
+      rafId = window.requestAnimationFrame(() => {
+        onScroll();
+        ticking = false;
+        rafId = null;
+      });
     };
 
     window.addEventListener("scroll", scrollHandler, { passive: true });
@@ -57,6 +68,9 @@ export function AnalyticsTracker() {
     return () => {
       document.removeEventListener("click", clickHandler);
       window.removeEventListener("scroll", scrollHandler);
+      if (rafId !== null) {
+        window.cancelAnimationFrame(rafId);
+      }
     };
   }, []);
 
