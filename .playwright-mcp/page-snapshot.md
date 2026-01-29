@@ -1,0 +1,321 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - link "Yevhen Shaforostov" [ref=e5] [cursor=pointer]:
+        - /url: "#hero"
+      - generic [ref=e6]:
+        - navigation [ref=e7]:
+          - link "Hero" [ref=e8] [cursor=pointer]:
+            - /url: "#hero"
+          - link "Experience" [ref=e9] [cursor=pointer]:
+            - /url: "#experience"
+          - link "Skills" [ref=e10] [cursor=pointer]:
+            - /url: "#skills"
+          - link "Contact" [ref=e11] [cursor=pointer]:
+            - /url: "#contact"
+        - button "Dark" [ref=e316]
+    - generic [ref=e12]:
+      - generic:
+        - generic:
+          - generic: $1M
+          - generic: $3M
+          - generic: $5M
+          - generic: $7M
+          - generic: $9M
+          - generic: $10M
+          - generic: Q1
+          - generic: Q2
+          - generic: Q3
+          - generic: Q4
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - paragraph [ref=e15]: Senior Product
+          - heading "Senior Product Manager / Head of Product" [level=1] [ref=e16]
+          - generic [ref=e18]:
+            - paragraph [ref=e19]:
+              - strong [ref=e20]: Driving scalable FinTech & Payment products with AI automation
+            - paragraph [ref=e21]: 10+ years of experience building products, R&D teams and data-driven systems — from early discovery to stable, scalable business impact in global markets.
+          - generic [ref=e22]:
+            - link "Invite to Interview" [ref=e23] [cursor=pointer]:
+              - /url: https://mail.google.com/mail/?view=cm&fs=1&to=shaforostov.e%40gmail.com
+            - link "Contact" [ref=e24] [cursor=pointer]:
+              - /url: "#contact"
+        - generic [ref=e25]:
+          - paragraph [ref=e26]: Contact
+          - list [ref=e27]:
+            - listitem [ref=e28]:
+              - generic [ref=e29]: Email
+              - link "shaforostov.e@gmail.com" [ref=e30] [cursor=pointer]:
+                - /url: mailto:shaforostov.e@gmail.com
+            - listitem [ref=e31]:
+              - generic [ref=e32]: LinkedIn
+              - link "linkedin.com/in/shaforostov" [ref=e33] [cursor=pointer]:
+                - /url: https://linkedin.com/in/shaforostov
+            - listitem [ref=e34]:
+              - generic [ref=e35]: Telegram
+              - link "@erostov" [ref=e36] [cursor=pointer]:
+                - /url: https://t.me/erostov
+    - generic [ref=e37]:
+      - paragraph [ref=e38]: Focus
+      - heading "What I Do & Who I Help" [level=2] [ref=e39]
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - heading "Startups" [level=3] [ref=e43]
+          - list [ref=e45]:
+            - listitem [ref=e46]: Product discovery from zero
+            - listitem [ref=e47]: MVP → PMF
+            - listitem [ref=e48]: Metrics, funnels, monetization
+        - generic [ref=e49]:
+          - heading "Scale-ups" [level=3] [ref=e50]
+          - list [ref=e52]:
+            - listitem [ref=e53]: Growth & revenue optimization
+            - listitem [ref=e54]: Payment systems & routing
+            - listitem [ref=e55]: Risk vs conversion balance
+        - generic [ref=e56]:
+          - heading "Enterprises" [level=3] [ref=e57]
+          - list [ref=e59]:
+            - listitem [ref=e60]: R&D departments from scratch
+            - listitem [ref=e61]: AI automation & parsing systems
+            - listitem [ref=e62]: Cross-border payment infrastructure
+    - generic [ref=e63]:
+      - paragraph [ref=e64]: Highlights
+      - heading "Key Achievements" [level=2] [ref=e65]
+      - generic [ref=e67]:
+        - paragraph [ref=e71]:
+          - text: Built
+          - strong [ref=e72]: R&D department from scratch (0 → full-cycle unit)
+        - paragraph [ref=e76]:
+          - text: Led
+          - strong [ref=e77]: international remote teams (10+ engineers & analysts)
+        - paragraph [ref=e81]:
+          - text: Designed
+          - strong [ref=e82]: AI-powered parsing & market intelligence systems
+        - paragraph [ref=e86]:
+          - text: Optimized
+          - strong [ref=e87]: UTR / QR / PSP payment flows
+          - text: in high-risk environments
+        - paragraph [ref=e91]:
+          - text: Improved
+          - strong [ref=e92]: conversion, stability and scalability
+          - text: of payment infrastructure
+        - paragraph [ref=e96]:
+          - text: Engineering background in
+          - strong [ref=e97]: SpaceTech (Yuzhnoye Design Bureau)
+    - generic [ref=e98]:
+      - paragraph [ref=e99]: Proof
+      - heading "Case Studies" [level=2] [ref=e100]
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - heading "R&D Department from Scratch" [level=3] [ref=e104]
+          - generic [ref=e105]:
+            - generic [ref=e106]:
+              - paragraph [ref=e107]: Problem
+              - paragraph [ref=e108]: Lack of structured product discovery, fragmented market insights and slow decision-making.
+            - generic [ref=e109]:
+              - paragraph [ref=e110]: Action
+              - list [ref=e111]:
+                - listitem [ref=e112]: Built R&D department from zero
+                - listitem [ref=e113]: Implemented data-driven research workflows
+                - listitem [ref=e114]: Introduced parsing, automation and AI-based insights
+                - listitem [ref=e115]: Aligned Product, Tech and Business teams
+            - generic [ref=e116]:
+              - paragraph [ref=e117]: Result
+              - list [ref=e118]:
+                - listitem [ref=e119]: Continuous market intelligence flow
+                - listitem [ref=e120]: Faster and more confident product decisions
+                - listitem [ref=e121]: Reduced uncertainty in payment and provider strategy
+        - generic [ref=e122]:
+          - heading "AI Parsing & Market Intelligence Platform" [level=3] [ref=e123]
+          - generic [ref=e124]:
+            - generic [ref=e125]:
+              - paragraph [ref=e126]: Problem
+              - paragraph [ref=e127]: Manual market and PSP research was slow, inconsistent and non-scalable.
+            - generic [ref=e128]:
+              - paragraph [ref=e129]: Action
+              - list [ref=e130]:
+                - listitem [ref=e131]: Designed automated parsing pipelines
+                - listitem [ref=e132]: Applied AI-based classification and validation
+                - listitem [ref=e133]: Built structured datasets for product and business teams
+            - generic [ref=e134]:
+              - paragraph [ref=e135]: Result
+              - list [ref=e136]:
+                - listitem [ref=e137]: Significantly reduced research time
+                - listitem [ref=e138]: Scalable intelligence across multiple markets
+                - listitem [ref=e139]: Higher quality provider and market decisions
+        - generic [ref=e140]:
+          - heading "Payment Routing & Conversion Optimization" [level=3] [ref=e141]
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - paragraph [ref=e144]: Problem
+              - paragraph [ref=e145]: Low payment success rate and unstable routing in high-risk environments.
+            - generic [ref=e146]:
+              - paragraph [ref=e147]: Action
+              - list [ref=e148]:
+                - listitem [ref=e149]: Analyzed traffic quality and funnel metrics
+                - listitem [ref=e150]: Redesigned routing logic
+                - listitem [ref=e151]: Balanced risk controls with conversion goals
+            - generic [ref=e152]:
+              - paragraph [ref=e153]: Result
+              - list [ref=e154]:
+                - listitem [ref=e155]: Increased payment success rate
+                - listitem [ref=e156]: Reduced failed transactions
+                - listitem [ref=e157]: Improved system stability
+        - generic [ref=e158]:
+          - heading "High-Risk Payment Research & Scaling" [level=3] [ref=e159]
+          - generic [ref=e160]:
+            - generic [ref=e161]:
+              - paragraph [ref=e162]: Problem
+              - paragraph [ref=e163]: Entering new high-risk markets with limited visibility and high operational risk.
+            - generic [ref=e164]:
+              - paragraph [ref=e165]: Action
+              - list [ref=e166]:
+                - listitem [ref=e167]: Researched PSPs, UTR and QR solutions
+                - listitem [ref=e168]: Evaluated providers by stability, conversion and risk
+                - listitem [ref=e169]: Built scalable onboarding and monitoring framework
+            - generic [ref=e170]:
+              - paragraph [ref=e171]: Result
+              - list [ref=e172]:
+                - listitem [ref=e173]: Faster market entry
+                - listitem [ref=e174]: Controlled risk exposure
+                - listitem [ref=e175]: Scalable payment infrastructure
+    - generic [ref=e176]:
+      - paragraph [ref=e177]: Experience
+      - heading "Work History" [level=2] [ref=e178]
+      - generic [ref=e179]:
+        - generic [ref=e180]:
+          - article [ref=e181]:
+            - generic [ref=e183]:
+              - heading "Paycord (Growe Group / Parimatch) — R&D Product Manager" [level=3] [ref=e184]
+              - paragraph [ref=e185]: Warsaw, Poland | 03/2024 – Present
+              - list [ref=e186]:
+                - listitem [ref=e187]:
+                  - paragraph [ref=e188]: Built R&D department from scratch (strategy, processes, architecture)
+                - listitem [ref=e189]:
+                  - paragraph [ref=e190]: Led international team of engineers and analysts (remote)
+                - listitem [ref=e191]:
+                  - paragraph [ref=e192]: Designed AI-driven parsing and market insight systems for payments
+                - listitem [ref=e193]:
+                  - paragraph [ref=e194]: Developed merchant and PSP ranking systems
+                - listitem [ref=e195]:
+                  - paragraph [ref=e196]: Reduced time-to-market through automation and analytics
+          - article [ref=e197]:
+            - generic [ref=e199]:
+              - heading "NDA (Betting) — Senior Product Manager" [level=3] [ref=e200]
+              - paragraph [ref=e201]: Kyiv, Ukraine | 05/2022 – 03/2024
+              - list [ref=e202]:
+                - listitem [ref=e203]:
+                  - paragraph [ref=e204]: Developed betting products focused on revenue and market optimization
+                - listitem [ref=e205]:
+                  - paragraph [ref=e206]: Built AI-based tools for GGR optimization
+                - listitem [ref=e207]:
+                  - paragraph [ref=e208]: Conducted continuous market and payment-focused research
+                - listitem [ref=e209]:
+                  - paragraph [ref=e210]: Adapted products for regional specifics (Turkey market)
+          - article [ref=e211]:
+            - generic [ref=e213]:
+              - heading "LeadsMarket LLC — Product Manager (FinTech)" [level=3] [ref=e214]
+              - paragraph [ref=e215]: Kyiv, Ukraine / CA, USA | 09/2021 – 05/2022
+              - list [ref=e216]:
+                - listitem [ref=e217]:
+                  - paragraph [ref=e218]: Supervised development of insurance industry products
+                - listitem [ref=e219]:
+                  - paragraph [ref=e220]: Modernized lender portal and internal tools
+                - listitem [ref=e221]:
+                  - paragraph [ref=e222]: Worked cross-functionally with engineering and marketing teams
+                - listitem [ref=e223]:
+                  - paragraph [ref=e224]:
+                    - text: "Project:"
+                    - link "leadsmarket.com" [ref=e225] [cursor=pointer]:
+                      - /url: https://leadsmarket.com
+                - listitem [ref=e226]:
+                  - paragraph [ref=e227]:
+                    - text: "Project:"
+                    - link "mystorefrontleads.com" [ref=e228] [cursor=pointer]:
+                      - /url: https://mystorefrontleads.com
+          - article [ref=e229]:
+            - generic [ref=e231]:
+              - heading "RemoteHub Inc — Product Manager (SaaS / Marketplace)" [level=3] [ref=e232]
+              - paragraph [ref=e233]: Dnipro, Ukraine | 06/2018 – 09/2021
+              - list [ref=e234]:
+                - listitem [ref=e235]:
+                  - paragraph [ref=e236]: Built specifications and prototypes for global freelance marketplace
+                - listitem [ref=e237]:
+                  - paragraph [ref=e238]: Implemented go-to-market strategies for multiple products
+                - listitem [ref=e239]:
+                  - paragraph [ref=e240]: Owned product analytics, ROI reporting, P&L and cash flow
+                - listitem [ref=e241]:
+                  - paragraph [ref=e242]: Led customer development and growth initiatives
+                - listitem [ref=e243]:
+                  - paragraph [ref=e244]:
+                    - text: "Project:"
+                    - link "remotehub.com" [ref=e245] [cursor=pointer]:
+                      - /url: https://remotehub.com
+        - group [ref=e246]:
+          - generic "Earlier background" [ref=e247] [cursor=pointer]
+    - generic [ref=e248]:
+      - paragraph [ref=e249]: Capabilities
+      - heading "Skills & Stack" [level=2] [ref=e250]
+      - generic [ref=e252]:
+        - generic [ref=e257]:
+          - heading "Product" [level=3] [ref=e258]
+          - paragraph [ref=e259]: Product Discovery, Roadmaps, OKRs, Metrics, Funnels, Stakeholder Management
+        - generic [ref=e264]:
+          - heading "Technology" [level=3] [ref=e265]
+          - paragraph [ref=e266]: AI Automation, Parsing Systems, APIs, Integrations
+        - generic [ref=e271]:
+          - heading "Payments" [level=3] [ref=e272]
+          - paragraph [ref=e273]: UTR, QR, High-Risk Processing, Traffic Quality, Fraud Signals
+    - generic [ref=e274]:
+      - paragraph [ref=e275]: Credentials
+      - heading "Certificates" [level=2] [ref=e276]
+      - list [ref=e279]:
+        - listitem [ref=e280]:
+          - text: AI FOR BUSINESS —
+          - link "robotdreams.cc" [ref=e281] [cursor=pointer]:
+            - /url: https://robotdreams.cc
+        - listitem [ref=e282]:
+          - text: Acceleration program —
+          - link "Product University" [ref=e283] [cursor=pointer]:
+            - /url: https://drive.google.com/file/d/1kn-pvIJz1LyXYB_RG9Kl1cOYDsErFZ1d/view
+        - listitem [ref=e284]:
+          - text: Product management based on analytics —
+          - link "gopractice.ru" [ref=e285] [cursor=pointer]:
+            - /url: https://gopractice.ru
+        - listitem [ref=e286]:
+          - text: Startup School —
+          - link "Y Combinator" [ref=e287] [cursor=pointer]:
+            - /url: https://www.startupschool.org
+        - listitem [ref=e288]:
+          - text: Project management —
+          - link "skillsetter.io" [ref=e289] [cursor=pointer]:
+            - /url: https://skillsetter.io
+    - generic [ref=e290]:
+      - paragraph [ref=e291]: Markets
+      - heading "Markets & Domains" [level=2] [ref=e292]
+      - paragraph [ref=e294]: "FinTech, Payments, High-Risk Global: EU, Asia, LATAM"
+    - generic [ref=e295]:
+      - paragraph [ref=e296]: Contact
+      - heading "Contact / CTA" [level=2] [ref=e297]
+      - generic [ref=e299]:
+        - heading "Let’s build or scale something valuable." [level=3] [ref=e300]
+        - list [ref=e301]:
+          - listitem [ref=e302]:
+            - generic [ref=e303]: "Email:"
+            - link "shaforostov.e@gmail.com" [ref=e304] [cursor=pointer]:
+              - /url: mailto:shaforostov.e@gmail.com
+          - listitem [ref=e305]:
+            - generic [ref=e306]: "LinkedIn:"
+            - link "linkedin.com/in/shaforostov" [ref=e307] [cursor=pointer]:
+              - /url: https://linkedin.com/in/shaforostov
+          - listitem [ref=e308]:
+            - generic [ref=e309]: "Telegram:"
+            - link "@erostov" [ref=e310] [cursor=pointer]:
+              - /url: https://t.me/erostov
+        - generic [ref=e311]:
+          - link "Invite to Interview" [ref=e312] [cursor=pointer]:
+            - /url: https://mail.google.com/mail/?view=cm&fs=1&to=shaforostov.e%40gmail.com
+          - link "Contact" [ref=e313] [cursor=pointer]:
+            - /url: "#contact"
+  - button "Open Next.js Dev Tools" [ref=e322] [cursor=pointer]:
+    - img [ref=e323]
+  - alert [ref=e326]
