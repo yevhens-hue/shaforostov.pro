@@ -196,11 +196,11 @@ UTR, QR, High‑Risk Processing, Traffic Quality, Fraud Signals
 
 ## Сертифікати
 
-- AI FOR BUSINESS — [robotdreams.cc](https://robotdreams.cc)  
+- AI FOR BUSINESS — [robotdreams.cc](https://lms.robotdreams.cc/certificate/188ee5df311444524cb0f36e1c54129c)  
 - Acceleration program — [Product University](https://drive.google.com/file/d/1kn-pvIJz1LyXYB_RG9Kl1cOYDsErFZ1d/view)  
-- Product management based on analytics — [gopractice.ru](https://gopractice.ru)  
-- Startup School — [Y Combinator](https://www.startupschool.org)  
-- Управління проєктами — [skillsetter.io](https://skillsetter.io)  
+- Product management based on analytics — [gopractice.ru](https://gopractice.ru/course/pm/certificate/967c7e98-5b16-4954-948f-11efc00f093f)  
+- Startup School — [Y Combinator](https://account.ycombinator.com/?continue=https%3A%2F%2Fwww.startupschool.org%2Fusers%2Fsign_in%3Fcontinue_url%3D%252Fcompanies%252FPRSFtAe8BtBY-Q)  
+- Управління проєктами — [skillsetter.io](https://skillsetter.io/certificates/9bd2ef1b-d1d7-4a63-ac77-84f2f6a479a9)  
 
 ---
 
