@@ -1,10 +1,10 @@
 ---
-title: Yevhen Shaforostov — Senior Product Manager / Head of Product
-description: Senior Product Manager / Head of Product building scalable FinTech & Payment products with AI automation. Remote.
+title: Yevhen Shaforostov — AI Product Manager / Head of Product
+description: AI Product Manager / Head of Product building scalable AI-Driven Products, FinTech & Automation. Remote.
 ---
 
-# Senior Product Manager / Head of Product
-**Driving scalable FinTech & Payment products with AI automation**
+# AI Product Manager / Head of Product
+**Driving scalable AI-Driven Products, FinTech & Automation**
 
 10+ years of experience building products, R&D teams and data-driven systems —  
 from early discovery to stable, scalable business impact in global markets.
@@ -26,7 +26,7 @@ from early discovery to stable, scalable business impact in global markets.
 ### Scale-ups
 - Growth & revenue optimization
 - Payment systems & routing
-- Risk vs conversion balance
+- AI Products & LLM Integrations
 
 ### Enterprises
 - R&D departments from scratch
@@ -113,10 +113,31 @@ Entering new high-risk markets with limited visibility and high operational risk
 
 ---
 
+## Projects
+
+- **[Pitch Avatar](https://pitch-avatar.vercel.app/)** — Enterprise AI Product (LLM analytics, Automated onboarding).
+- **[Telegram Analytics Dashboard](https://dashboardtelegram-analytics-qruo.vercel.app/)** — Data-driven analytics for Telegram gambling apps.
+- **[Astro Crash Robot](https://t.me/AstroCrashRobot_bot)** — Telegram Mini App / Game development.
+- **[SMART iGAMING](https://www.games-income.com/all-bonuses)** — iGaming portal & bonuses aggregation.
+- **[PBN CPA](https://www.luckybetvip.com/)** — Affiliate marketing and Private Blog Networks.
+- **[Personal Portfolio](https://github.com/yevhens-hue/shaforostov.pro)** — Open-source personal project.
+
+---
+
 ## Work History
 
+### Pitch Avatar Inc (Austria) — AI Product Owner  
+**Wroclaw, Poland | 03/2026 – Present**
+
+- Drove enterprise product expansion (HR Onboarding & EdTech): Led the end-to-end development of new core entities (Listeners, Assignments, Courses), optimizing the B2B user journey and building scalable retention loops through automated content delivery.
+- Optimized ARPU and Monetization: Designed and rolled out a scalable tiered billing model (Listener Seats), directly connecting product usage with revenue growth and improving overall unit economics.
+- Implemented LLM-Driven Analytics: Launched an AI-based analytics dashboard that processes 50+ session parameters to automatically generate actionable insights (Interest Level, Lead Qualification Score), significantly improving the quality of data-driven decisions for clients.
+- Accelerated B2B Growth & Integrations: Scaled the product's Go-to-Market strategy by driving seamless two-way integrations with major CRM and HRIS platforms (HubSpot, Salesforce, Workday), reducing operational friction and automating the lead generation workflow.
+
+---
+
 ### Paycord (Growe Group / Parimatch) — R&D Product Manager  
-**Warsaw, Poland | 03/2024 – Present**
+**Warsaw, Poland | 03/2024 – 03/2026**
 
 - Built R&D department from scratch (strategy, processes, architecture)  
 - Led international team of engineers and analysts (remote)  
@@ -183,11 +204,11 @@ Entering new high-risk markets with limited visibility and high operational risk
 
 ## Skills & Stack
 
+**Technology & AI:**  
+AI Automation, LLMs, Parsing Systems, APIs, Integrations  
+
 **Product:**  
 Product Discovery, Roadmaps, OKRs, Metrics, Funnels, Stakeholder Management  
-
-**Technology:**  
-AI Automation, Parsing Systems, APIs, Integrations  
 
 **Payments:**  
 UTR, QR, High-Risk Processing, Traffic Quality, Fraud Signals  
