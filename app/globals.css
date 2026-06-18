@@ -175,11 +175,22 @@ a:hover {
 }
 
 .skills-icon {
-  width: 32px;
-  height: 32px;
-  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
   border: 1px solid var(--line);
-  background: rgba(79, 70, 229, 0.08);
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+.achievement-check {
+  flex-shrink: 0;
+  margin-top: 2px;
+  color: var(--accent);
 }
 
 .skills-detail {
@@ -525,25 +536,40 @@ body[data-theme="dark"] .site-header {
   padding-right: 10px;
 }
 
+/* Reveal-on-scroll is a progressive enhancement: content is fully visible by
+   default (no-JS / crawlers / failed observer) and only animates when JS is on. */
 .reveal {
+  opacity: 1;
+  transform: none;
+}
+
+html.js .reveal {
   opacity: 0;
   transform: translateY(8px);
   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 
-.reveal.is-visible {
+html.js .reveal.is-visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.js .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
 
 .rich-text p {
   margin-bottom: 1rem;
   line-height: 1.7;
-  color: #475569;
+  color: var(--muted);
 }
 
 .rich-text strong {
-  color: #0f172a;
+  color: var(--ink);
 }
 
 .rich-text ul {
@@ -554,4 +580,42 @@ body[data-theme="dark"] .site-header {
 
 .rich-text ul li + li {
   margin-top: 0.5rem;
+}
+
+.project-card {
+  display: block;
+  text-decoration: none;
+}
+
+.project-card:hover {
+  text-decoration: none;
+}
+
+.project-card h3 {
+  color: var(--ink);
+}
+
+.project-arrow {
+  color: var(--muted);
+  flex-shrink: 0;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.project-card:hover .project-arrow {
+  color: var(--accent);
+  transform: translate(2px, -2px);
+}
+
+.project-tag {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 4px 10px;
 }

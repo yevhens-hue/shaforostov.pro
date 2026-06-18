@@ -19,6 +19,12 @@ type WorkItem = {
   bulletsHtml: string[];
 };
 type SkillGroup = { title: string; details: string };
+export type Project = {
+  title: string;
+  tags: string[];
+  description: string;
+  href: string;
+};
 
 export type PageContent = {
   heroTitle: string;
@@ -28,6 +34,7 @@ export type PageContent = {
   achievements: string[];
   achievementsHtml: string[];
   caseStudies: CaseStudy[];
+  projects: Project[];
   workHistory: WorkItem[];
   skillGroups: SkillGroup[];
   certificatesHtml: string;
@@ -66,6 +73,7 @@ const sectionMap = (body: string) => {
     "Кейси": "Case Studies",
     "Досвід роботи": "Work History",
     "Навички та стек": "Skills & Stack",
+    "Проєкти": "Projects",
     "Сертифікати": "Certificates",
     "Ринки та домени": "Markets & Domains",
     "Контакт": "Contact"
@@ -192,6 +200,52 @@ const parseCaseStudies = (lines: string[]) => {
   return cases;
 };
 
+const parseProjects = (lines: string[]) => {
+  const projects: Project[] = [];
+  let current: Project | null = null;
+
+  lines.forEach((line) => {
+    const headingMatch = line.match(/^###\s+(.+)/);
+    if (headingMatch) {
+      if (current) {
+        projects.push(current);
+      }
+      current = { title: headingMatch[1].trim(), tags: [], description: "", href: "" };
+      return;
+    }
+
+    if (!current) {
+      return;
+    }
+
+    const linkMatch = line.match(/^-\s*Link:\s*(.+)/i);
+    if (linkMatch) {
+      current.href = linkMatch[1].trim();
+      return;
+    }
+
+    const tagMatch = line.match(/^\*\*(.+)\*\*$/);
+    if (tagMatch) {
+      current.tags = tagMatch[1]
+        .split(/[·,|]/)
+        .map((tag) => tag.trim())
+        .filter(Boolean);
+      return;
+    }
+
+    if (line.trim()) {
+      const text = line.trim();
+      current.description = current.description ? `${current.description} ${text}` : text;
+    }
+  });
+
+  if (current) {
+    projects.push(current);
+  }
+
+  return projects;
+};
+
 const parseWorkHistory = (lines: string[]) => {
   const items: WorkItem[] = [];
   let current: WorkItem | null = null;
@@ -313,6 +367,7 @@ export const getPageContent = (locale: "en" | "uk" = "en"): PageContent => {
   const achievements = parseAchievements(sections["Key Achievements"] ?? []);
   const achievementsHtml = achievements.map((item) => renderMarkdown(item));
   const caseStudies = parseCaseStudies(sections["Case Studies"] ?? []);
+  const projects = parseProjects(sections.Projects ?? []);
   const workHistory = parseWorkHistory(sections["Work History"] ?? []);
   const skillGroups = parseSkills(sections["Skills & Stack"] ?? []);
   const certificatesHtml = parseCertificates(sections.Certificates ?? []);
@@ -327,6 +382,7 @@ export const getPageContent = (locale: "en" | "uk" = "en"): PageContent => {
     achievements,
     achievementsHtml,
     caseStudies,
+    projects,
     workHistory,
     skillGroups,
     certificatesHtml,

@@ -11,6 +11,7 @@ import { Timeline } from "@/components/Timeline";
 import { ActiveSection } from "@/components/ActiveSection";
 import { LocaleThemeToggle } from "@/components/LocaleThemeToggle";
 import { AnalyticsTracker } from "@/components/AnalyticsTracker";
+import { ArrowUpRightIcon, CheckIcon, SkillIcon } from "@/components/Icons";
 
 type PageClientProps = {
   contentEn: PageContent;
@@ -24,6 +25,7 @@ const navLabels: Record<"en" | "uk", string[]> = {
 
 const navItems = (locale: "en" | "uk") => [
   { label: navLabels[locale][0], href: "#hero" },
+  { label: locale === "uk" ? "Проєкти" : "Projects", href: "#projects" },
   { label: navLabels[locale][2], href: "#experience" },
   { label: locale === "uk" ? "Навички" : "Skills", href: "#skills" },
   { label: navLabels[locale][3], href: "#contact" }
@@ -147,7 +149,7 @@ export function PageClient({ contentEn }: PageClientProps) {
         </div>
         <div className="container-page grid gap-10 md:grid-cols-[1.2fr_0.8fr]">
           <div className="reveal hero-content">
-            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">Senior Product</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">AI Product Leader</p>
             <h1 className="mt-3 font-heading text-4xl font-semibold text-ink md:text-5xl">
               {content.heroTitle}
             </h1>
@@ -214,7 +216,10 @@ export function PageClient({ contentEn }: PageClientProps) {
         <div className="grid gap-6 md:grid-cols-2">
           {content.achievementsHtml.map((achievementHtml, index) => (
             <Card key={`${content.achievements[index]}-${index}`}>
-              <div className="text-sm text-muted" dangerouslySetInnerHTML={{ __html: achievementHtml }} />
+              <div className="flex items-start gap-3">
+                <CheckIcon className="achievement-check" />
+                <div className="text-sm text-muted" dangerouslySetInnerHTML={{ __html: achievementHtml }} />
+              </div>
             </Card>
           ))}
         </div>
@@ -255,6 +260,36 @@ export function PageClient({ contentEn }: PageClientProps) {
         </div>
       </Section>
 
+      <Section id="projects" eyebrow="Selected Work" title="AI Products & Projects">
+        <div className="grid gap-6 md:grid-cols-2">
+          {content.projects.map((project) => (
+            <a
+              key={project.title}
+              href={project.href}
+              target="_blank"
+              rel="noreferrer"
+              className="project-card reveal rounded-2xl border border-slate-200 bg-white p-6 shadow-card transition hover:shadow-cardHover"
+              data-analytics="project-link"
+            >
+              <div className="flex items-start justify-between gap-4">
+                <h3 className="font-heading text-lg font-semibold text-ink">{project.title}</h3>
+                <ArrowUpRightIcon className="project-arrow" aria-hidden="true" />
+              </div>
+              {project.tags.length ? (
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {project.tags.map((tag) => (
+                    <span key={tag} className="project-tag">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              ) : null}
+              {project.description ? <p className="mt-3 text-sm text-muted">{project.description}</p> : null}
+            </a>
+          ))}
+        </div>
+      </Section>
+
       <Section id="experience" eyebrow="Experience" title="Work History">
         <Timeline items={mainItems} />
         {earlyItems.length ? (
@@ -274,7 +309,9 @@ export function PageClient({ contentEn }: PageClientProps) {
           {content.skillGroups.map((group) => (
             <Card key={group.title}>
               <div className="skills-card">
-                <span className="skills-icon" aria-hidden="true" />
+                <span className="skills-icon" aria-hidden="true">
+                  <SkillIcon title={group.title} />
+                </span>
                 <div>
                   <h3 className="font-heading text-lg font-semibold text-ink">{group.title}</h3>
                   <p className="skills-detail">{group.details}</p>

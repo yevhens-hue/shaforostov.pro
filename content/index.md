@@ -1,13 +1,12 @@
 ---
 title: Yevhen Shaforostov — AI Product Manager / Head of Product
-description: AI Product Manager / Head of Product building scalable AI-Driven Products, FinTech & Automation. Remote.
+description: AI Product Manager / Head of Product building AI-powered FinTech, Payments & iGaming products — AI agents, automation, parsing and analytics. Remote.
 ---
 
 # AI Product Manager / Head of Product
-**Driving scalable AI-Driven Products, FinTech & Automation**
+**Building AI-powered FinTech, Payments & iGaming products**
 
-10+ years of experience building products, R&D teams and data-driven systems —  
-from early discovery to stable, scalable business impact in global markets.
+10+ years turning **AI, automation and data** into scalable products — from R&D and discovery to revenue-driving systems in global markets. I ship **AI agents, parsing pipelines and analytics** that cut time-to-market and power confident decisions.
 
 **Contact:**  
 - Email: shaforostov.e@gmail.com  
@@ -19,17 +18,17 @@ from early discovery to stable, scalable business impact in global markets.
 ## What I Do & Who I Help
 
 ### Startups
-- Product discovery from zero
-- MVP → PMF
+- AI-assisted product discovery from zero
+- MVP → PMF with AI features
 - Metrics, funnels, monetization
 
 ### Scale-ups
-- Growth & revenue optimization
+- AI-driven growth & analytics
 - Payment systems & routing
 - AI Products & LLM Integrations
 
 ### Enterprises
-- R&D departments from scratch
+- R&D departments & AI agents from scratch
 - AI automation & parsing systems
 - Cross-border payment infrastructure
 
@@ -37,11 +36,12 @@ from early discovery to stable, scalable business impact in global markets.
 
 ## Key Achievements
 
+- Shipped **Pitch Avatar — an AI presentation platform** (talking avatars, voice & multilingual dubbing)
+- Designed **AI-powered parsing & market intelligence systems**
+- Built **AI tools for GGR & conversion optimization** in iGaming
 - Built **R&D department from scratch (0 → full-cycle unit)**
 - Led **international remote teams (10+ engineers & analysts)**
-- Designed **AI-powered parsing & market intelligence systems**
 - Optimized **UTR / QR / PSP payment flows** in high-risk environments
-- Improved **conversion, stability and scalability** of payment infrastructure
 - Engineering background in **SpaceTech (Yuzhnoye Design Bureau)**
 
 ---
@@ -115,12 +115,35 @@ Entering new high-risk markets with limited visibility and high operational risk
 
 ## Projects
 
-- **[Pitch Avatar](https://pitch-avatar.vercel.app/)** — Enterprise AI Product (LLM analytics, Automated onboarding).
-- **[Telegram Analytics Dashboard](https://dashboardtelegram-analytics-qruo.vercel.app/)** — Data-driven analytics for Telegram gambling apps.
-- **[Astro Crash Robot](https://t.me/AstroCrashRobot_bot)** — Telegram Mini App / Game development.
-- **[SMART iGAMING](https://www.games-income.com/all-bonuses)** — iGaming portal & bonuses aggregation.
-- **[PBN CPA](https://www.luckybetvip.com/)** — Affiliate marketing and Private Blog Networks.
-- **[Personal Portfolio](https://github.com/yevhens-hue/shaforostov.pro)** — Open-source personal project.
+### Pitch Avatar
+**AI · LLM · Avatars**
+Enterprise AI presentation platform — talking avatars, voice and multilingual dubbing, LLM-driven analytics and automated B2B onboarding.
+- Link: https://pitch-avatar.vercel.app
+
+### AstroCrash
+**Telegram · Game · Bot**
+Real-time Telegram crash mini-game with multiplayer mechanics and bot-driven gameplay.
+- Link: https://t.me/AstroCrashRobot_bot
+
+### Telegram Analytics
+**Analytics · Data · Dashboard**
+Analytics dashboard for a Telegram gaming app — player funnels, retention and revenue metrics.
+- Link: https://dashboardtelegram-analytics-qruo.vercel.app
+
+### SMART iGaming
+**iGaming · Automation · Parsing**
+Bonus-aggregation platform with automated offer parsing across iGaming brands.
+- Link: https://www.games-income.com/all-bonuses
+
+### Lucky Bet VIP
+**iGaming · CPA · Growth**
+PBN / CPA acquisition project with SEO-driven funnels for high-intent iGaming traffic.
+- Link: https://www.luckybetvip.com
+
+### Open Source
+**GitHub · Experiments**
+AI tools, bots and product prototypes — public repositories.
+- Link: https://github.com/yevhens-hue?tab=repositories
 
 ---
 
@@ -210,7 +233,7 @@ AI Automation, LLMs, Parsing Systems, APIs, Integrations
 **Product:**  
 Product Discovery, Roadmaps, OKRs, Metrics, Funnels, Stakeholder Management  
 
-**Payments:**  
+**Payments:**
 UTR, QR, High-Risk Processing, Traffic Quality, Fraud Signals  
 
 ---

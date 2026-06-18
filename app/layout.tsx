@@ -11,8 +11,20 @@ export const metadata: Metadata = getSiteMetadata();
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className={`${inter.variable} ${spaceGrotesk.variable} font-sans`} data-theme="light">
+    <html lang="en" suppressHydrationWarning>
+      <body
+        className={`${inter.variable} ${spaceGrotesk.variable} font-sans`}
+        data-theme="light"
+        suppressHydrationWarning
+      >
+        {/* Pre-paint script: enables reveal animations only when JS is available
+            and restores the saved theme before first paint to avoid a flash. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "(function(){try{document.documentElement.classList.add('js');var t=localStorage.getItem('site-theme');if(t==='dark'||t==='light'){document.body.dataset.theme=t;}}catch(e){}})();"
+          }}
+        />
         {children}
         <Script
           strategy="afterInteractive"
