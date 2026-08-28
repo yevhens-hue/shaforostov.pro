@@ -34,3 +34,6 @@ npm run dev
 npm run build
 npx serve out
 ```
+
+
+<!-- activity-sync: 2026-08-28 -->
