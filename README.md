@@ -1,36 +1,36 @@
 # shaforostov.pro
 
-Одностраничный сайт‑резюме (RU/EN), готовый к деплою на Render.
+Одностраничный сайт‑резюме (Next.js), оптимизированный для мгновенной загрузки и деплоя на Render как **Static Site**.
+
+## Оптимизация
+
+Сайт настроен на **Static Site Generation (SSG)**. Это означает:
+1.  **0мс время запуска**: Сайт не «засыпает» и доступен мгновенно.
+2.  **CDN**: Контент отдается максимально быстро из ближайшей точки к пользователю.
+3.  **Бесплатно**: Static Sites на Render бесплатны и не требуют «пингеров» (UptimeRobot/Cron-job).
 
 ## Deploy на Render
 
-1. Создайте новый **Static Site** в Render и подключите репозиторий.
-2. Build Command: оставить пустым.
-3. Publish Directory: `.` (корень проекта).
-4. Render автоматически подхватит `render.yaml`.
+1.  Создайте новый **Static Site** в Render.
+2.  Подключите ваш GitHub репозиторий.
+3.  Render автоматически применит настройки из `render.yaml`:
+    - **Build Command**: `npm install && npm run build`
+    - **Publish Directory**: `out`
 
 ## Подключение домена
 
-1. В Render откройте **Settings → Custom Domains** и добавьте `shaforostov.pro` и `www.shaforostov.pro`.
-2. Render покажет нужные DNS записи:
-   - для `www` обычно **CNAME** на домен Render;
-   - для корневого домена обычно **A/ANAME** — используйте значения, которые покажет Render.
-3. Примените записи в DNS‑панели домена и дождитесь обновления (обычно до 24 часов).
-
-## Аналитика
-
-Для включения аналитики задайте в `index.html` атрибуты `data-analytics-url` и `data-analytics-id` у тега `<body>`.
-Пример для Umami:
-
-```
-data-analytics-url="https://analytics.example.com/script.js"
-data-analytics-id="YOUR-WEBSITE-ID"
-```
+1.  В Render откройте **Settings → Custom Domains** и добавьте `shaforostov.pro`.
+2.  Следуйте инструкциям Render для настройки DNS (A-запись и CNAME).
 
 ## Локальный запуск
 
-Откройте `index.html` в браузере или запустите простой статический сервер:
-
+Для разработки:
 ```bash
-python3 -m http.server 8080
+npm run dev
+```
+
+Для проверки финальной сборки:
+```bash
+npm run build
+npx serve out
 ```
