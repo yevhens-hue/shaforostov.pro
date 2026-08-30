@@ -113,7 +113,7 @@ export function PageClient({ contentEn }: PageClientProps) {
 
               <div className="flex flex-wrap items-center gap-4 pt-2">
                 <a
-                  href="https://slides.pitchavatar.com/dkmrf"
+                  href="https://shaforostov5.gumroad.com/l/njzfuo"
                   target="_blank"
                   rel="noreferrer"
                   className="px-8 py-4 rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-bold text-base shadow-xl shadow-cyan-500/25 flex items-center gap-3 transition-all hover:scale-[1.02]"
@@ -122,16 +122,16 @@ export function PageClient({ contentEn }: PageClientProps) {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                   </svg>
-                  <span>Live PitchAvatar Demo</span>
+                  <span>Claude Code & AI Agent Architecture Pack ↗</span>
                 </a>
                 <a
-                  href="https://github.com/yevhens-hue/claude-skills-starter-kit"
+                  href="https://github.com/yevhens-hue"
                   target="_blank"
                   rel="noreferrer"
                   className="px-8 py-4 rounded-2xl bg-slate-900/80 hover:bg-slate-800 border border-slate-700/80 hover:border-cyan-500 text-slate-200 font-semibold text-base transition-all flex items-center gap-2"
                 >
                   <span className="w-2 h-2 rounded-full bg-cyan-400"></span>
-                  Claude Skills Starter Kit ↗
+                  Explore GitHub Repositories ↗
                 </a>
               </div>
 
@@ -382,12 +382,12 @@ export function PageClient({ contentEn }: PageClientProps) {
               </p>
               <div className="flex flex-wrap items-center gap-3 pt-2">
                 <a
-                  href="https://slides.pitchavatar.com/dkmrf"
+                  href="https://shaforostov5.gumroad.com/l/njzfuo"
                   target="_blank"
                   rel="noreferrer"
                   className="px-3 py-1.5 rounded-lg bg-cyan-500/20 hover:bg-cyan-500/30 border border-cyan-500/40 text-xs text-cyan-300 font-mono flex items-center gap-1.5 transition-colors"
                 >
-                  <span>▶ Live Demo (slides.pitchavatar.com)</span>
+                  <span>GitHub Architecture (yevhens-hue) ↗</span>
                 </a>
                 <span className="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 text-xs text-slate-300 font-mono">WebRTC</span>
                 <span className="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 text-xs text-slate-300 font-mono">ElevenLabs</span>
@@ -535,7 +535,7 @@ export function PageClient({ contentEn }: PageClientProps) {
                 </div>
               </div>
               <ul className="space-y-3 text-sm text-slate-300">
-                <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-indigo-400 mt-2 shrink-0"></span><strong>Real-Time AI Streaming Avatars:</strong> Engineered interactive conversational video avatar pipelines with sub-second streaming, natural voice synthesis (ElevenLabs), and WebSockets (<a href="https://slides.pitchavatar.com/dkmrf" target="_blank" rel="noreferrer" className="text-cyan-400 hover:underline">Live Demo</a>).</li>
+                <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-indigo-400 mt-2 shrink-0"></span><strong>Real-Time AI Streaming Avatars:</strong> Engineered interactive conversational video avatar pipelines with sub-second streaming, natural voice synthesis (ElevenLabs), and WebSockets (<a href="https://shaforostov5.gumroad.com/l/njzfuo" target="_blank" rel="noreferrer" className="text-cyan-400 hover:underline">Live Demo</a>).</li>
                 <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-indigo-400 mt-2 shrink-0"></span><strong>Autonomous Lead Scoring Engine:</strong> Launched an LLM analytics engine processing 50+ real-time session parameters for qualification, boosting accuracy by 35% and saving 15+ hrs/week of sales ops time.</li>
                 <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-indigo-400 mt-2 shrink-0"></span><strong>Enterprise B2B Integrations:</strong> Built resilient two-way webhook sync with HubSpot, Salesforce, and Workday, accelerating lead conversion speed by 22%.</li>
                 <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-indigo-400 mt-2 shrink-0"></span><strong>Monetization & Seat Model:</strong> Architected seat-based B2B subscription tier (Listener Seats), driving a +28% increase in B2B ARPU within 4 months.</li>

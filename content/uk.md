@@ -49,7 +49,7 @@ Senior AI Systems Architect & Technical Product Lead із 8+ роками дос
 - **Microsoft Applied Skills:** Інтеграція інструментів MCP з Azure AI Agents (серпень 2026)
 - **Microsoft & GitHub Credential:** Розробка кодових функцій за допомогою GitHub Copilot (серпень 2026)
 - **AI Product Manager & Full-Stack AI Engineer в Adsy.com** — автономні мультиагентні системи та pgvector RAG
-- **AI Product Owner & Conversational Systems Engineer в PitchAvatar** — реалтайм відео-аватари із субсекундним стрімінгом ([Live Demo](https://slides.pitchavatar.com/dkmrf))
+- **AI Product Owner & Conversational Systems Engineer в PitchAvatar** — реалтайм відео-аватари із субсекундним стрімінгом ([GitHub Architecture](https://github.com/yevhens-hue/Pitch-Avatar))
 - **R&D Product Manager в Paycord** — автоматизовані системи оцінки для 300+ мерчантів та PSP (+16% конверсії)
 - **Автор відкритого репозиторію [Claude Skills Starter Kit](https://github.com/yevhens-hue/claude-skills-starter-kit)** на GitHub
 - **Інженерний бекграунд у SpaceTech** у КБ «Південне» (підсистеми навігації космічних апаратів МС-2-8, Січ-2-1)
@@ -66,7 +66,7 @@ Senior AI Systems Architect & Technical Product Lead із 8+ роками дос
 - Спроєктував стейтфул-пайплайни розмовних відеоаватарів із субсекундним стрімінгом, синтезом мови ElevenLabs та WebSockets
 - Запустив аналітичний LLM-рушій, що обробляє 50+ параметрів сесії для кваліфікації (+35% точності, економія 15+ год/тиждень)
 - Побудував надійну двосторонню вебхук-синхронізацію з HubSpot, Salesforce та Workday, прискоривши конверсію лідів на 22%
-- Спроєктував модель підписки на основі робочих місць (Listener Seats), що забезпечила +28% зростання B2B ARPU за 4 місяці ([Live Demo](https://slides.pitchavatar.com/dkmrf))
+- Спроєктував модель підписки на основі робочих місць (Listener Seats), що забезпечила +28% зростання B2B ARPU за 4 місяці ([GitHub Architecture](https://github.com/yevhens-hue/Pitch-Avatar))
 
 **Результат:**  
 Субсекундна затримка діалогу, 4-кратне зростання залученості та комерційний реліз для корпоративних клієнтів.
@@ -129,7 +129,7 @@ Senior AI Systems Architect & Technical Product Lead із 8+ роками дос
 - **Real-Time AI Streaming Avatars:** Спроєктував інтерактивні пайплайни відеоаватарів із субсекундним стрімінгом, синтезом мови (ElevenLabs) та WebSockets.
 - **Autonomous Lead Scoring Engine:** Запустив LLM-аналітику, яка обробляє 50+ параметрів сесії для кваліфікації (+35% точності, економія 15+ год/тиждень).
 - **Enterprise B2B Integrations:** Побудував надійну двосторонню вебхук-синхронізацію з HubSpot, Salesforce та Workday, прискоривши конверсію на 22%.
-- **Monetization & Seat Model:** Спроєктував модель підписки на робочі місця (Listener Seats), забезпечивши +28% зростання B2B ARPU за 4 місяці ([Live Demo](https://slides.pitchavatar.com/dkmrf)).
+- **Monetization & Seat Model:** Спроєктував модель підписки на робочі місця (Listener Seats), забезпечивши +28% зростання B2B ARPU за 4 місяці ([GitHub Architecture](https://github.com/yevhens-hue/Pitch-Avatar)).
 
 ### R&D Product Manager & Systems Architect
 **Paycord (Growe Group / Parimatch) | FinTech, iGaming & High-Load Payments · 03/2024 – 04/2026 | Варшава, Польща**  

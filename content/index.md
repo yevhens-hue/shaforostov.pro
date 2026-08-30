@@ -49,7 +49,7 @@ Senior AI Systems Architect & Technical Product Lead with 8+ years of experience
 - **Microsoft Applied Skills:** Integrate MCP Tools with Azure AI Agents (Aug 2026)
 - **Microsoft & GitHub Credential:** Develop Code Features using GitHub Copilot (Aug 2026)
 - **AI Product Manager & Full-Stack AI Engineer at Adsy.com** — architected autonomous multi-agent pipelines and pgvector RAG
-- **AI Product Owner & Conversational Systems Engineer at PitchAvatar** — engineered real-time conversational video avatars with sub-second streaming ([Live Demo](https://slides.pitchavatar.com/dkmrf))
+- **AI Product Owner & Conversational Systems Engineer at PitchAvatar** — engineered real-time conversational video avatars with sub-second streaming ([GitHub Architecture](https://github.com/yevhens-hue/Pitch-Avatar))
 - **R&D Product Manager at Paycord** — engineered automated evaluation engines for 300+ merchants and PSPs (+16% conversion)
 - **Author of open-source [Claude Skills Starter Kit](https://github.com/yevhens-hue/claude-skills-starter-kit)** on GitHub
 - **SpaceTech Engineering Background** at Design Bureau "Yuzhnoye" (MS-2-8, Sich-2-1 navigation subsystems)
@@ -66,7 +66,7 @@ Traditional video presentations are static and non-interactive, leading to high 
 - Engineered interactive conversational video avatar pipelines with sub-second streaming, ElevenLabs voice synthesis, and WebSockets
 - Built autonomous lead scoring engine processing 50+ real-time session parameters, boosting accuracy by 35% and saving 15+ hrs/week
 - Built resilient two-way webhook sync with HubSpot, Salesforce, and Workday, accelerating conversion speed by 22%
-- Architected seat-based B2B subscription tier (Listener Seats), driving a +28% increase in B2B ARPU within 4 months ([Live Demo](https://slides.pitchavatar.com/dkmrf))
+- Architected seat-based B2B subscription tier (Listener Seats), driving a +28% increase in B2B ARPU within 4 months ([GitHub Architecture](https://github.com/yevhens-hue/Pitch-Avatar))
 
 **Result:**  
 Sub-second conversational latency, 4x increase in audience engagement, and production deployment for enterprise customers.
@@ -129,7 +129,7 @@ Sub-second lead routing at 100k+ daily transaction scale with automated document
 - **Real-Time AI Streaming Avatars:** Engineered interactive conversational video avatar pipelines with sub-second streaming, natural voice synthesis (ElevenLabs), and WebSockets.
 - **Autonomous Lead Scoring Engine:** Launched an LLM analytics engine processing 50+ real-time session parameters for qualification, boosting accuracy by 35% and saving 15+ hrs/week of sales ops time.
 - **Enterprise B2B Integrations:** Built resilient two-way webhook sync with HubSpot, Salesforce, and Workday, accelerating lead conversion speed by 22%.
-- **Monetization & Seat Model:** Architected seat-based B2B subscription tier (Listener Seats), driving a +28% increase in B2B ARPU within 4 months ([Live Demo](https://slides.pitchavatar.com/dkmrf)).
+- **Monetization & Seat Model:** Architected seat-based B2B subscription tier (Listener Seats), driving a +28% increase in B2B ARPU within 4 months ([GitHub Architecture](https://github.com/yevhens-hue/Pitch-Avatar)).
 
 ### R&D Product Manager & Systems Architect
 **Paycord (Growe Group / Parimatch) | FinTech, iGaming & High-Load Payments · 03/2024 – 04/2026 | Warsaw, Poland**  
