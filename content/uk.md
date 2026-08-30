@@ -12,7 +12,8 @@ Senior AI Systems Architect & Technical Product Lead із 8+ роками дос
 - Локація: Вроцлав, Польща 🇵🇱  
 - Телефон: +48 452 885 004  
 - Email: shaforostov.e@gmail.com  
-- Telegram: [@erostov](https://t.me/erostov)  
+- Telegram: [@erostov](https://t.me/erostov)
+- Upwork: [Yevhen S. (Oracle Certified AI Engineer)](https://www.upwork.com/freelancers/yevhenshaforostov)  
 - LinkedIn: [linkedin.com/in/shaforostov](https://linkedin.com/in/shaforostov)  
 - GitHub: [github.com/yevhens-hue](https://github.com/yevhens-hue)  
 - Спонсорство: [github.com/sponsors/yevhens-hue](https://github.com/sponsors/yevhens-hue)  
@@ -195,7 +196,8 @@ Senior AI Systems Architect & Technical Product Lead із 8+ роками дос
 - Локація: Вроцлав, Польща 🇵🇱  
 - Телефон: +48 452 885 004  
 - Email: shaforostov.e@gmail.com  
-- Telegram: [@erostov](https://t.me/erostov)  
+- Telegram: [@erostov](https://t.me/erostov)
+- Upwork: [Yevhen S. (Oracle Certified AI Engineer)](https://www.upwork.com/freelancers/yevhenshaforostov)  
 - LinkedIn: [linkedin.com/in/shaforostov](https://linkedin.com/in/shaforostov)  
 - GitHub: [github.com/yevhens-hue](https://github.com/yevhens-hue)  
 - Спонсорство: [github.com/sponsors/yevhens-hue](https://github.com/sponsors/yevhens-hue)  

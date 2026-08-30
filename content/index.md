@@ -13,6 +13,7 @@ Senior AI Systems Architect & Technical Product Lead with 8+ years of experience
 - Phone: +48 452 885 004  
 - Email: shaforostov.e@gmail.com  
 - Telegram: [@erostov](https://t.me/erostov)  
+- Upwork: [Yevhen S. (Oracle Certified AI Engineer)](https://www.upwork.com/freelancers/yevhenshaforostov)  
 - LinkedIn: [linkedin.com/in/shaforostov](https://linkedin.com/in/shaforostov)  
 - GitHub: [github.com/yevhens-hue](https://github.com/yevhens-hue)  
 - Sponsors: [github.com/sponsors/yevhens-hue](https://github.com/sponsors/yevhens-hue)  
@@ -175,7 +176,7 @@ Master's Degree, Information Security & Computer Science | Faculty of Physics an
 
 ## Certificates
 
-- **Oracle Certified Associate:** Agentic AI Foundations (1Z0-1157-26, Aug 2026)
+- **[Oracle Certified Associate: Agentic AI Foundations](https://catalog-education.oracle.com/ords/certview/sharebadge?id=7CD56C73FBEB10FA1DA49A7ABD0A0D74CB799DBFE3DEE980AF0D8F2403859E2D)** (1Z0-1157-26, Aug 2026 | [Download eCertificate PDF](https://brm-certview.oracle.com/ords/certview/ecertificate?ssn=OC8112637&trackId=AAI26OFA&key=6b86c2675a3b052b00b105568630b3865432eee5))
 - **Microsoft Applied Skills:** Integrate MCP Tools with Azure AI Agents (Aug 2026)
 - **Microsoft & GitHub Credential:** Develop Code Features using GitHub Copilot (Aug 2026)
 - **[AI FOR BUSINESS](https://lms.robotdreams.cc/certificate/188ee5df311444524cb0f36e1c54129c)** — robotdreams.cc (2025) | **[Startup School](https://www.startupschool.org)** — Y Combinator (2021)
@@ -196,6 +197,7 @@ Autonomous AI Agents · Enterprise RAG & AI Search (GEO/AEO) · Real-Time Conver
 - Phone: +48 452 885 004  
 - Email: shaforostov.e@gmail.com  
 - Telegram: [@erostov](https://t.me/erostov)  
+- Upwork: [Yevhen S. (Oracle Certified AI Engineer)](https://www.upwork.com/freelancers/yevhenshaforostov)  
 - LinkedIn: [linkedin.com/in/shaforostov](https://linkedin.com/in/shaforostov)  
 - GitHub: [github.com/yevhens-hue](https://github.com/yevhens-hue)  
 - GitHub Sponsors: [github.com/sponsors/yevhens-hue](https://github.com/sponsors/yevhens-hue)  

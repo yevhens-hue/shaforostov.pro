@@ -67,10 +67,10 @@ export function PageClient({ contentEn }: PageClientProps) {
             <a href="#skills" className="hover:text-cyan-400 transition-colors">Skills & Stack</a>
           </nav>
           <div className="flex items-center gap-4">
-            <div className="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-xs text-emerald-400">
+            <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=7CD56C73FBEB10FA1DA49A7ABD0A0D74CB799DBFE3DEE980AF0D8F2403859E2D" target="_blank" rel="noreferrer" className="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/20 hover:border-emerald-500/40 text-xs text-emerald-400 transition-colors">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-              Oracle Certified (2026)
-            </div>
+              Oracle Certified (2026) ↗
+            </a>
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=shaforostov.e@gmail.com"
               target="_blank"
@@ -93,9 +93,7 @@ export function PageClient({ contentEn }: PageClientProps) {
             {/* Left Column */}
             <div className="lg:col-span-7 space-y-8">
               <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-slate-900/90 border border-slate-800 text-sm shadow-inner">
-                <span className="px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-400 font-bold text-xs uppercase tracking-wider font-mono">
-                  Oracle Certified
-                </span>
+                <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=7CD56C73FBEB10FA1DA49A7ABD0A0D74CB799DBFE3DEE980AF0D8F2403859E2D" target="_blank" rel="noreferrer" className="px-2 py-0.5 rounded bg-cyan-500/20 hover:bg-cyan-500/30 text-cyan-400 hover:text-cyan-300 font-bold text-xs uppercase tracking-wider font-mono transition-colors">Oracle Certified ↗</a>
                 <span className="text-slate-300">Agentic AI Foundations (2026) · AI PM @ Adsy.com</span>
               </div>
 
@@ -706,10 +704,10 @@ export function PageClient({ contentEn }: PageClientProps) {
               </div>
               <h3 className="text-lg font-bold text-white">Certifications</h3>
               <div className="flex flex-wrap gap-2">
+                <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=7CD56C73FBEB10FA1DA49A7ABD0A0D74CB799DBFE3DEE980AF0D8F2403859E2D" target="_blank" rel="noreferrer" className="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 hover:border-emerald-500 text-xs text-emerald-400 font-mono transition-colors">Oracle Agentic AI (2026) ↗</a>
                 <a href="https://lms.robotdreams.cc/certificate/188ee5df311444524cb0f36e1c54129c" target="_blank" rel="noreferrer" className="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 hover:border-cyan-500 text-xs text-cyan-400 font-mono transition-colors">AI for Business ↗</a>
                 <a href="https://gopractice.ru/course/pm/certificate/967c7e98-5b16-4954-948f-11efc00f093f" target="_blank" rel="noreferrer" className="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 hover:border-cyan-500 text-xs text-cyan-400 font-mono transition-colors">GoPractice PM ↗</a>
                 <a href="https://www.startupschool.org" target="_blank" rel="noreferrer" className="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 hover:border-indigo-500 text-xs text-indigo-400 font-mono transition-colors">YC Startup School ↗</a>
-                <span className="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 text-xs text-emerald-400 font-mono">Oracle Agentic AI (2026)</span>
                 <span className="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 text-xs text-purple-400 font-mono">MS MCP Azure Agent</span>
                 <span className="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 text-xs text-slate-300 font-mono">DNU Master's</span>
               </div>
@@ -732,7 +730,7 @@ export function PageClient({ contentEn }: PageClientProps) {
           <p className="text-slate-400 max-w-xl mx-auto text-base">
             Available for Senior AI Systems Architect, Technical Product Lead, and AI Agent consulting contracts.
           </p>
-          <div className="grid sm:grid-cols-4 gap-4 max-w-3xl mx-auto pt-4">
+          <div className="grid sm:grid-cols-5 gap-3 max-w-4xl mx-auto pt-4">
             {/* Email */}
             <a
               href="mailto:shaforostov.e@gmail.com"
@@ -775,6 +773,21 @@ export function PageClient({ contentEn }: PageClientProps) {
               </div>
               <span className="text-xs font-mono text-slate-400 uppercase">GitHub</span>
               <span className="text-xs font-bold text-white group-hover:text-indigo-400 transition-colors">yevhens-hue</span>
+            </a>
+                        {/* Upwork */}
+            <a
+              href="https://www.upwork.com/freelancers/yevhenshaforostov"
+              target="_blank"
+              rel="noreferrer"
+              className="p-5 rounded-2xl bg-slate-900 border border-slate-800 hover:border-emerald-500 transition-all flex flex-col items-center gap-2.5 group"
+            >
+              <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 group-hover:scale-110 transition-transform">
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076.008-.042c.207-1.143.849-3.06 2.839-3.06 1.492 0 2.703 1.212 2.703 2.703-.001 1.489-1.212 2.702-2.704 2.702zm0-8.14c-3.722 0-5.698 2.508-6.196 4.148-1.026-1.579-1.802-3.69-2.222-5.748H6.556v8.423c0 1.954-1.59 3.544-3.544 3.544S-.532 13.796-.532 11.842V3.418H-.533L-3.12 3.42v8.423c0 3.38 2.75 6.13 6.132 6.13 3.382 0 6.132-2.75 6.132-6.13V8.89c.35 1.482 1.01 3.267 2.012 4.757l-1.748 8.167h2.645l1.242-5.808c1.353 1.02 2.923 1.637 4.673 1.637 3.731 0 6.764-3.033 6.764-6.764 0-3.732-3.033-6.765-6.765-6.765z"/>
+                </svg>
+              </div>
+              <span className="text-xs font-mono text-slate-400 uppercase">Upwork</span>
+              <span className="text-xs font-bold text-white group-hover:text-emerald-400 transition-colors truncate max-w-full">Yevhen S.</span>
             </a>
             {/* LinkedIn */}
             <a
