@@ -277,7 +277,7 @@ export const getSiteMetadata = (locale: "en" | "uk" = "en"): Metadata => {
   const title = data.title ?? "Yevhen Shaforostov";
   const description =
     data.description ??
-    "Senior Product Manager / Head of Product building scalable FinTech & Payment products with AI automation.";
+    "Senior AI Systems Architect & Technical Product Lead with 8+ years of experience engineering production-grade autonomous agent fleets, enterprise RAG knowledge engines, and real-time conversational AI platforms. Oracle Certified (2026).";
 
   return {
     title,

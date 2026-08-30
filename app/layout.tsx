@@ -11,8 +11,8 @@ export const metadata: Metadata = getSiteMetadata();
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className={`${inter.variable} ${spaceGrotesk.variable} font-sans`} data-theme="light">
+    <html lang="en" className="scroll-smooth">
+      <body className={`${inter.variable} ${spaceGrotesk.variable} font-sans bg-slate-950 text-slate-100 antialiased`} data-theme="dark">
         {children}
         <Script
           strategy="afterInteractive"
