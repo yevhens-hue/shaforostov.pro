@@ -13,6 +13,7 @@ Senior AI Systems Architect & Technical Product Lead із 8+ роками дос
 - Телефон: +48 452 885 004  
 - Email: shaforostov.e@gmail.com  
 - Telegram: [@erostov](https://t.me/erostov)
+- Substack: [AI Agent Engineering Weekly](https://yevhenshaforostov.substack.com)
 - Upwork: [Yevhen S. (Oracle Certified AI Engineer)](https://www.upwork.com/freelancers/yevhenshaforostov)  
 - LinkedIn: [linkedin.com/in/shaforostov](https://linkedin.com/in/shaforostov)  
 - GitHub: [github.com/yevhens-hue](https://github.com/yevhens-hue)  
@@ -197,6 +198,7 @@ Senior AI Systems Architect & Technical Product Lead із 8+ роками дос
 - Телефон: +48 452 885 004  
 - Email: shaforostov.e@gmail.com  
 - Telegram: [@erostov](https://t.me/erostov)
+- Substack: [AI Agent Engineering Weekly](https://yevhenshaforostov.substack.com)
 - Upwork: [Yevhen S. (Oracle Certified AI Engineer)](https://www.upwork.com/freelancers/yevhenshaforostov)  
 - LinkedIn: [linkedin.com/in/shaforostov](https://linkedin.com/in/shaforostov)  
 - GitHub: [github.com/yevhens-hue](https://github.com/yevhens-hue)  

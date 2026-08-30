@@ -730,7 +730,7 @@ export function PageClient({ contentEn }: PageClientProps) {
           <p className="text-slate-400 max-w-xl mx-auto text-base">
             Available for Senior AI Systems Architect, Technical Product Lead, and AI Agent consulting contracts.
           </p>
-          <div className="grid sm:grid-cols-5 gap-3 max-w-4xl mx-auto pt-4">
+          <div className="grid sm:grid-cols-3 lg:grid-cols-6 gap-3 max-w-5xl mx-auto pt-4">
             {/* Email */}
             <a
               href="mailto:shaforostov.e@gmail.com"
@@ -743,6 +743,19 @@ export function PageClient({ contentEn }: PageClientProps) {
               </div>
               <span className="text-xs font-mono text-slate-400 uppercase">Email</span>
               <span className="text-xs font-bold text-white group-hover:text-cyan-400 transition-colors truncate max-w-full">shaforostov.e@gmail.com</span>
+            </a>
+                        {/* Substack */}
+            <a
+              href="https://yevhenshaforostov.substack.com"
+              target="_blank"
+              rel="noreferrer"
+              className="p-5 rounded-2xl bg-slate-900 border border-slate-800 hover:border-orange-500 transition-all flex flex-col items-center gap-2.5 group"
+            >
+              <div className="w-10 h-10 rounded-xl bg-orange-500/10 border border-orange-500/20 flex items-center justify-center text-orange-400 group-hover:scale-110 transition-transform font-bold font-mono text-sm">
+                ✉️
+              </div>
+              <span className="text-xs font-mono text-slate-400 uppercase">Substack</span>
+              <span className="text-xs font-bold text-white group-hover:text-orange-400 transition-colors truncate max-w-full">AI Weekly</span>
             </a>
             {/* Telegram */}
             <a
