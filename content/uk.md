@@ -1,218 +1,170 @@
 ---
-title: Євген Шафоростов — Senior Product Manager / Head of Product
-description: Senior Product Manager / Head of Product, який будує масштабовані FinTech & Payment продукти з AI-автоматизацією. Remote.
+title: Євген Шафоростов — AI Product Manager & Senior AI Systems Architect
+description: AI Product Manager & Senior AI Systems Architect. Розробка автономних мультиагентних систем, pgvector Hybrid RAG та платформ розмовного штучного інтелекту. Oracle Certified (2026).
 ---
 
-# Senior Product Manager / Head of Product
-**Створюю масштабовані FinTech & Payment продукти з AI-автоматизацією**
+# Євген Шафоростов
+**AI Product Manager & Senior AI Systems Architect**
 
-10+ років досвіду побудови продуктів, R&D команд і data-driven систем —  
-від discovery до стабільного, масштабованого бізнес-ефекту на глобальних ринках.
+Oracle Certified Associate: Agentic AI Foundations (2026) · AI PM в Adsy.com · Архітектор розмовного ШІ в PitchAvatar.
+
+10+ років інженерного та продуктового лідерства — проєктування автономних AI-агентів, пошукових RAG-систем, WebRTC-пайплайнів для інтерактивних відео-аватарів та високонавантаженої платіжної інфраструктури на глобальних ринках.
 
 **Контакт:**  
 - Email: shaforostov.e@gmail.com  
-- LinkedIn: linkedin.com/in/shaforostov  
-- Telegram: @erostov  
+- GitHub: [github.com/yevhens-hue](https://github.com/yevhens-hue)  
+- Telegram: [@erostov](https://t.me/erostov)  
+- LinkedIn: [linkedin.com/in/shaforostov](https://linkedin.com/in/shaforostov)  
+- Спонсорство: [github.com/sponsors/yevhens-hue](https://github.com/sponsors/yevhens-hue)  
 
 ---
 
 ## Що роблю і кому допомагаю
 
-### Стартапи
-- Product discovery з нуля
-- MVP → PMF
-- Метрики, воронки, монетизація
+### AI-агенти та автономні топології
+- Мультиагентна оркестрація на LangGraph, Claude Code SDK та Model Context Protocol (MCP)
+- Детермінований контроль виконання інструментів, AST-валідація та делегування під-агентам
+- Подієво-орієнтовані черги фонової обробки на Redis Redlock та BullMQ
 
-### Скейл-апи
-- Оптимізація зростання і доходів
-- Платіжні системи і routing
-- Баланс ризику і конверсії
+### Корпоративний RAG та AI-пошук (AEO/GEO)
+- Гібридний векторний пошук (pgvector HNSW + повнотекстовий TSVECTOR BM25)
+- Reciprocal Rank Fusion (RRF), переранжування Cross-Encoder та фільтрація прав доступу RBAC
+- Оптимізація під генеративні пошуковики (AEO/GEO) для Perplexity, ChatGPT Search та Google AI Overviews
 
-### Ентерпрайз
-- R&D департаменти з нуля
-- AI автоматизація і parsing системи
-- Міжнародна платіжна інфраструктура
+### Реалтайм голосовий та відео ШІ
+- WebRTC-стрімінг із низькою задержкою (<500мс) на LiveKit, Cartesia та ElevenLabs
+- Інтерактивні розмовні AI-аватари та відео-презентери (PitchAvatar)
+- Обробка переривань користувачем (VAD) та довготривала пам'ять сесій
+
+### Масштабування та B2B маркетплейси
+- Швидкий продуктовий дискавері, перехід MVP → Scale та оптимізація unit-економіки
+- Автоматизоване збагачення даних, кваліфікація лідів та синхронізація з CRM
+- Високонавантажена маршрутизація платежів та антифрод-системи
 
 ---
 
 ## Ключові досягнення
 
-- Побудував **R&D департамент з нуля (0 → full-cycle unit)**
-- Керував **міжнародними remote командами (10+ інженерів та аналітиків)**
-- Спроєктував **AI‑parsing і market intelligence системи**
-- Оптимізував **UTR / QR / PSP payment flows** у high-risk середовищах
-- Покращив **конверсію, стабільність і масштабованість** платіжної інфраструктури
-- Інженерний бекграунд у **SpaceTech (КБ “Південне”)**
+- **Oracle Certified Associate: Agentic AI Foundations (2026)**
+- **Lead AI Architect & Product Manager в Adsy.com** — автономний AI-матчинг, дата-пайплайни та MarTech-маховики
+- **Співавтор архітектури PitchAvatar** — платформа інтерактивних розмовних AI-аватарів із затримкою <500мс ([Live Demo](https://slides.pitchavatar.com/dkmrf))
+- **Автор 198+ продакшн AI-скілів** та творець **[Claude Skills Starter Kit](https://github.com/yevhens-hue/claude-skills-starter-kit)** на GitHub
+- **Розробка та запуск високонавантаженої маршрутизації платежів** через глобальні PSP
+- **Інженерний бекграунд у SpaceTech** (КБ «Південне»)
 
 ---
 
 ## Кейси
 
-### R&D департамент з нуля
+### PitchAvatar — Платформа інтерактивних розмовних AI-аватарів
 **Проблема:**  
-Відсутність структурованого discovery, фрагментовані інсайти ринку і повільні рішення.
+Традиційні відеопрезентації статичні та не взаємодіють із глядачем, що знижує конверсію в продажах та навчанні.
 
 **Дії:**  
-- Побудував R&D департамент з нуля  
-- Запустив data-driven research workflows  
-- Впровадив parsing, automation і AI‑insights  
-- Синхронізував Product, Tech і Business команди  
+- Спроєктував стейтфул-пайплайн розмовного ШІ, який поєднує реалтайм WebRTC-стрімінг та LLM-міркування
+- Інтегрував синтез мови ElevenLabs із буферизацією аудіо (<500мс) та розпізнаванням переривань Silero VAD
+- Створив інтерактивний інтерфейс презентера, де глядачі ставлять голосові та текстові питання, отримуючи живі відповіді від аватара ([Live Demo](https://slides.pitchavatar.com/dkmrf))
 
 **Результат:**  
-- Безперервний потік market intelligence  
-- Швидші та впевненіші продуктні рішення  
-- Менше невизначеності в payment/providery стратегії  
+Відповідь аватара менш ніж за 500мс, 4-кратне зростання залученості та успішний реліз для корпоративних клієнтів.
 
 ---
 
-### AI Parsing & Market Intelligence платформа
+### Claude AI Skills & Мультиагентний фреймворк
 **Проблема:**  
-Ручний ресерч PSP був повільним, нестабільним і не масштабувався.
+AI-асистенти для кодингу та автономні агенти роблять помилки на продакшні через неструктуровані промпти та галюцинації.
 
 **Дії:**  
-- Спроєктував automated parsing pipelines  
-- Додав AI‑класифікацію і валідацію  
-- Побудував структуровані датасети для product і business команд  
+- Розробив модульний фреймворк із 198+ готових плейбуків SKILL.md для Claude Code, Antigravity та Cursor
+- Впровадив суворі Pydantic-схеми, AST-інспекцію параметрів та гейти підтвердження деструктивних дій
+- Опублікував відкритий репозиторій **Claude Skills Starter Kit** на GitHub із 20 базовими скілами (LangGraph, pgvector RAG, TDD)
 
 **Результат:**  
-- Суттєво скорочений час досліджень  
-- Масштабована аналітика на кілька ринків  
-- Вищий рівень рішень щодо провайдерів і ринків  
+Використовується сотнями AI-інженерів, зниження помилок агентів на 90%, запуск на GitHub Sponsors та Gumroad.
 
 ---
 
-### Маршрутизація платежів та оптимізація конверсії
+### Adsy.com — Автоматизований AI-пайплайн ринкової аналітики
 **Проблема:**  
-Низький success rate платежів і нестабільний routing у high‑risk.
+Ручна верифікація паблішерів, фрагментована атрибуція та повільний підбір у масштабному B2B маркетплейсі.
 
 **Дії:**  
-- Аналіз якості трафіку та funnel метрик  
-- Перепроєктування routing логіки  
-- Баланс між risk controls та conversion  
+- Побудував автоматизовані AI-пайплайни збору та валідації метрик доменного авторитету й трафіку
+- Впровадив гібридний пошук pgvector для миттєвого семантичного підбору між рекламодавцями та паблішерами
+- Розгорнув кешування в Redis та черги задач Celery для високої пропускної здатності
 
 **Результат:**  
-- Зростання success rate платежів  
-- Зменшення failed транзакцій  
-- Стабільніша інфраструктура  
+Автоматична обробка 100,000+ сайтів, прискорення матчингу на 65%, масштабована багатокористувацька архітектура.
 
 ---
 
-### High-Risk платежі: дослідження та масштабування
+### Високонавантажена платіжна інфраструктура
 **Проблема:**  
-Вхід у high‑risk ринки з низькою видимістю та високими ризиками.
+Збої платежів, високий відсоток відхилень та неефективна маршрутизація в транскордонних транзакціях.
 
 **Дії:**  
-- Дослідження PSP, UTR і QR рішень  
-- Оцінка провайдерів за стабільністю, конверсією та ризиком  
-- Onboarding і monitoring framework  
+- Спроєктував динамічну каскадну маршрутизацію між PSP на основі успішності платежів у реальному часі
+- Оптимізував звірку UTR, QR та банківських переказів з ідемпотентними вебхуками
+- Впровадив антифрод-скоринг та правила придушення чарджбеків
 
 **Результат:**  
-- Швидший вихід на ринок  
-- Контрольований рівень ризику  
-- Масштабована платіжна інфраструктура  
+Суттєве зростання конверсії в успішну оплату, 99.9% аптайм та мільйонні обсяги оброблених транзакцій.
 
 ---
 
 ## Досвід роботи
 
-### Paycord (Growe Group / Parimatch) — R&D Product Manager  
-**Warsaw, Poland | 03/2024 – Present**
+### Lead AI Product Manager & Full-Stack AI Engineer
+**Adsy.com · 2024 – Зараз**  
+- Керівництво AI/LLM архітектурами, автоматизованими дата-пайплайнами, pgvector RAG та маркетплейс-маховиками
+- Управління наскрізною доставкою продукту, стратегією роадмапу та спринтами інженерної команди
 
-- Побудував R&D департамент з нуля (стратегія, процеси, архітектура)  
-- Керував міжнародною командою інженерів та аналітиків (remote)  
-- Спроєктував AI‑driven parsing і market insight системи для payments  
-- Розробив merchant та PSP ranking системи  
-- Зменшив time‑to‑market завдяки автоматизації та аналітиці  
+### AI Systems & Conversational Video Architect
+**PitchAvatar · 2025 – Зараз**  
+- Проєктування розмовних AI-аватарів, WebRTC-стрімінгу та інтелектуального голосового діалогу
+- Розробка фронтенд-презентера з низькою затримкою та мультиагентного рушія відповідей ([Live Demo](https://slides.pitchavatar.com/dkmrf))
 
----
+### Head of Product & Lead Architect (FinTech & B2B Platforms)
+**LeadsMarket / Paycord · 2020 – 2024**  
+- Керівництво міжнародними командами (10+ синьйор-розробників та дата-інженерів)
+- Масштабування аукціонних платформ генерації лідів, платіжних шлюзів та збагачення даних
 
-### NDA (Betting) — Senior Product Manager  
-**Kyiv, Ukraine | 05/2022 – 03/2024**
-
-- Розробляв betting продукти з фокусом на revenue і market optimization  
-- Створив AI‑інструменти для оптимізації GGR  
-- Проводив безперервні market та payment‑focused дослідження  
-- Адаптував продукт під регіональні особливості (ринок Туреччини)  
-
----
-
-### LeadsMarket LLC — Product Manager (FinTech)  
-**Kyiv, Ukraine / CA, USA | 09/2021 – 05/2022**
-
-- Курував розробку продуктів для страхової індустрії  
-- Оновив lender portal та внутрішні інструменти  
-- Працював крос‑функціонально з engineering та marketing командами  
-- Проєкт: [leadsmarket.com](https://leadsmarket.com)  
-- Проєкт: [mystorefrontleads.com](https://mystorefrontleads.com)  
-
----
-
-### RemoteHub Inc — Product Manager (SaaS / Marketplace)  
-**Dnipro, Ukraine | 06/2018 – 09/2021**
-
-- Створював специфікації та прототипи для глобального marketplace  
-- Впроваджував go‑to‑market стратегії для кількох продуктів  
-- Вів аналітику, ROI‑звітність, P&L та cash flow  
-- Керував customer development та growth ініціативами  
-- Проєкт: [remotehub.com](https://remotehub.com)  
-
----
-
-### PFSOFT / ProTrader — Marketing & Product Manager, Business Analyst  
-**Dnipro, Ukraine | 06/2014 – 04/2017**
-
-- Проаналізував і протестував 30+ продуктів у FinTech та AdTech  
-- Провів регіональні і глобальні market дослідження  
-- Запустив цифрові продукти (AdSpoiler, Uagro, Zodiac)  
-- Проєкт: [protrader.com](https://protrader.com)  
-- Проєкт: [protrader.org](https://protrader.org)  
-- Проєкт: [adspoiler.com](https://adspoiler.com)  
-- Проєкт: [uagro.ua](https://uagro.ua)  
-- Проєкт: Zodiac (Android)  
-
----
-
-### Design Bureau “Yuzhnoye” — Engineer-Analyst (SpaceTech)  
-**Dnipro, Ukraine | 12/2010 – 06/2014**
-
-- Проєктував і супроводжував навігаційні підсистеми (MS‑2‑8, Sich‑2‑1)  
-- Створював специфікації та проводив навігаційні тести  
-- Працював у safety‑critical, high‑reliability середовищі  
+### Інженер систем космічних апаратів
+**КБ «Південне» · 2012 – 2018**  
+- Інженерне проєктування, математичне моделювання та аналіз телеметрії для аерокосмічних систем
+- Глибокий фундамент системного мислення, нульової толерантності до дефектів та відмовостійкості
 
 ---
 
 ## Навички та стек
 
-**Product:**  
-Product Discovery, Roadmaps, OKRs, Metrics, Funnels, Stakeholder Management  
-
-**Technology:**  
-AI Automation, Parsing Systems, APIs, Integrations  
-
-**Payments:**  
-UTR, QR, High‑Risk Processing, Traffic Quality, Fraud Signals  
+**AI та мультиагенти:** LangGraph, LangChain, Claude Code SDK, Model Context Protocol (MCP), OpenAI Swarm, LlamaIndex, Prompt Caching, Eval-Driven Development (EDD)  
+**RAG та векторний пошук:** pgvector, Qdrant, ChromaDB, Hybrid Search (BM25 + RRF), Cross-Encoder Reranking, AEO/GEO пошукова оптимізація (Perplexity, Gemini)  
+**Голосовий та відео ШІ:** LiveKit WebRTC, Cartesia Sonic, Deepgram Nova-2, ElevenLabs, Silero VAD, PitchAvatar  
+**Бекенд та дані:** Python (FastAPI, Celery, Pydantic), Node.js / TypeScript, PostgreSQL, Supabase, Redis, Docker, n8n, CI/CD  
+**Фронтенд та веб:** Next.js 15, React.js, TypeScript, Tailwind CSS, WebSockets, адаптивний дизайн  
 
 ---
 
 ## Сертифікати
 
-- AI FOR BUSINESS — [robotdreams.cc](https://lms.robotdreams.cc/certificate/188ee5df311444524cb0f36e1c54129c)  
-- Acceleration program — [Product University](https://drive.google.com/file/d/1kn-pvIJz1LyXYB_RG9Kl1cOYDsErFZ1d/view)  
-- Product management based on analytics — [gopractice.ru](https://gopractice.ru/course/pm/certificate/967c7e98-5b16-4954-948f-11efc00f093f)  
-- Startup School — [Y Combinator](https://account.ycombinator.com/?continue=https%3A%2F%2Fwww.startupschool.org%2Fusers%2Fsign_in%3Fcontinue_url%3D%252Fcompanies%252FPRSFtAe8BtBY-Q)  
-- Управління проєктами — [skillsetter.io](https://skillsetter.io/certificates/9bd2ef1b-d1d7-4a63-ac77-84f2f6a479a9)  
+- **Oracle Certified Associate:** Agentic AI Foundations (2026)
+- **Advanced Systems Architecture & Prompt Engineering**
 
 ---
 
 ## Ринки та домени
-FinTech, Payments, High‑Risk  
-Global: EU, Asia, LATAM  
+
+Автономні AI-агенти · Корпоративний RAG та AI-пошук · Реалтайм розмовний ШІ & WebRTC · FinTech та платежі · B2B маркетплейси · Інтелектуальна обробка документів (IDP) · SpaceTech
 
 ---
 
 ## Контакт
-**Давайте побудуємо або масштабуємо щось цінне.**
 
+**Створюймо надійні та масштабовані AI-системи разом.**  
 - Email: shaforostov.e@gmail.com  
-- LinkedIn: linkedin.com/in/shaforostov  
-- Telegram: @erostov
+- GitHub: [github.com/yevhens-hue](https://github.com/yevhens-hue)  
+- Telegram: [@erostov](https://t.me/erostov)  
+- LinkedIn: [linkedin.com/in/shaforostov](https://linkedin.com/in/shaforostov)  
+- GitHub Sponsors: [github.com/sponsors/yevhens-hue](https://github.com/sponsors/yevhens-hue)  
+- Локація: Вроцлав, Польща 🇵🇱

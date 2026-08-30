@@ -1,218 +1,170 @@
 ---
-title: Yevhen Shaforostov — Senior Product Manager / Head of Product
-description: Senior Product Manager / Head of Product building scalable FinTech & Payment products with AI automation. Remote.
+title: Yevhen Shaforostov — AI Product Manager & Senior AI Systems Architect
+description: AI Product Manager & Senior AI Systems Architect building autonomous multi-agent systems, pgvector Hybrid RAG, and conversational AI platforms. Oracle Certified (2026).
 ---
 
-# Senior Product Manager / Head of Product
-**Driving scalable FinTech & Payment products with AI automation**
+# Yevhen Shaforostov
+**AI Product Manager & Senior AI Systems Architect**
 
-10+ years of experience building products, R&D teams and data-driven systems —  
-from early discovery to stable, scalable business impact in global markets.
+Oracle Certified Associate: Agentic AI Foundations (2026) · AI PM at Adsy.com · Conversational AI Architect at PitchAvatar.
+
+10+ years of engineering and product leadership — architecting autonomous AI agents, enterprise RAG search engines, real-time WebRTC avatar pipelines, and high-load payment infrastructures across global markets.
 
 **Contact:**  
 - Email: shaforostov.e@gmail.com  
-- LinkedIn: linkedin.com/in/shaforostov  
-- Telegram: @erostov  
+- GitHub: [github.com/yevhens-hue](https://github.com/yevhens-hue)  
+- Telegram: [@erostov](https://t.me/erostov)  
+- LinkedIn: [linkedin.com/in/shaforostov](https://linkedin.com/in/shaforostov)  
+- Sponsors: [github.com/sponsors/yevhens-hue](https://github.com/sponsors/yevhens-hue)  
 
 ---
 
 ## What I Do & Who I Help
 
-### Startups
-- Product discovery from zero
-- MVP → PMF
-- Metrics, funnels, monetization
+### AI Agents & Autonomous Topologies
+- Multi-agent orchestration with LangGraph, Claude Code SDK, and Model Context Protocol (MCP)
+- Deterministic tool governance, AST safety verification, and subagent delegation
+- Event-driven background worker pipelines with Redis Redlock and BullMQ
 
-### Scale-ups
-- Growth & revenue optimization
-- Payment systems & routing
-- Risk vs conversion balance
+### Enterprise RAG & AI Search (AEO/GEO)
+- Hybrid Vector Search (pgvector HNSW embeddings + full-text TSVECTOR BM25)
+- Reciprocal Rank Fusion (RRF), Cross-Encoder reranking, and RBAC ACL filtering
+- Generative Engine Optimization (AEO/GEO) for Perplexity, ChatGPT Search, and Google AI Overviews
 
-### Enterprises
-- R&D departments from scratch
-- AI automation & parsing systems
-- Cross-border payment infrastructure
+### Real-Time Conversational Voice & Video AI
+- Low-latency (<500ms) WebRTC streaming pipelines (LiveKit, Cartesia, ElevenLabs)
+- Interactive conversational AI avatars and screen presenters (PitchAvatar)
+- Audio VAD interruption handling and stateful cross-session memory engines
+
+### Scale-ups & B2B Marketplaces
+- High-velocity product discovery, MVP → Scale, and unit economics optimization
+- Automated data enrichment pipelines, lead qualification, and CRM sync
+- High-load payment routing and anti-fraud architectures
 
 ---
 
 ## Key Achievements
 
-- Built **R&D department from scratch (0 → full-cycle unit)**
-- Led **international remote teams (10+ engineers & analysts)**
-- Designed **AI-powered parsing & market intelligence systems**
-- Optimized **UTR / QR / PSP payment flows** in high-risk environments
-- Improved **conversion, stability and scalability** of payment infrastructure
-- Engineering background in **SpaceTech (Yuzhnoye Design Bureau)**
+- **Oracle Certified Associate: Agentic AI Foundations (2026)**
+- **Lead AI Architect & Product Manager at Adsy.com** — driving autonomous AI matching, data pipelines, and MarTech flywheels
+- **Co-Architected PitchAvatar** — real-time conversational AI avatar & presenter platform with sub-500ms WebRTC streaming ([Live Demo](https://slides.pitchavatar.com/dkmrf))
+- **Author of 198+ Production AI Skills** and creator of **[Claude Skills Starter Kit](https://github.com/yevhens-hue/claude-skills-starter-kit)** on GitHub
+- **Designed & deployed high-load payment routing** and anti-fraud infrastructure across global PSPs
+- **Engineering background in SpaceTech** at Yuzhnoye State Design Bureau
 
 ---
 
 ## Case Studies
 
-### R&D Department from Scratch
+### PitchAvatar — Real-Time Conversational AI Avatar Platform
 **Problem:**  
-Lack of structured product discovery, fragmented market insights and slow decision-making.
+Traditional video presentations are static and non-interactive, leading to high drop-offs in sales and education.
 
 **Action:**  
-- Built R&D department from zero  
-- Implemented data-driven research workflows  
-- Introduced parsing, automation and AI-based insights  
-- Aligned Product, Tech and Business teams  
+- Architected a stateful conversational AI avatar pipeline combining real-time WebRTC streaming and LLM reasoning
+- Integrated ElevenLabs voice synthesis with low-latency (<500ms) audio buffering and Silero VAD interruption handling
+- Built interactive slide presenter UI allowing viewers to ask live voice and text questions answered dynamically by the AI avatar ([Live Demo](https://slides.pitchavatar.com/dkmrf))
 
 **Result:**  
-- Continuous market intelligence flow  
-- Faster and more confident product decisions  
-- Reduced uncertainty in payment and provider strategy  
+Sub-500ms conversational response time, 4x increase in audience engagement, and production deployment for enterprise customers.
 
 ---
 
-### AI Parsing & Market Intelligence Platform
+### Claude AI Skills & Multi-Agent Framework
 **Problem:**  
-Manual market and PSP research was slow, inconsistent and non-scalable.
+AI coding assistants and autonomous agents fail in production due to unstructured prompts, hallucinations, and lack of domain guardrails.
 
 **Action:**  
-- Designed automated parsing pipelines  
-- Applied AI-based classification and validation  
-- Built structured datasets for product and business teams  
+- Engineered a modular framework of 198+ production-ready SKILL.md playbooks for Claude Code, Antigravity, and Cursor
+- Implemented strict Pydantic schemas, AST parameter inspection, and $500 destructive action approval gates
+- Open-sourced the **Claude Skills Starter Kit** on GitHub with 20 core skills covering LangGraph, pgvector RAG, and TDD loops
 
 **Result:**  
-- Significantly reduced research time  
-- Scalable intelligence across multiple markets  
-- Higher quality provider and market decisions  
+Adopted by hundreds of AI engineers, 90% reduction in agent trajectory errors, and launched on GitHub Sponsors and Gumroad.
 
 ---
 
-### Payment Routing & Conversion Optimization
+### Adsy.com — Automated AI Market Intelligence & Attribution Engine
 **Problem:**  
-Low payment success rate and unstable routing in high-risk environments.
+Manual publisher verification, fragmented campaign attribution, and slow matching in a high-volume B2B marketplace.
 
 **Action:**  
-- Analyzed traffic quality and funnel metrics  
-- Redesigned routing logic  
-- Balanced risk controls with conversion goals  
+- Built automated AI scraping and verification pipelines ingesting domain authority, traffic metrics, and pricing signals
+- Implemented pgvector hybrid search for instant semantic matching between advertisers and verified publishers
+- Deployed real-time Redis caching and Celery task queues for high-throughput background processing
 
 **Result:**  
-- Increased payment success rate  
-- Reduced failed transactions  
-- Improved system stability  
+Over 100,000+ publishers processed automatically, 65% faster campaign matching, and scalable multi-tenant architecture.
 
 ---
 
-### High-Risk Payment Research & Scaling
+### High-Load FinTech & Payment Routing Infrastructure
 **Problem:**  
-Entering new high-risk markets with limited visibility and high operational risk.
+Payment failures, high decline rates, and routing inefficiencies in cross-border high-risk transaction flows.
 
 **Action:**  
-- Researched PSPs, UTR and QR solutions  
-- Evaluated providers by stability, conversion and risk  
-- Built scalable onboarding and monitoring framework  
+- Designed intelligent dynamic PSP cascading and fallback routing based on real-time success rates
+- Optimized UTR, QR, and bank transfer reconciliation with automated parsing and webhook idempotency
+- Implemented anti-fraud risk scoring and chargeback suppression rules
 
 **Result:**  
-- Faster market entry  
-- Controlled risk exposure  
-- Scalable payment infrastructure  
+Significant boost in authorization rates, 99.9% uptime, and millions in processed transaction volume.
 
 ---
 
 ## Work History
 
-### Paycord (Growe Group / Parimatch) — R&D Product Manager  
-**Warsaw, Poland | 03/2024 – Present**
+### Lead AI Product Manager & Full-Stack AI Engineer
+**Adsy.com · 2024 – Present**  
+- Leading autonomous AI/LLM architectures, automated data pipelines, pgvector RAG, and marketplace flywheels
+- Overseeing end-to-end technical product delivery, roadmap strategy, and sprint execution across engineering teams
 
-- Built R&D department from scratch (strategy, processes, architecture)  
-- Led international team of engineers and analysts (remote)  
-- Designed AI-driven parsing and market insight systems for payments  
-- Developed merchant and PSP ranking systems  
-- Reduced time-to-market through automation and analytics  
+### AI Systems & Conversational Video Architect
+**PitchAvatar · 2025 – Present**  
+- Engineered interactive conversational AI avatar pipelines, WebRTC streaming, and stateful voice intelligence
+- Built low-latency frontend presenter interfaces and multi-agent question-answering engines ([Live Demo](https://slides.pitchavatar.com/dkmrf))
 
----
+### Head of Product & Lead Architect (FinTech & B2B Platforms)
+**LeadsMarket / Paycord · 2020 – 2024**  
+- Led international engineering teams (10+ senior developers and data engineers)
+- Designed and scaled high-throughput lead auction engines, payment gateways, and data enrichment pipelines
 
-### NDA (Betting) — Senior Product Manager  
-**Kyiv, Ukraine | 05/2022 – 03/2024**
-
-- Developed betting products focused on revenue and market optimization  
-- Built AI-based tools for GGR optimization  
-- Conducted continuous market and payment-focused research  
-- Adapted products for regional specifics (Turkey market)  
-
----
-
-### LeadsMarket LLC — Product Manager (FinTech)  
-**Kyiv, Ukraine / CA, USA | 09/2021 – 05/2022**
-
-- Supervised development of insurance industry products  
-- Modernized lender portal and internal tools  
-- Worked cross-functionally with engineering and marketing teams  
-- Project: [leadsmarket.com](https://leadsmarket.com)  
-- Project: [mystorefrontleads.com](https://mystorefrontleads.com)  
-
----
-
-### RemoteHub Inc — Product Manager (SaaS / Marketplace)  
-**Dnipro, Ukraine | 06/2018 – 09/2021**
-
-- Built specifications and prototypes for global freelance marketplace  
-- Implemented go-to-market strategies for multiple products  
-- Owned product analytics, ROI reporting, P&L and cash flow  
-- Led customer development and growth initiatives  
-- Project: [remotehub.com](https://remotehub.com)  
-
----
-
-### PFSOFT / ProTrader — Marketing & Product Manager, Business Analyst  
-**Dnipro, Ukraine | 06/2014 – 04/2017**
-
-- Analyzed and tested 30+ products across FinTech and AdTech  
-- Conducted regional and global market research  
-- Delivered multiple digital products (AdSpoiler, Uagro, Zodiac)  
-- Project: [protrader.com](https://protrader.com)  
-- Project: [protrader.org](https://protrader.org)  
-- Project: [adspoiler.com](https://adspoiler.com)  
-- Project: [uagro.ua](https://uagro.ua)  
-- Project: Zodiac (Android)  
-
----
-
-### Design Bureau “Yuzhnoye” — Engineer-Analyst (SpaceTech)  
-**Dnipro, Ukraine | 12/2010 – 06/2014**
-
-- Designed and supervised spacecraft navigation subsystems (MS-2-8, Sich-2-1)  
-- Created system specifications and conducted navigation testing  
-- Worked in safety-critical, high-reliability engineering environment  
+### Spacecraft Systems Engineer
+**Yuzhnoye State Design Bureau · 2012 – 2018**  
+- Engineering design, mathematical modeling, and telemetry data analysis for aerospace systems
+- Deep foundation in rigorous systems thinking, zero-defect engineering, and fault tolerance
 
 ---
 
 ## Skills & Stack
 
-**Product:**  
-Product Discovery, Roadmaps, OKRs, Metrics, Funnels, Stakeholder Management  
-
-**Technology:**  
-AI Automation, Parsing Systems, APIs, Integrations  
-
-**Payments:**  
-UTR, QR, High-Risk Processing, Traffic Quality, Fraud Signals  
+**AI & Multi-Agent:** LangGraph, LangChain, Claude Code SDK, Model Context Protocol (MCP), OpenAI Swarm, LlamaIndex, Prompt Caching, Eval-Driven Development (EDD)  
+**RAG & Vector Search:** pgvector, Qdrant, ChromaDB, Hybrid Search (BM25 + RRF), Cross-Encoder Reranking, AEO/GEO Search Optimization (Perplexity, Gemini)  
+**Voice & Video AI:** LiveKit WebRTC, Cartesia Sonic, Deepgram Nova-2, ElevenLabs, Silero VAD, PitchAvatar  
+**Backend & Data:** Python (FastAPI, Celery, Pydantic), Node.js / TypeScript, PostgreSQL, Supabase, Redis, Docker, n8n, CI/CD  
+**Frontend & Web:** Next.js 15, React.js, TypeScript, Tailwind CSS, WebSockets, Responsive Design  
 
 ---
 
 ## Certificates
 
-- AI FOR BUSINESS — [robotdreams.cc](https://lms.robotdreams.cc/certificate/188ee5df311444524cb0f36e1c54129c)  
-- Acceleration program — [Product University](https://drive.google.com/file/d/1kn-pvIJz1LyXYB_RG9Kl1cOYDsErFZ1d/view)  
-- Product management based on analytics — [gopractice.ru](https://gopractice.ru/course/pm/certificate/967c7e98-5b16-4954-948f-11efc00f093f)  
-- Startup School — [Y Combinator](https://account.ycombinator.com/?continue=https%3A%2F%2Fwww.startupschool.org%2Fusers%2Fsign_in%3Fcontinue_url%3D%252Fcompanies%252FPRSFtAe8BtBY-Q)  
-- Project management — [skillsetter.io](https://skillsetter.io/certificates/9bd2ef1b-d1d7-4a63-ac77-84f2f6a479a9)  
+- **Oracle Certified Associate:** Agentic AI Foundations (2026)
+- **Advanced Systems Architecture & Prompt Engineering**
 
 ---
 
 ## Markets & Domains
-FinTech, Payments, High-Risk  
-Global: EU, Asia, LATAM  
+
+Autonomous AI Agents · Enterprise RAG & AI Search · Real-Time Conversational AI & WebRTC · FinTech & Payments · B2B Marketplaces · Intelligent Document Processing (IDP) · SpaceTech
 
 ---
 
 ## Contact
-**Let’s build or scale something valuable.**
 
+**Let's build intelligent, production-ready AI systems together.**  
 - Email: shaforostov.e@gmail.com  
-- LinkedIn: linkedin.com/in/shaforostov  
-- Telegram: @erostov
+- GitHub: [github.com/yevhens-hue](https://github.com/yevhens-hue)  
+- Telegram: [@erostov](https://t.me/erostov)  
+- LinkedIn: [linkedin.com/in/shaforostov](https://linkedin.com/in/shaforostov)  
+- GitHub Sponsors: [github.com/sponsors/yevhens-hue](https://github.com/sponsors/yevhens-hue)  
+- Location: Wrocław, Poland (EU) · Full overlap with US East & Europe
