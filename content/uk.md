@@ -178,8 +178,8 @@ Senior AI Systems Architect & Technical Product Lead із 8+ роками дос
 - **Oracle Certified Associate:** Agentic AI Foundations (1Z0-1157-26, серпень 2026)
 - **Microsoft Applied Skills:** Інтеграція інструментів MCP з Azure AI Agents (серпень 2026)
 - **Microsoft & GitHub Credential:** Розробка кодових функцій за допомогою GitHub Copilot (серпень 2026)
-- **AI FOR BUSINESS** — robotdreams.cc (2025) | **Startup School** — Y Combinator (2021)
-- **Product Management Based on Analytics** — GoPractice Simulator | **Project Management** — Skillsetter.io
+- **[AI FOR BUSINESS](https://lms.robotdreams.cc/certificate/188ee5df311444524cb0f36e1c54129c)** — robotdreams.cc (2025) | **[Startup School](https://www.startupschool.org)** — Y Combinator (2021)
+- **[Product Management Based on Analytics](https://gopractice.ru/course/pm/certificate/967c7e98-5b16-4954-948f-11efc00f093f)** — GoPractice Simulator | **[Project Management](https://skillsetter.io)** — Skillsetter.io
 
 ---
 

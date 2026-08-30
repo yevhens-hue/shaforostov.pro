@@ -706,10 +706,12 @@ export function PageClient({ contentEn }: PageClientProps) {
               </div>
               <h3 className="text-lg font-bold text-white">Certifications</h3>
               <div className="flex flex-wrap gap-2">
-                <span className="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 text-xs text-cyan-400 font-mono">Oracle Agentic AI (2026)</span>
-                <span className="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 text-xs text-indigo-400 font-mono">Microsoft MCP Azure</span>
-                <span className="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 text-xs text-emerald-400 font-mono">GitHub Copilot Cert</span>
-                <span className="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 text-xs text-slate-300 font-mono">DNU Master's (Physics)</span>
+                <a href="https://lms.robotdreams.cc/certificate/188ee5df311444524cb0f36e1c54129c" target="_blank" rel="noreferrer" className="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 hover:border-cyan-500 text-xs text-cyan-400 font-mono transition-colors">AI for Business ↗</a>
+                <a href="https://gopractice.ru/course/pm/certificate/967c7e98-5b16-4954-948f-11efc00f093f" target="_blank" rel="noreferrer" className="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 hover:border-cyan-500 text-xs text-cyan-400 font-mono transition-colors">GoPractice PM ↗</a>
+                <a href="https://www.startupschool.org" target="_blank" rel="noreferrer" className="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 hover:border-indigo-500 text-xs text-indigo-400 font-mono transition-colors">YC Startup School ↗</a>
+                <span className="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 text-xs text-emerald-400 font-mono">Oracle Agentic AI (2026)</span>
+                <span className="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 text-xs text-purple-400 font-mono">MS MCP Azure Agent</span>
+                <span className="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 text-xs text-slate-300 font-mono">DNU Master's</span>
               </div>
             </div>
           </div>
