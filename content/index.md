@@ -1,20 +1,20 @@
 ---
-title: Yevhen Shaforostov — AI Product Manager & Senior AI Systems Architect
-description: AI Product Manager & Senior AI Systems Architect building autonomous multi-agent systems, pgvector Hybrid RAG, and conversational AI platforms. Oracle Certified (2026).
+title: Yevhen Shaforostov — Senior AI Agent Architect & Full-Stack AI Engineer | AI Product Lead
+description: Senior AI Systems Architect & Technical Product Lead with 8+ years of experience engineering production-grade autonomous agent fleets, enterprise RAG knowledge engines, and high-load SaaS/FinTech backends.
 ---
 
 # Yevhen Shaforostov
-**AI Product Manager & Senior AI Systems Architect**
+**Senior AI Agent Architect & Full-Stack AI Engineer | AI Product Lead**
 
-Oracle Certified Associate: Agentic AI Foundations (2026) · AI PM at Adsy.com · Conversational AI Architect at PitchAvatar.
-
-10+ years of engineering and product leadership — architecting autonomous AI agents, enterprise RAG search engines, real-time WebRTC avatar pipelines, and high-load payment infrastructures across global markets.
+Senior AI Systems Architect & Technical Product Lead with 8+ years of experience engineering production-grade autonomous agent fleets, enterprise RAG knowledge engines, and high-load SaaS/FinTech backends. Deep hands-on mastery of LangGraph, Model Context Protocol (MCP), Claude API/SDK, OpenAI Agents SDK, pgvector hybrid search, and stateful 3-tier memory persistence. Combines industrial software architecture (TypeScript, Python, FastAPI, Docker) with data-driven product leadership (GoPractice, Unit Economics, ARPU scaling). Author of the modular Claude Agent Architecture and Oracle Certified in Agentic AI Foundations.
 
 **Contact:**  
+- Location: Wrocław, Poland 🇵🇱  
+- Phone: +48 452 885 004  
 - Email: shaforostov.e@gmail.com  
-- GitHub: [github.com/yevhens-hue](https://github.com/yevhens-hue)  
 - Telegram: [@erostov](https://t.me/erostov)  
 - LinkedIn: [linkedin.com/in/shaforostov](https://linkedin.com/in/shaforostov)  
+- GitHub: [github.com/yevhens-hue](https://github.com/yevhens-hue)  
 - Sponsors: [github.com/sponsors/yevhens-hue](https://github.com/sponsors/yevhens-hue)  
 
 ---
@@ -22,149 +22,180 @@ Oracle Certified Associate: Agentic AI Foundations (2026) · AI PM at Adsy.com �
 ## What I Do & Who I Help
 
 ### AI Agents & Autonomous Topologies
-- Multi-agent orchestration with LangGraph, Claude Code SDK, and Model Context Protocol (MCP)
-- Deterministic tool governance, AST safety verification, and subagent delegation
-- Event-driven background worker pipelines with Redis Redlock and BullMQ
+- Multi-agent orchestration with LangGraph, Claude Code SDK, and Model Context Protocol (MCP Servers & Clients)
+- Deterministic tool governance, AST threat scanning, and Human-in-the-Loop (HITL) approval gates
+- Subagent delegation patterns and event-driven background pipelines (Redis Redlock, Streams, BullMQ)
 
-### Enterprise RAG & AI Search (AEO/GEO)
-- Hybrid Vector Search (pgvector HNSW embeddings + full-text TSVECTOR BM25)
-- Reciprocal Rank Fusion (RRF), Cross-Encoder reranking, and RBAC ACL filtering
-- Generative Engine Optimization (AEO/GEO) for Perplexity, ChatGPT Search, and Google AI Overviews
+### Enterprise RAG & Vector Architectures (GEO/AEO)
+- In-database Hybrid Search (pgvector HNSW Indexing + BM25 Lexical + Reciprocal Rank Fusion RRF)
+- Cross-Encoder Re-ranking, Context Caching, and Document OCR Vision (Claude 3.5 Sonnet / Azure)
+- Generative Engine Optimization (GEO/AEO) for Perplexity, ChatGPT Search, and Google AI Overviews
 
 ### Real-Time Conversational Voice & Video AI
-- Low-latency (<500ms) WebRTC streaming pipelines (LiveKit, Cartesia, ElevenLabs)
-- Interactive conversational AI avatars and screen presenters (PitchAvatar)
-- Audio VAD interruption handling and stateful cross-session memory engines
+- Interactive conversational AI video avatar pipelines with sub-second streaming (PitchAvatar)
+- Natural voice synthesis (ElevenLabs), WebSockets, Silero VAD, and stateful cross-session memory
+- Autonomous real-time session qualification and lead scoring engines
 
-### Scale-ups & B2B Marketplaces
-- High-velocity product discovery, MVP → Scale, and unit economics optimization
-- Automated data enrichment pipelines, lead qualification, and CRM sync
-- High-load payment routing and anti-fraud architectures
+### High-Load SaaS, FinTech & B2B Marketplaces
+- High-velocity product discovery, MVP → PMF, and data-driven unit economics optimization (GoPractice)
+- High-throughput lead auction ping-post engines (100k+ daily transactions) and payment routing (300+ PSPs)
+- Automated scraping, captcha bypass, and competitive intelligence systems
 
 ---
 
 ## Key Achievements
 
-- **Oracle Certified Associate: Agentic AI Foundations (2026)**
-- **Lead AI Architect & Product Manager at Adsy.com** — driving autonomous AI matching, data pipelines, and MarTech flywheels
-- **Co-Architected PitchAvatar** — real-time conversational AI avatar & presenter platform with sub-500ms WebRTC streaming ([Live Demo](https://slides.pitchavatar.com/dkmrf))
-- **Author of 198+ Production AI Skills** and creator of **[Claude Skills Starter Kit](https://github.com/yevhens-hue/claude-skills-starter-kit)** on GitHub
-- **Designed & deployed high-load payment routing** and anti-fraud infrastructure across global PSPs
-- **Engineering background in SpaceTech** at Yuzhnoye State Design Bureau
+- **Oracle Certified Associate: Agentic AI Foundations** (1Z0-1157-26, Aug 2026)
+- **Microsoft Applied Skills:** Integrate MCP Tools with Azure AI Agents (Aug 2026)
+- **Microsoft & GitHub Credential:** Develop Code Features using GitHub Copilot (Aug 2026)
+- **AI Product Manager & Full-Stack AI Engineer at Adsy.com** — architected autonomous multi-agent pipelines and pgvector RAG
+- **AI Product Owner & Conversational Systems Engineer at PitchAvatar** — engineered real-time conversational video avatars with sub-second streaming ([Live Demo](https://slides.pitchavatar.com/dkmrf))
+- **R&D Product Manager at Paycord** — engineered automated evaluation engines for 300+ merchants and PSPs (+16% conversion)
+- **Author of open-source [Claude Skills Starter Kit](https://github.com/yevhens-hue/claude-skills-starter-kit)** on GitHub
+- **SpaceTech Engineering Background** at Design Bureau "Yuzhnoye" (MS-2-8, Sich-2-1 navigation subsystems)
 
 ---
 
 ## Case Studies
 
-### PitchAvatar — Real-Time Conversational AI Avatar Platform
+### PitchAvatar — Real-Time Conversational AI Video Avatar Pipeline
 **Problem:**  
 Traditional video presentations are static and non-interactive, leading to high drop-offs in sales and education.
 
 **Action:**  
-- Architected a stateful conversational AI avatar pipeline combining real-time WebRTC streaming and LLM reasoning
-- Integrated ElevenLabs voice synthesis with low-latency (<500ms) audio buffering and Silero VAD interruption handling
-- Built interactive slide presenter UI allowing viewers to ask live voice and text questions answered dynamically by the AI avatar ([Live Demo](https://slides.pitchavatar.com/dkmrf))
+- Engineered interactive conversational video avatar pipelines with sub-second streaming, ElevenLabs voice synthesis, and WebSockets
+- Built autonomous lead scoring engine processing 50+ real-time session parameters, boosting accuracy by 35% and saving 15+ hrs/week
+- Built resilient two-way webhook sync with HubSpot, Salesforce, and Workday, accelerating conversion speed by 22%
+- Architected seat-based B2B subscription tier (Listener Seats), driving a +28% increase in B2B ARPU within 4 months ([Live Demo](https://slides.pitchavatar.com/dkmrf))
 
 **Result:**  
-Sub-500ms conversational response time, 4x increase in audience engagement, and production deployment for enterprise customers.
+Sub-second conversational latency, 4x increase in audience engagement, and production deployment for enterprise customers.
 
 ---
 
-### Claude AI Skills & Multi-Agent Framework
+### Adsy.com — Production Multi-Agent Systems & Enterprise Hybrid RAG
 **Problem:**  
-AI coding assistants and autonomous agents fail in production due to unstructured prompts, hallucinations, and lack of domain guardrails.
+Context window decay, high inference latency, and manual publisher verification in a high-load B2B MarTech marketplace.
 
 **Action:**  
-- Engineered a modular framework of 198+ production-ready SKILL.md playbooks for Claude Code, Antigravity, and Cursor
-- Implemented strict Pydantic schemas, AST parameter inspection, and $500 destructive action approval gates
-- Open-sourced the **Claude Skills Starter Kit** on GitHub with 20 core skills covering LangGraph, pgvector RAG, and TDD loops
-
-**Result:**  
-Adopted by hundreds of AI engineers, 90% reduction in agent trajectory errors, and launched on GitHub Sponsors and Gumroad.
-
----
-
-### Adsy.com — Automated AI Market Intelligence & Attribution Engine
-**Problem:**  
-Manual publisher verification, fragmented campaign attribution, and slow matching in a high-volume B2B marketplace.
-
-**Action:**  
-- Built automated AI scraping and verification pipelines ingesting domain authority, traffic metrics, and pricing signals
-- Implemented pgvector hybrid search for instant semantic matching between advertisers and verified publishers
-- Deployed real-time Redis caching and Celery task queues for high-throughput background processing
+- Architected autonomous agent pipelines with state persistence (Redis/PostgreSQL) and deterministic tool calling, eliminating hallucinations and reducing manual verification by 65%
+- Engineered a Just-in-Time (JIT) modular architecture for Claude Code & local agents, solving context window decay
+- Implemented in-database RAG using pgvector (HNSW) + BM25 full-text search with Reciprocal Rank Fusion (RRF), cutting search latency by 45% with sub-1% retrieval errors
+- Deployed programmatic entity knowledge graphs (JSON-LD Schema.org) and content engines optimized for Perplexity, ChatGPT Search, and Google AI Overviews
 
 **Result:**  
 Over 100,000+ publishers processed automatically, 65% faster campaign matching, and scalable multi-tenant architecture.
 
 ---
 
-### High-Load FinTech & Payment Routing Infrastructure
+### Paycord (Growe Group / Parimatch) — Automated Scoring & Market Intelligence
 **Problem:**  
-Payment failures, high decline rates, and routing inefficiencies in cross-border high-risk transaction flows.
+Payment friction, high checkout drop-offs, and fragmented competitive intelligence across global payment markets.
 
 **Action:**  
-- Designed intelligent dynamic PSP cascading and fallback routing based on real-time success rates
-- Optimized UTR, QR, and bank transfer reconciliation with automated parsing and webhook idempotency
-- Implemented anti-fraud risk scoring and chargeback suppression rules
+- Engineered automated evaluation systems for 300+ merchants and PSPs, boosting checkout conversion by 16% and cutting payment friction
+- Built real-time resilient web parsers and competitive monitoring pipelines with automated captcha handling and proxy rotation, accelerating strategic response by 50%
+- Led 12+ engineers and data scientists, slashing hypothesis validation cycles from 3 weeks to 4 days
 
 **Result:**  
-Significant boost in authorization rates, 99.9% uptime, and millions in processed transaction volume.
++16% checkout conversion uplift and millions in high-throughput transaction volume.
+
+---
+
+### LeadsMarket.com — Real-Time Auction Ping-Post & Document IDP
+**Problem:**  
+High-throughput lead qualification latency and slow manual document validation.
+
+**Action:**  
+- Managed high-throughput real-time auction and ping-post lead qualification engines handling 100k+ daily transactions
+- Deployed automated OCR vision pipelines extracting structured financial data with human-in-the-loop (HITL) review queues
+
+**Result:**  
+Sub-second lead routing at 100k+ daily transaction scale with automated document verification.
 
 ---
 
 ## Work History
 
-### Lead AI Product Manager & Full-Stack AI Engineer
-**Adsy.com · 2024 – Present**  
-- Leading autonomous AI/LLM architectures, automated data pipelines, pgvector RAG, and marketplace flywheels
-- Overseeing end-to-end technical product delivery, roadmap strategy, and sprint execution across engineering teams
+### AI Product Manager & Full-Stack AI Engineer
+**Adsy.com (High-Load B2B MarTech & Content Platform) · 2026 – Present | Wrocław, Poland**  
+- **Production Multi-Agent Systems:** Architected autonomous agent pipelines with state persistence (Redis/PostgreSQL) and deterministic tool calling, eliminating hallucinations and reducing manual verification by 65%.
+- **Modular Agent Skill Architecture:** Engineered a Just-in-Time (JIT) 84-skill modular architecture for Claude Code & local agents, solving context window decay and optimizing inference latency.
+- **Enterprise Hybrid Search (RAG):** Implemented in-database RAG using pgvector (HNSW) + BM25 full-text search with Reciprocal Rank Fusion (RRF), cutting search latency by 45% with sub-1% retrieval errors.
+- **Generative Engine Optimization (GEO/AEO):** Deployed programmatic entity knowledge graphs (JSON-LD Schema.org) and content engines optimized for Perplexity, ChatGPT Search, and Google AI Overviews.
 
-### AI Systems & Conversational Video Architect
-**PitchAvatar · 2025 – Present**  
-- Engineered interactive conversational AI avatar pipelines, WebRTC streaming, and stateful voice intelligence
-- Built low-latency frontend presenter interfaces and multi-agent question-answering engines ([Live Demo](https://slides.pitchavatar.com/dkmrf))
+### AI Product Owner & Conversational Systems Engineer
+**Pitch Avatar Inc, Austria (Conversational AI & Interactive Lead Generation) · 04/2026 – Present | Wrocław, Poland**  
+- **Real-Time AI Streaming Avatars:** Engineered interactive conversational video avatar pipelines with sub-second streaming, natural voice synthesis (ElevenLabs), and WebSockets.
+- **Autonomous Lead Scoring Engine:** Launched an LLM analytics engine processing 50+ real-time session parameters for qualification, boosting accuracy by 35% and saving 15+ hrs/week of sales ops time.
+- **Enterprise B2B Integrations:** Built resilient two-way webhook sync with HubSpot, Salesforce, and Workday, accelerating lead conversion speed by 22%.
+- **Monetization & Seat Model:** Architected seat-based B2B subscription tier (Listener Seats), driving a +28% increase in B2B ARPU within 4 months ([Live Demo](https://slides.pitchavatar.com/dkmrf)).
 
-### Head of Product & Lead Architect (FinTech & B2B Platforms)
-**LeadsMarket / Paycord · 2020 – 2024**  
-- Led international engineering teams (10+ senior developers and data engineers)
-- Designed and scaled high-throughput lead auction engines, payment gateways, and data enrichment pipelines
+### R&D Product Manager & Systems Architect
+**Paycord (Growe Group / Parimatch) | FinTech, iGaming & High-Load Payments · 03/2024 – 04/2026 | Warsaw, Poland**  
+- **Automated Scoring & Ranking Engine:** Engineered automated evaluation systems for 300+ merchants and PSPs, boosting checkout conversion by 16% and cutting payment friction.
+- **Automated Scraping & Market Intelligence:** Built real-time resilient web parsers and competitive monitoring pipelines with automated captcha handling and proxy rotation, accelerating strategic response by 50%.
+- **Cross-Functional R&D Leadership:** Led 12+ engineers and data scientists, slashing hypothesis validation cycles from 3 weeks to 4 days.
 
-### Spacecraft Systems Engineer
-**Yuzhnoye State Design Bureau · 2012 – 2018**  
-- Engineering design, mathematical modeling, and telemetry data analysis for aerospace systems
-- Deep foundation in rigorous systems thinking, zero-defect engineering, and fault tolerance
+### Senior Product Manager
+**NDA | High-Load iGaming & Betting · 05/2022 – 03/2024 | Kyiv, Ukraine**  
+- **Revenue & GGR Optimization:** Deployed AI-powered optimization tools for Gross Gaming Revenue, achieving a +14% uplift in ARPU.
+- **User Growth & CustDev:** Conducted deep Customer Development across international payment segments, translating feedback into features that increased 30-day retention by 18%.
+
+### Product Manager
+**LeadsMarket.com LLC, CA, USA | FinTech, Lead Auctions & Document IDP · 09/2021 – 05/2022 | Kyiv, Ukraine**  
+- **Real-Time Auction & Ping-Post Engine:** Managed high-throughput lead qualification systems handling 100k+ daily transactions.
+- **Document OCR Parsing:** Deployed automated OCR vision pipelines extracting structured financial data with human-in-the-loop review queues.
+
+### Product Manager
+**RemoteHub Inc | Global SaaS & Two-Sided Marketplace · 06/2018 – 09/2021 | New York, USA / Remote**  
+- **Scaled Two-Sided Marketplace Acquisition:** Reduced Customer Acquisition Cost (CAC) by 45% and scaled Monthly Active Users (MAU) by +120%.
+
+### Engineer-Analyst
+**Design Bureau "Yuzhnoye" (Rocket-Space Branch) | SpaceTech & Telemetry · 12/2010 – 06/2014 | Dnipro, Ukraine**  
+- **Spacecraft Navigation Subsystems:** Architected and tested spacecraft navigation subsystems (MS-2-8, Sich-2-1), maintaining 99.9% telemetry compliance and system accuracy.
 
 ---
 
 ## Skills & Stack
 
-**AI & Multi-Agent:** LangGraph, LangChain, Claude Code SDK, Model Context Protocol (MCP), OpenAI Swarm, LlamaIndex, Prompt Caching, Eval-Driven Development (EDD)  
-**RAG & Vector Search:** pgvector, Qdrant, ChromaDB, Hybrid Search (BM25 + RRF), Cross-Encoder Reranking, AEO/GEO Search Optimization (Perplexity, Gemini)  
-**Voice & Video AI:** LiveKit WebRTC, Cartesia Sonic, Deepgram Nova-2, ElevenLabs, Silero VAD, PitchAvatar  
-**Backend & Data:** Python (FastAPI, Celery, Pydantic), Node.js / TypeScript, PostgreSQL, Supabase, Redis, Docker, n8n, CI/CD  
-**Frontend & Web:** Next.js 15, React.js, TypeScript, Tailwind CSS, WebSockets, Responsive Design  
+**AI Agents & Multi-Agent Systems:** LangGraph, LangChain, Model Context Protocol (MCP Servers & Clients), Claude API / Anthropic SDK, OpenAI Agents SDK, CrewAI, Subagent Delegation Patterns, Tool-Calling Guardrails, AST Threat Scanning, HITL Approval Gates  
+**RAG & Vector Architectures:** pgvector (HNSW Indexing), Qdrant, ChromaDB, Hybrid Search (Dense Vectors + BM25 Lexical + Reciprocal Rank Fusion RRF), Cross-Encoder Re-ranking, Context Caching, Document OCR Vision (Claude 3.5 Sonnet / Azure)  
+**Full-Stack & Data Engineering:** TypeScript/Node.js, Python (FastAPI, Celery, PyMuPDF, Playwright Stealth), Redis (Redlock, Streams), PostgreSQL (JSONB, RLS), Docker, WebSockets, CI/CD, Telegram Mini Apps (TMA/TON)  
+**Product & AI Governance:** Token Cost Forensics (-60% via Hybrid Local/Cloud Routing), Eval-Driven Development (EDD, LLM-as-a-Judge), Product Roadmaps, RICE Prioritization, A/B Testing  
+
+---
+
+## Education
+
+**Oles Honchar Dnipro National University (DNU) · 2004 – 2010**  
+Master's Degree, Information Security & Computer Science | Faculty of Physics and Technology
 
 ---
 
 ## Certificates
 
-- **Oracle Certified Associate:** Agentic AI Foundations (2026)
-- **Advanced Systems Architecture & Prompt Engineering**
+- **Oracle Certified Associate:** Agentic AI Foundations (1Z0-1157-26, Aug 2026)
+- **Microsoft Applied Skills:** Integrate MCP Tools with Azure AI Agents (Aug 2026)
+- **Microsoft & GitHub Credential:** Develop Code Features using GitHub Copilot (Aug 2026)
+- **AI FOR BUSINESS** — robotdreams.cc (2025) | **Startup School** — Y Combinator (2021)
+- **Product Management Based on Analytics** — GoPractice Simulator | **Project Management** — Skillsetter.io
 
 ---
 
 ## Markets & Domains
 
-Autonomous AI Agents · Enterprise RAG & AI Search · Real-Time Conversational AI & WebRTC · FinTech & Payments · B2B Marketplaces · Intelligent Document Processing (IDP) · SpaceTech
+Autonomous AI Agents · Enterprise RAG & AI Search (GEO/AEO) · Real-Time Conversational AI & WebRTC · FinTech & Payments · High-Load B2B Marketplaces · Intelligent Document Processing (IDP) · SpaceTech
 
 ---
 
 ## Contact
 
-**Let's build intelligent, production-ready AI systems together.**  
+**Let's build intelligent, production-grade AI systems together.**  
+- Location: Wrocław, Poland 🇵🇱  
+- Phone: +48 452 885 004  
 - Email: shaforostov.e@gmail.com  
-- GitHub: [github.com/yevhens-hue](https://github.com/yevhens-hue)  
 - Telegram: [@erostov](https://t.me/erostov)  
 - LinkedIn: [linkedin.com/in/shaforostov](https://linkedin.com/in/shaforostov)  
+- GitHub: [github.com/yevhens-hue](https://github.com/yevhens-hue)  
 - GitHub Sponsors: [github.com/sponsors/yevhens-hue](https://github.com/sponsors/yevhens-hue)  
-- Location: Wrocław, Poland (EU) · Full overlap with US East & Europe
