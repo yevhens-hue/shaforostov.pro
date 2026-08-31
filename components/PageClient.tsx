@@ -51,7 +51,7 @@ export function PageClient({ contentEn }: PageClientProps) {
                 Yevhen Shaforostov
               </span>
               <span className="block text-xs text-cyan-400 font-medium tracking-wide">
-                Senior AI Systems Architect & Product Lead
+                AI Product Manager & Senior Agent Architect
               </span>
             </div>
           </a>
@@ -98,15 +98,15 @@ export function PageClient({ contentEn }: PageClientProps) {
               </div>
 
               <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.08]">
-                Architecting<br />
+                Bridging Business & Engineering<br />
                 <span className="bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400 bg-clip-text text-transparent">
-                  Autonomous AI Agents
+                  AI Product Management
                 </span><br />
-                & Enterprise Hybrid RAG
+                & Autonomous Agent Systems
               </h1>
 
               <p className="text-lg sm:text-xl text-slate-400 max-w-2xl leading-relaxed">
-                Senior AI Systems Architect & Technical Product Lead with 8+ years engineering production agent fleets, pgvector knowledge engines, real-time WebRTC conversational avatars, and high-load MarTech/FinTech platforms.
+                AI Product Manager & Senior Systems Architect with 8+ years scaling high-load MarTech/FinTech platforms, engineering autonomous agent fleets, and driving product vision from MVP to PMF.
               </p>
 
               <div className="flex flex-wrap items-center gap-4 pt-2">

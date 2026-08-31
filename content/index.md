@@ -1,12 +1,12 @@
 ---
-title: Yevhen Shaforostov — Senior AI Agent Architect & Full-Stack AI Engineer | AI Product Lead
-description: Senior AI Systems Architect & Technical Product Lead with 8+ years of experience engineering production-grade autonomous agent fleets, enterprise RAG knowledge engines, and high-load SaaS/FinTech backends.
+title: Yevhen Shaforostov — AI Product Manager & Senior Agent Architect
+description: AI Product Manager & Senior Systems Architect with 8+ years of experience building autonomous agent fleets, enterprise RAG knowledge engines, and high-load SaaS/FinTech platforms.
 ---
 
 # Yevhen Shaforostov
-**Senior AI Agent Architect & Full-Stack AI Engineer | AI Product Lead**
+**AI Product Manager & Senior Agent Architect**
 
-Senior AI Systems Architect & Technical Product Lead with 8+ years of experience engineering production-grade autonomous agent fleets, enterprise RAG knowledge engines, and high-load SaaS/FinTech backends. Deep hands-on mastery of LangGraph, Model Context Protocol (MCP), Claude API/SDK, OpenAI Agents SDK, pgvector hybrid search, and stateful 3-tier memory persistence. Combines industrial software architecture (TypeScript, Python, FastAPI, Docker) with data-driven product leadership (GoPractice, Unit Economics, ARPU scaling). Author of the modular Claude Agent Architecture and Oracle Certified in Agentic AI Foundations.
+AI Product Manager & Senior Systems Architect with 8+ years of experience bridging product vision with engineering execution to build production-grade autonomous agent fleets, enterprise RAG knowledge engines, and high-load SaaS/FinTech platforms. Combines data-driven product leadership (GoPractice, Unit Economics, MVP→PMF scaling) with deep hands-on mastery of LangGraph, Model Context Protocol (MCP), and LLM orchestration. Proven track record of turning complex AI capabilities into high-ROI user experiences and scalable B2B products. Oracle Certified in Agentic AI Foundations.
 
 **Contact:**  
 - Location: Wrocław, Poland 🇵🇱  

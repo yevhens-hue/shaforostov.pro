@@ -1,12 +1,12 @@
 ---
-title: Євген Шафоростов — Senior AI Agent Architect & Full-Stack AI Engineer | AI Product Lead
-description: Senior AI Systems Architect & Technical Product Lead із 8+ роками досвіду інженерії автономних мультиагентних систем, enterprise RAG та високонавантажених SaaS/FinTech бекендів.
+title: Євген Шафоростов — AI Product Manager & Senior Agent Architect
+description: AI Product Manager & Senior Systems Architect із 8+ роками досвіду створення автономних мультиагентних систем, enterprise RAG та високонавантажених SaaS/FinTech платформ.
 ---
 
 # Євген Шафоростов
-**Senior AI Agent Architect & Full-Stack AI Engineer | AI Product Lead**
+**AI Product Manager & Senior Agent Architect**
 
-Senior AI Systems Architect & Technical Product Lead із 8+ роками досвіду інженерії автономних мультиагентних флотів, корпоративних пошукових RAG-рушіїв та високонавантажених SaaS/FinTech бекендів. Глибоке практичне володіння LangGraph, Model Context Protocol (MCP), Claude API/SDK, OpenAI Agents SDK, pgvector гібридним пошуком та стейтфул 3-рівневою пам'яттю. Поєднує промислову архітектуру ПЗ (TypeScript, Python, FastAPI, Docker) із продуктовим лідерством на основі даних (GoPractice, Unit Economics, масштабування ARPU). Автор модульної архітектури Claude Agent Architecture та Oracle Certified in Agentic AI Foundations.
+AI Product Manager & Senior Systems Architect із 8+ роками досвіду поєднання продуктового бачення та інженерної експертизи для створення автономних мультиагентних флотів, корпоративних пошукових RAG-рушіїв та високонавантажених SaaS/FinTech платформ. Поєднує продуктове лідерство на основі даних (GoPractice, Unit Economics, масштабування від MVP до PMF) із глибоким практичним володінням LangGraph, Model Context Protocol (MCP) та оркестрацією LLM. Має підтверджений досвід перетворення складних ШІ-технологій на масштабовані B2B-продукти з високим ROI. Oracle Certified in Agentic AI Foundations.
 
 **Контакт:**  
 - Локація: Вроцлав, Польща 🇵🇱  
