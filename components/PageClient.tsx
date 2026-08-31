@@ -262,41 +262,53 @@ export function PageClient({ contentEn }: PageClientProps) {
             <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">What I Do & Who I Help</h2>
             <p className="text-slate-400">Architecting production-grade AI systems, multi-agent workflows, and scalable B2B platforms.</p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            {/* Multi-Agent Topologies */}
-            <div className="group p-8 rounded-3xl bg-slate-900/80 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 transition-all shadow-xl relative overflow-hidden">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* AI Product Leadership */}
+            <div className="group p-7 rounded-3xl bg-slate-900/80 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 transition-all shadow-xl relative overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-500/5 rounded-full blur-2xl group-hover:bg-cyan-500/10 transition-all"></div>
-              <div className="w-14 h-14 rounded-2xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 mb-6 font-bold text-xl font-mono">01</div>
-              <h3 className="text-2xl font-bold mb-3 text-white">AI Agents & Multi-Agent Topologies</h3>
-              <p className="text-slate-400 text-sm leading-relaxed mb-6">Orchestrating autonomous agents with deterministic state, AST threat scanning, and MCP tool execution.</p>
-              <ul className="space-y-3 text-sm text-slate-300">
-                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>LangGraph & Claude Code SDK</li>
-                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>Model Context Protocol (MCP)</li>
-                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>HITL Approval Gates & Redlock queues</li>
+              <div className="w-12 h-12 rounded-2xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 mb-5 font-bold text-lg font-mono">01</div>
+              <h3 className="text-xl font-bold mb-2.5 text-white">AI Product Management & 0→1 Scale</h3>
+              <p className="text-slate-400 text-xs leading-relaxed mb-5">Validating hypotheses, driving MVP→PMF discovery, and optimizing AI unit economics & token margins.</p>
+              <ul className="space-y-2.5 text-xs text-slate-300">
+                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>GoPractice & Unit Economics</li>
+                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>CustDev & Feature Prioritization</li>
+                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>AI COGS & Token Margin Control</li>
+              </ul>
+            </div>
+            {/* Multi-Agent Topologies */}
+            <div className="group p-7 rounded-3xl bg-slate-900/80 hover:bg-slate-900 border border-slate-800 hover:border-indigo-500/50 transition-all shadow-xl relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-500/5 rounded-full blur-2xl group-hover:bg-indigo-500/10 transition-all"></div>
+              <div className="w-12 h-12 rounded-2xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-400 mb-5 font-bold text-lg font-mono">02</div>
+              <h3 className="text-xl font-bold mb-2.5 text-white">Autonomous Agent Swarms</h3>
+              <p className="text-slate-400 text-xs leading-relaxed mb-5">Orchestrating autonomous agents with deterministic state, AST threat scanning, and MCP tool execution.</p>
+              <ul className="space-y-2.5 text-xs text-slate-300">
+                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-indigo-400"></span>LangGraph & Claude Code SDK</li>
+                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-indigo-400"></span>Model Context Protocol (MCP)</li>
+                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-indigo-400"></span>HITL Approval Gates & Redlock</li>
               </ul>
             </div>
             {/* Enterprise RAG & AI Search */}
-            <div className="group p-8 rounded-3xl bg-slate-900/80 hover:bg-slate-900 border border-slate-800 hover:border-indigo-500/50 transition-all shadow-xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-500/5 rounded-full blur-2xl group-hover:bg-indigo-500/10 transition-all"></div>
-              <div className="w-14 h-14 rounded-2xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-400 mb-6 font-bold text-xl font-mono">02</div>
-              <h3 className="text-2xl font-bold mb-3 text-white">Enterprise Hybrid RAG & GEO/AEO</h3>
-              <p className="text-slate-400 text-sm leading-relaxed mb-6">In-database hybrid vector retrieval and Generative Engine Optimization for AI search overviews.</p>
-              <ul className="space-y-3 text-sm text-slate-300">
-                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-indigo-400"></span>pgvector (HNSW) + BM25 Lexical + RRF</li>
-                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-indigo-400"></span>Cross-Encoder Re-ranking & Prompt Caching</li>
-                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-indigo-400"></span>AEO/GEO (Perplexity, Gemini, ChatGPT)</li>
+            <div className="group p-7 rounded-3xl bg-slate-900/80 hover:bg-slate-900 border border-slate-800 hover:border-emerald-500/50 transition-all shadow-xl relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/5 rounded-full blur-2xl group-hover:bg-emerald-500/10 transition-all"></div>
+              <div className="w-12 h-12 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 mb-5 font-bold text-lg font-mono">03</div>
+              <h3 className="text-xl font-bold mb-2.5 text-white">Enterprise Hybrid RAG & GEO</h3>
+              <p className="text-slate-400 text-xs leading-relaxed mb-5">In-database hybrid vector retrieval and Generative Engine Optimization for AI search overviews.</p>
+              <ul className="space-y-2.5 text-xs text-slate-300">
+                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>pgvector (HNSW) + BM25 + RRF</li>
+                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>Cross-Encoder Re-ranking & Caching</li>
+                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>AEO/GEO (Perplexity, ChatGPT, Gemini)</li>
               </ul>
             </div>
             {/* Conversational Video & Voice AI */}
-            <div className="group p-8 rounded-3xl bg-slate-900/80 hover:bg-slate-900 border border-slate-800 hover:border-emerald-500/50 transition-all shadow-xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/5 rounded-full blur-2xl group-hover:bg-emerald-500/10 transition-all"></div>
-              <div className="w-14 h-14 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 mb-6 font-bold text-xl font-mono">03</div>
-              <h3 className="text-2xl font-bold mb-3 text-white">Real-Time Voice & Video Avatars</h3>
-              <p className="text-slate-400 text-sm leading-relaxed mb-6">Building interactive conversational avatar pipelines with sub-second WebRTC streaming.</p>
-              <ul className="space-y-3 text-sm text-slate-300">
-                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>WebRTC streaming & LiveKit pipelines</li>
-                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>ElevenLabs voice synthesis & Silero VAD</li>
-                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>Real-time session scoring & lead routing</li>
+            <div className="group p-7 rounded-3xl bg-slate-900/80 hover:bg-slate-900 border border-slate-800 hover:border-purple-500/50 transition-all shadow-xl relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-purple-500/5 rounded-full blur-2xl group-hover:bg-purple-500/10 transition-all"></div>
+              <div className="w-12 h-12 rounded-2xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400 mb-5 font-bold text-lg font-mono">04</div>
+              <h3 className="text-xl font-bold mb-2.5 text-white">Real-Time Voice & Video Avatars</h3>
+              <p className="text-slate-400 text-xs leading-relaxed mb-5">Building interactive conversational avatar pipelines with sub-second WebRTC streaming.</p>
+              <ul className="space-y-2.5 text-xs text-slate-300">
+                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-purple-400"></span>WebRTC streaming & LiveKit</li>
+                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-purple-400"></span>ElevenLabs synthesis & Silero VAD</li>
+                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-purple-400"></span>Real-time session qualification</li>
               </ul>
             </div>
           </div>
@@ -728,7 +740,7 @@ export function PageClient({ contentEn }: PageClientProps) {
             <span className="bg-gradient-to-r from-cyan-400 to-indigo-400 bg-clip-text text-transparent">AI Systems together.</span>
           </h2>
           <p className="text-slate-400 max-w-xl mx-auto text-base">
-            Available for Senior AI Systems Architect, Technical Product Lead, and AI Agent consulting contracts.
+            Available for AI Product Manager, Technical Product Lead, and Senior Agentic AI Architect roles & consulting.
           </p>
           <div className="grid sm:grid-cols-3 lg:grid-cols-6 gap-3 max-w-5xl mx-auto pt-4">
             {/* Email */}

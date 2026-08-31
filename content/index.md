@@ -38,10 +38,10 @@ AI Product Manager & Senior Systems Architect with 8+ years of experience bridgi
 - Natural voice synthesis (ElevenLabs), WebSockets, Silero VAD, and stateful cross-session memory
 - Autonomous real-time session qualification and lead scoring engines
 
-### High-Load SaaS, FinTech & B2B Marketplaces
-- High-velocity product discovery, MVP → PMF, and data-driven unit economics optimization (GoPractice)
-- High-throughput lead auction ping-post engines (100k+ daily transactions) and payment routing (300+ PSPs)
-- Automated scraping, captcha bypass, and competitive intelligence systems
+### AI Product Leadership, 0→1 Discovery & Scale
+- High-velocity AI product discovery, hypothesis validation, and MVP → PMF scaling (GoPractice)
+- Data-driven unit economics modeling, token cost optimization (COGS), and ARPU / monetization architecture
+- Customer development, feature prioritization (RICE/Kano), and eval-driven product KPIs
 
 ---
 
