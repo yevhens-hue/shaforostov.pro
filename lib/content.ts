@@ -40,7 +40,7 @@ const getContentPath = (locale: "en" | "uk") =>
   path.join(process.cwd(), "content", locale === "uk" ? "uk.md" : "index.md");
 
 export const renderMarkdown = (markdown: string) =>
-  remark().use(html).processSync(markdown).toString();
+  remark().use(html, { sanitize: true }).processSync(markdown).toString();
 
 const stripMarkdown = (value: string) =>
   value
