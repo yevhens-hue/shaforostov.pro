@@ -1,0 +1,18 @@
+#!/bin/bash
+# Pre-push guard: scan for secret leaks before anything reaches GitHub.
+# Bypass in emergencies: git push --no-verify
+set -u
+ROOT="$(git rev-parse --show-toplevel)"
+cd "$ROOT" || exit 1
+
+STDIN_DATA="$(cat)"
+
+echo "[GUARD] Scanning outgoing commits for exposed secrets..."
+echo "$STDIN_DATA" | python3 "$ROOT/scripts/hooks/scan_secrets.py"
+if [ $? -ne 0 ]; then
+  echo "[FAIL] Push aborted due to exposed credentials."
+  exit 1
+fi
+
+echo "[OK] Pre-push secret check passed. Push allowed."
+exit 0
